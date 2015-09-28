@@ -1,0 +1,276 @@
+<ItinReshopRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1.5" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
+	<PointOfSale>
+		<Location>
+			<CountryCode>US</CountryCode>
+			<CityCode>WAS</CityCode>
+		</Location>
+		<RequestTime Zone="EST">2015-02-01T07:38:00</RequestTime>
+		<TouchPoint>
+			<Device>
+				<Code>2</Code>
+				<Definition>Web Browser</Definition>
+				<Position>
+					<Latitude>38.89756</Latitude>
+					<Longitude>-77.03650</Longitude>
+					<NAC>8KD7V PGGM0</NAC>
+				</Position>
+			</Device>
+			<Event>
+				<Code>9</Code>
+				<Definition>Shop</Definition>
+			</Event>
+		</TouchPoint>
+	</PointOfSale>
+	<Document>
+		<Name>C9</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Name>test agent</Name>
+				<Type>TravelAgency</Type>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>1F8</PseudoCity>
+				<IATA_Number>35200421</IATA_Number>
+				<AgencyID Owner="BA">test agent</AgencyID>
+				<AgentUser>
+					<Name>John Smith</Name>
+					<AgentUserID>1980</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+		<Participants>
+			<Participant>
+				<AggregatorParticipant SequenceNumber="1">
+					<Name>Travel</Name>
+					<AggregatorID>Travel</AggregatorID>
+				</AggregatorParticipant>
+			</Participant>
+		</Participants>
+	</Party>
+	<Query>
+		<Reshop>
+			<Actions>
+				<ActionType>Create</ActionType>
+				<OrderID Owner="C9">F9AYLI</OrderID>
+				<OrderItems>
+					<OrderItem>
+						<FlightItem>
+							<OriginDestination>
+								<Flight>
+								<Departure>
+									<AirportCode>FRA</AirportCode>
+									<Date>2016-02-10</Date>
+									<Time>06:50</Time>
+									<AirportName>Frankfurt International</AirportName>
+								</Departure>
+								<Arrival>
+									<AirportCode>CDG</AirportCode>
+									<Date>2016-02-10</Date>
+									<Time>08:05</Time>
+								</Arrival>
+								<MarketingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1026</FlightNumber>
+								</MarketingCarrier>
+								<OperatingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1026</FlightNumber>
+								</OperatingCarrier>
+								<Equipment>
+									<AircraftCode>319</AircraftCode>
+									<Name>319 - AIRBUS INDUSTRIE A319 JET</Name>
+								</Equipment>
+								<CabinType>
+										<Code>M</Code>
+										<Definition>Economy/coach discounted</Definition>
+									</CabinType>
+							</Flight>
+							</OriginDestination>
+							<OriginDestination>
+							<Flight>
+								<Departure>
+									<AirportCode>CDG</AirportCode>
+									<Date>2016-03-06</Date>
+									<Time>08:55</Time>
+								</Departure>
+								<Arrival>
+									<AirportCode>FRA</AirportCode>
+									<Date>2016-03-06</Date>
+									<Time>10:10</Time>
+									<AirportName>Frankfurt International</AirportName>
+								</Arrival>
+								<MarketingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1027</FlightNumber>
+								</MarketingCarrier>
+								<OperatingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1027</FlightNumber>
+								</OperatingCarrier>
+								<Equipment>
+									<AircraftCode>319</AircraftCode>
+									<Name>319 - AIRBUS INDUSTRIE A319 JET</Name>
+								</Equipment>
+								<CabinType>
+										<Code>M</Code>
+										<Definition>Economy/coach discounted</Definition>
+									</CabinType>
+							</Flight>
+						</OriginDestination>
+						</FlightItem>
+					</OrderItem>
+				</OrderItems>
+				<Passengers>
+					<Passenger ObjectKey="PAX2">
+						<PTC Quantity="1">CHD</PTC>
+						<Name>
+							<Surname>Smith</Surname>
+							<Given>Johnny</Given>
+						</Name>
+						<Gender>Male</Gender>
+					</Passenger>
+				</Passengers>
+				<Preference>
+					<AirlinePreferences>
+					  <Airline>
+						<AirlineID>C9</AirlineID>
+					  </Airline>
+					</AirlinePreferences>
+					<FarePreferences>
+					<FareCodes>
+						<Code>
+							<Code>EFR</Code>
+						</Code>
+						<Code>
+							<Code>EFR</Code>
+						</Code>
+					</FareCodes>
+					</FarePreferences>
+				  </Preference>
+			</Actions>
+		</Reshop>
+	</Query>
+	<DataLists>
+		<RecognizedTravelerList>
+			<RecognizedTraveler ObjectKey="PAX1">
+				<PTC Quantity="1">ADT</PTC>
+				<ResidenceCode>US</ResidenceCode>
+				<Age>
+					<BirthDate>1989-09-09</BirthDate>
+				</Age>
+				<Name>
+					<Surname>Yadav</Surname>
+					<Given>Mithalesh</Given>
+					<Middle>Ignatius</Middle>
+				</Name>
+				<ProfileID>101377609630461</ProfileID>
+				<Contacts>
+					<Contact>
+						<AddressContact>
+							<Street>22 Main Street</Street>
+							<PostalCode>14201</PostalCode>
+							<CountryCode>DE</CountryCode>
+						</AddressContact>
+					</Contact>
+					<Contact>
+						<EmailContact>
+							<Address>mithalesh@jrtechnologies.com</Address>
+						</EmailContact>
+					</Contact>
+					<Contact>
+						<PhoneContact>
+							<Application>Emergency</Application>
+							<Number>9867236088</Number>
+						</PhoneContact>
+					</Contact>
+				</Contacts>
+			</RecognizedTraveler>
+		</RecognizedTravelerList>
+		<FlightSegmentList>
+			<FlightSegment SegmentKey="SEG1">
+				<Departure>
+									<AirportCode>FRA</AirportCode>
+									<Date>2016-02-10</Date>
+									<Time>06:50</Time>
+									<AirportName>Frankfurt International</AirportName>
+								</Departure>
+								<Arrival>
+									<AirportCode>CDG</AirportCode>
+									<Date>2016-02-10</Date>
+									<Time>08:05</Time>
+								</Arrival>
+								<MarketingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1026</FlightNumber>
+								</MarketingCarrier>
+								<OperatingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1026</FlightNumber>
+								</OperatingCarrier>
+								<Equipment>
+									<AircraftCode>319</AircraftCode>
+									<Name>319 - AIRBUS INDUSTRIE A319 JET</Name>
+								</Equipment>
+								
+				<FlightDetail>
+					<FlightDuration>
+						<Value>PT8H10M</Value>
+					</FlightDuration>
+				</FlightDetail>
+			</FlightSegment>
+			<FlightSegment SegmentKey="SEG7">
+				<Departure>
+									<AirportCode>CDG</AirportCode>
+									<Date>2016-03-06</Date>
+									<Time>08:55</Time>
+								</Departure>
+								<Arrival>
+									<AirportCode>FRA</AirportCode>
+									<Date>2016-03-06</Date>
+									<Time>10:10</Time>
+									<AirportName>Frankfurt International</AirportName>
+								</Arrival>
+								<MarketingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1027</FlightNumber>
+								</MarketingCarrier>
+								<OperatingCarrier>
+									<AirlineID>C9</AirlineID>
+									<Name>Kronos Airlines</Name>
+									<FlightNumber>1027</FlightNumber>
+								</OperatingCarrier>
+								<Equipment>
+									<AircraftCode>319</AircraftCode>
+									<Name>319 - AIRBUS INDUSTRIE A319 JET</Name>
+								</Equipment>
+				<FlightDetail>
+					<FlightDuration>
+						<Value>PT8H5M</Value>
+					</FlightDuration>
+				</FlightDetail>
+			</FlightSegment>
+		</FlightSegmentList>
+	<OriginDestinationList >
+		<OriginDestination>
+			<DepartureCode>BCN</DepartureCode>
+			<ArrivalCode>PRG</ArrivalCode>
+		</OriginDestination>
+	</OriginDestinationList>
+	</DataLists>
+</ItinReshopRQ>
