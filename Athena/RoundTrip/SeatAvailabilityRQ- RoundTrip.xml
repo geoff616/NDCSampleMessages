@@ -1,0 +1,209 @@
+<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-02-01T12:38:00Z" Version="1.1.5" TransactionIdentifier="TRN12345">
+  <Document>
+    <Name>ATHENA NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>ndc@usdtravel.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <PseudoCity>A4A</PseudoCity>
+        <IATA_Number>98417900</IATA_Number>
+        <AgencyID Owner="9A">9A</AgencyID>
+        <AgentUser>
+          <Name>ksmith</Name>
+          <AgentUserID>ksmith212</AgentUserID>
+          <UserRole>Admin</UserRole>
+        </AgentUser>
+      </TravelAgencySender>
+    </Sender>
+  </Party>
+  <Parameters>
+    <CurrCodes>
+      <CurrCode>EUR</CurrCode>
+    </CurrCodes>
+  </Parameters>
+  <Query>
+    <OriginDestination>
+      <OriginDestinationReferences>OD1 OD2</OriginDestinationReferences>
+    </OriginDestination>
+  </Query>
+  <DataLists>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG1">
+        <Departure>
+          <AirportCode>CDG</AirportCode>
+          <Date>2015-10-10</Date>
+          <Time>17:30</Time>
+        </Departure>
+        <Arrival>
+          <AirportCode>FRA</AirportCode>
+          <Date>2015-10-10</Date>
+          <Time>19:05</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>4041</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>4041</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <ClassOfService>
+          <Code>M</Code>
+        </ClassOfService>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H35M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG2">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2015-10-10</Date>
+          <Time>20:25</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>RIX</AirportCode>
+          <Date>2015-10-10</Date>
+          <Time>23:30</Time>
+          <AirportName>Riga International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3892</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3892</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <ClassOfService>
+          <Code>M</Code>
+        </ClassOfService>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT3H5M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG3">
+        <Departure>
+          <AirportCode>RIX</AirportCode>
+          <Date>2015-11-10</Date>
+          <Time>14:30</Time>
+          <AirportName>Riga International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>FRA</AirportCode>
+          <Date>2015-11-10</Date>
+          <Time>15:50</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3891</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3891</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <ClassOfService>
+          <Code>M</Code>
+        </ClassOfService>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H20M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG4">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2015-11-10</Date>
+          <Time>17:45</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>CDG</AirportCode>
+          <Date>2015-11-10</Date>
+          <Time>18:00</Time>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>4046</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>4046</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <ClassOfService>
+          <Code>M</Code>
+        </ClassOfService>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT0H15M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+    </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL1">
+        <Journey>
+          <Time>PT6H0M</Time>
+        </Journey>
+        <SegmentReferences>SEG1 SEG2</SegmentReferences>
+      </Flight>
+      <Flight FlightKey="FL2">
+        <Journey>
+          <Time>PT3H30M</Time>
+        </Journey>
+        <SegmentReferences>SEG3 SEG4</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="OD1">
+        <DepartureCode>CDG</DepartureCode>
+        <ArrivalCode>RIX</ArrivalCode>
+        <FlightReferences>FL1</FlightReferences>
+      </OriginDestination>
+      <OriginDestination OriginDestinationKey="OD2">
+        <DepartureCode>RIX</DepartureCode>
+        <ArrivalCode>CDG</ArrivalCode>
+        <FlightReferences>FL2</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+  </DataLists>
+</SeatAvailabilityRQ>
