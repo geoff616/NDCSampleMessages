@@ -28,6 +28,7 @@
   </Party>
   <Success />
   <Response>
+    <OrderViewProcessing />
     <Passengers>
       <Passenger ObjectKey="PAX1">
         <PTC Quantity="1">ADT</PTC>
@@ -40,7 +41,7 @@
           <Given>Mithalesh</Given>
           <Middle>Ignatius</Middle>
         </Name>
-        <ProfileID>101444608442004</ProfileID>
+        <ProfileID>10780803455004</ProfileID>
         <Contacts>
           <Contact>
             <AddressContact>
@@ -73,20 +74,30 @@
           <Surname>Smith</Surname>
           <Given>Johnny</Given>
         </Name>
-        <ProfileID>104690892523005</ProfileID>
+        <ProfileID>103013600812002</ProfileID>
+        <Gender>Male</Gender>
+      </Passenger>
+      <Passenger ObjectKey="PAX3">
+        <PTC Quantity="1">CHD</PTC>
+        <Name>
+          <Surname>Smith</Surname>
+          <Given>Johnny</Given>
+        </Name>
+        <ProfileID>104390366243001</ProfileID>
         <Gender>Male</Gender>
       </Passenger>
     </Passengers>
     <Order>
-      <OrderID Owner="9A">F9A21I</OrderID>
+      <OrderID Owner="9A">F9A2RI</OrderID>
       <BookingReferences>
         <BookingReference>
-          <ID>5a858c4089094be49f3ddc3a822e4d3f</ID>
+          <ID>6b857310ade64cf58396e68f6779cc8c</ID>
+          <AirlineID>9A</AirlineID>
         </BookingReference>
       </BookingReferences>
       <TotalOrderPrice>
         <DetailCurrencyPrice>
-          <Total Code="EUR">197000</Total>
+          <Total Code="EUR">296000</Total>
           <Taxes>
             <Total>0</Total>
           </Taxes>
@@ -99,15 +110,13 @@
             <OriginDestination>
               <Flight>
                 <SegmentKey>SEG1</SegmentKey>
-                <Departure>
+                <Departure Time="13:20">
                   <AirportCode>ARN</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>13:20</Time>
                 </Departure>
-                <Arrival>
+                <Arrival Time="15:30">
                   <AirportCode>FRA</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>15:30</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -127,16 +136,14 @@
               </Flight>
               <Flight>
                 <SegmentKey>SEG2</SegmentKey>
-                <Departure>
+                <Departure Time="16:50">
                   <AirportCode>FRA</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>16:50</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="16:35">
                   <AirportCode>LHR</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>16:35</Time>
                 </Arrival>
                 <MarketingCarrier>
                   <AirlineID>9A</AirlineID>
@@ -160,8 +167,11 @@
               <PassengerReferences>PAX1</PassengerReferences>
             </Passengers>
             <IncludedService>
-              <ServiceReferences>SV1 SV2 </ServiceReferences>
+              <ServiceReferences>SV1 </ServiceReferences>
             </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2 </ServiceReferences>
+            </AssociatedService>
           </Associations>
         </OrderItem>
         <OrderItem>
@@ -173,12 +183,10 @@
                 <Departure>
                   <AirportCode>ARN</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>13:20</Time>
                 </Departure>
                 <Arrival>
                   <AirportCode>FRA</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>15:30</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -201,13 +209,11 @@
                 <Departure>
                   <AirportCode>FRA</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>16:50</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
                 <Arrival>
                   <AirportCode>LHR</AirportCode>
                   <Date>2015-12-25</Date>
-                  <Time>16:35</Time>
                 </Arrival>
                 <MarketingCarrier>
                   <AirlineID>9A</AirlineID>
@@ -235,10 +241,76 @@
             </IncludedService>
           </Associations>
         </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="JRT">2#M#111198795#111162714</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight>
+                <SegmentKey>SEG1</SegmentKey>
+                <Departure>
+                  <AirportCode>ARN</AirportCode>
+                  <Date>2015-12-25</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2015-12-25</Date>
+                  <AirportName>Frankfurt International</AirportName>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3803</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3803</FlightNumber>
+                </OperatingCarrier>
+                <Equipment>
+                  <AircraftCode>E95</AircraftCode>
+                  <Name>E95 - EMBRAER 195 JET</Name>
+                </Equipment>
+              </Flight>
+              <Flight>
+                <SegmentKey>SEG2</SegmentKey>
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2015-12-25</Date>
+                  <AirportName>Frankfurt International</AirportName>
+                </Departure>
+                <Arrival>
+                  <AirportCode>LHR</AirportCode>
+                  <Date>2015-12-25</Date>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3916</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3916</FlightNumber>
+                </OperatingCarrier>
+                <Equipment>
+                  <AircraftCode>E95</AircraftCode>
+                  <Name>E95 - EMBRAER 195 JET</Name>
+                </Equipment>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX3</PassengerReferences>
+            </Passengers>
+            <IncludedService>
+              <ServiceReferences>SV2 </ServiceReferences>
+            </IncludedService>
+          </Associations>
+        </OrderItem>
       </OrderItems>
     </Order>
-    <TicketDocInfos />
-    <DataLists>
+    <DataList>
       <ServiceList>
         <Service ObjectKey="SV1">
           <ServiceID Owner="9A">1022</ServiceID>
@@ -265,7 +337,7 @@
           </Settlement>
           <Price>
             <Total>0</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -298,7 +370,7 @@
           </Settlement>
           <Price>
             <Total>500</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -307,7 +379,7 @@
           </Associations>
         </Service>
       </ServiceList>
-    </DataLists>
+    </DataList>
     <Metadata>
       <Other>
         <OtherMetadata>
@@ -316,6 +388,17 @@
               <Decimals>2</Decimals>
             </CurrencyMetadata>
           </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
         </OtherMetadata>
       </Other>
     </Metadata>

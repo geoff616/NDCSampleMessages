@@ -5,7 +5,7 @@
       <CountryCode>US</CountryCode>
       <CityCode>WAS</CityCode>
     </Location>
-    <RequestTime Zone="EST">2015-10-09T07:45:00+07:45</RequestTime>
+    <RequestTime Zone="EST">2015-10-14T07:45:00+07:45</RequestTime>
     <TouchPoint>
       <Device>
         <Code>2</Code>
@@ -108,7 +108,7 @@
     <OrderItems>
       <ShoppingResponse>
         <Owner>9A</Owner>
-        <ResponseID>RE27fde61becf843419639ed243c2468a6</ResponseID>
+        <ResponseID>RE6ac7227515a047a581d722971b9fa28f</ResponseID>
         <Offers>
           <Offer>
             <OfferID Owner="9A">1</OfferID>
@@ -198,7 +198,7 @@
         </Settlement>
         <Price>
           <Total>0</Total>
-          <PassengerReferences>SH1</PassengerReferences>
+          <PassengerReferences>PAX1</PassengerReferences>
         </Price>
       </Service>
       <Service ObjectKey="SV2">
@@ -226,7 +226,7 @@
         </Settlement>
         <Price>
           <Total>500</Total>
-          <PassengerReferences>SH1</PassengerReferences>
+          <PassengerReferences>PAX1</PassengerReferences>
         </Price>
       </Service>
       </ServiceList>

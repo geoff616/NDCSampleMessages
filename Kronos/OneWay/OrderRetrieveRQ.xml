@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OrderRetrieveRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1.5"xsi:schemaLocation="http://www.iata.org/IATA/EDIST OrderRetrieveRQ.xsd">
+<OrderRetrieveRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1.5" xsi:schemaLocation="http://www.iata.org/IATA/EDIST OrderRetrieveRQ.xsd">
 	<PointOfSale>
 		<Location>
 			<CountryCode>US</CountryCode>
 			<CityCode>WAS</CityCode>
 		</Location>
-		<RequestTime Zone="EST">2015-10-09T07:45:00+07:45</RequestTime>
+		<RequestTime Zone="EST">2015-10-12T07:45:00+07:45</RequestTime>
 		<TouchPoint>
 			<Device>
 				<Code>2</Code>
@@ -49,7 +49,7 @@
 	</Party>
 	<Query>
 		<Filters>
-			<OrderID Owner="C9">L9A6S1</OrderID>
+			<OrderID Owner="C9">L9A8W1</OrderID>
 		</Filters>
 	</Query>
 </OrderRetrieveRQ>

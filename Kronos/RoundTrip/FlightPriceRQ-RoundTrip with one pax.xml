@@ -4,7 +4,7 @@
 			<CountryCode>US</CountryCode>
 			<CityCode>WAS</CityCode>
 		</Location>
-		<RequestTime Zone="EST">2015-10-09T07:38:00</RequestTime>
+		<RequestTime Zone="EST">2015-10-12T07:38:00</RequestTime>
 		<TouchPoint>
 			<Device>
 				<Code>2</Code>
@@ -190,23 +190,27 @@
 			</Flight>
 		</OriginDestination>
 	</Query>
-	<Preference>
-		<AirlinePreferences>
-			<Airline>
-				<AirlineID>C9</AirlineID>
-			</Airline>
-		</AirlinePreferences>
-		<FarePreferences>
-			<FareCodes>
-				<Code>
-					<Code>EFR</Code>
-				</Code>
-				<Code>
-					<Code>EFR</Code>
-				</Code>
-			</FareCodes>
-		</FarePreferences>
-	</Preference>
+	<Preferences>
+		<Preference>
+			<AirlinePreferences>
+				<Airline>
+					<AirlineID>C9</AirlineID>
+				</Airline>
+			</AirlinePreferences>
+		</Preference>
+		<Preference>
+			<FarePreferences>
+				<FareCodes>
+					<Code>
+						<Code>EFR</Code>
+					</Code>
+					<Code>
+						<Code>EFR</Code>
+					</Code>
+				</FareCodes>
+			</FarePreferences>
+		</Preference>
+	</Preferences>
 	<DataLists>
 		<OriginDestinationList>
 			<OriginDestination>

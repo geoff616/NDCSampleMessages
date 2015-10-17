@@ -27,11 +27,11 @@
   </Party>
   <Query>
     <Order>
-      <OrderID Owner="C9">L9A821</OrderID>
+      <OrderID Owner="C9">L9A8X1</OrderID>
       <Details>
         <ShoppingResponse>
           <Owner>C9</Owner>
-          <ResponseID>RE68d37cf569ca4ffc8df5fc94342a6696</ResponseID>
+          <ResponseID>RE0a796aa4160a427e8da3768be45a32e8</ResponseID>
           <OfferID Owner="C9">1</OfferID>
           <OfferID Owner="C9">2</OfferID>
         </ShoppingResponse>
@@ -87,7 +87,7 @@
       </OrderItems>
     </Order>
   </Query>
-  <DataLists>
+  <DataList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
         <Departure>
@@ -314,5 +314,5 @@
         </Associations>
       </Service>
     </ServiceList>
-  </DataLists>
+  </DataList>
 </OrderChangeRQ>

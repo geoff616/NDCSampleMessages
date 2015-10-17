@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <OrderCreateRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1.5" xsi:schemaLocation="http://www.iata.org/IATA/EDIST OrderCreateRQ.xsd">
 	<PointOfSale>
 		<Location>
 			<CountryCode>US</CountryCode>
 			<CityCode>WAS</CityCode>
 		</Location>
-		<RequestTime Zone="EST">2015-10-09T07:45:00+07:45</RequestTime>
+		<RequestTime Zone="EST">2015-10-12T07:45:00+07:45</RequestTime>
 		<TouchPoint>
 			<Device>
 				<Code>2</Code>
@@ -107,7 +106,7 @@
 		<OrderItems>
 			<ShoppingResponse>
 				<Owner>C9</Owner>
-				<ResponseID>RE1483855093934f3eab41b84010934560</ResponseID>
+				<ResponseID>REcd7f1a73480f488681ca7fc9a6c04a8d</ResponseID>
 				<Offers>
 					<Offer>
 						<OfferID Owner="C9">1</OfferID>
@@ -213,7 +212,7 @@
         </Settlement>
         <Price>
           <Total>0</Total>
-          <PassengerReferences>SH1</PassengerReferences>
+          <PassengerReferences>PAX1</PassengerReferences>
         </Price>
       </Service>
       <Service ObjectKey="SV2">
@@ -241,7 +240,7 @@
         </Settlement>
         <Price>
           <Total>2400</Total>
-          <PassengerReferences>SH1</PassengerReferences>
+          <PassengerReferences>PAX1</PassengerReferences>
         </Price>
       </Service>
 			</ServiceList>

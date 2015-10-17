@@ -12,18 +12,18 @@
     </AnonymousTravelerList>
     <ServiceList>
       <Service ObjectKey="SV1">
-        <ServiceID Owner="C9">1011</ServiceID>
-        <Name>Complimentary Meal</Name>
+        <ServiceID Owner="C9">1017</ServiceID>
+        <Name>Meal</Name>
         <Encoding />
         <Descriptions>
           <Description>
-            <Text>Complimentary three course meal and drinks</Text>
-            <Link>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</Link>
+            <Text>Vegetarian Vegan Meal</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/int_economy_promo.jpg</Link>
             <Media>
-              <ObjectID>iconerror.png</ObjectID>
+              <ObjectID>int_economy_promo.jpg</ObjectID>
             </Media>
             <Media>
-              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</MediaLink>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/int_economy_promo.jpg</MediaLink>
             </Media>
           </Description>
         </Descriptions>
@@ -34,7 +34,7 @@
           </Method>
         </Settlement>
         <Price>
-          <Total>0</Total>
+          <Total>24</Total>
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
@@ -65,33 +65,6 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV3">
-        <ServiceID Owner="C9">1017</ServiceID>
-        <Name>Meal</Name>
-        <Encoding />
-        <Descriptions>
-          <Description>
-            <Text>Vegetarian Vegan Meal</Text>
-            <Link>http://kronos.jrtechnologies.com/ServiceImage/int_economy_promo.jpg</Link>
-            <Media>
-              <ObjectID>int_economy_promo.jpg</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/int_economy_promo.jpg</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>24</Total>
-          <PassengerReferences>SH1</PassengerReferences>
-        </Price>
-      </Service>
     </ServiceList>
   </DataLists>
   <Metadata>
@@ -102,6 +75,17 @@
             <Decimals>2</Decimals>
           </CurrencyMetadata>
         </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
       </OtherMetadata>
     </Other>
   </Metadata>

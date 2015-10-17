@@ -6,7 +6,7 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
 			<CountryCode>US</CountryCode>
 			<CityCode>WAS</CityCode>
 		</Location>
-		<RequestTime Zone="EST">2015-10-09T07:38:00</RequestTime>
+		<RequestTime Zone="EST">2015-10-12T07:38:00</RequestTime>
 		<TouchPoint>
 			<Device>
 				<Code>2</Code>
@@ -52,7 +52,7 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
 		<Reshop>
 			<Actions>
 				<ActionType>Create</ActionType>
-				<OrderID Owner="C9">L9A821</OrderID>
+				<OrderID Owner="C9">L9A8X1</OrderID>
 				<OrderItems>
 					<OrderItem>
 						<FlightItem>
@@ -199,23 +199,27 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
 						<Gender>Male</Gender>
 					</Passenger>
 				</Passengers>
-				<Preference>
-					<AirlinePreferences>
-						<Airline>
-							<AirlineID>C9</AirlineID>
-						</Airline>
-					</AirlinePreferences>
-					<FarePreferences>
-						<FareCodes>
-							<Code>
-								<Code>EFR</Code>
-							</Code>
-							<Code>
-								<Code>EFR</Code>
-							</Code>
+				<Preferences>
+					<Preference>
+						<AirlinePreferences>
+							<Airline>
+								<AirlineID>C9</AirlineID>
+							</Airline>
+						</AirlinePreferences>
+					</Preference>
+					<Preference>
+						<FarePreferences>
+							<FareCodes>
+								<Code>
+									<Code>EFR</Code>
+								</Code>
+								<Code>
+									<Code>EFR</Code>
+								</Code>
 						</FareCodes>
-					</FarePreferences>
-				</Preference>
+						</FarePreferences>
+					</Preference>
+				</Preferences>
 			</Actions>
 		</Reshop>
 	</Query>
@@ -232,7 +236,7 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
 					<Given>Mithalesh</Given>
 					<Middle>Ignatius</Middle>
 				</Name>
-				<ProfileID>101377609630461</ProfileID>
+				<ProfileID>1096286784150007</ProfileID>
 				<Contacts>
 					<Contact>
 						<AddressContact>

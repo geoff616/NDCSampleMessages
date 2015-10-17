@@ -28,6 +28,7 @@
   </Party>
   <Success />
   <Response>
+    <OrderViewProcessing />
     <Passengers>
       <Passenger ObjectKey="PAX1">
         <PTC Quantity="1">ADT</PTC>
@@ -69,15 +70,16 @@
       </Passenger>
     </Passengers>
     <Order>
-      <OrderID Owner="C9">L9A6S1</OrderID>
+      <OrderID Owner="C9">L9A8W1</OrderID>
       <BookingReferences>
         <BookingReference>
-          <ID>fb080380343f44dd8af8f67b6e78f427</ID>
+          <ID>58005041e7884bd2a27db18d2afb9d37</ID>
+          <AirlineID>C9</AirlineID>
         </BookingReference>
       </BookingReferences>
       <TotalOrderPrice>
         <DetailCurrencyPrice>
-          <Total Code="EUR">186900</Total>
+          <Total Code="EUR">189300</Total>
           <Taxes>
             <Total>0</Total>
           </Taxes>
@@ -90,15 +92,13 @@
             <OriginDestination>
               <Flight>
                 <SegmentKey>SEG1</SegmentKey>
-                <Departure>
+                <Departure Time="06:00">
                   <AirportCode>ARN</AirportCode>
                   <Date>2016-05-05</Date>
-                  <Time>06:00</Time>
                 </Departure>
-                <Arrival>
+                <Arrival Time="08:10">
                   <AirportCode>FRA</AirportCode>
                   <Date>2016-05-05</Date>
-                  <Time>08:10</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -118,16 +118,14 @@
               </Flight>
               <Flight>
                 <SegmentKey>SEG2</SegmentKey>
-                <Departure>
+                <Departure Time="09:50">
                   <AirportCode>FRA</AirportCode>
                   <Date>2016-05-05</Date>
-                  <Time>09:50</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="12:55">
                   <AirportCode>RIX</AirportCode>
                   <Date>2016-05-05</Date>
-                  <Time>12:55</Time>
                   <AirportName>Riga International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -152,14 +150,16 @@
               <PassengerReferences>PAX1</PassengerReferences>
             </Passengers>
             <IncludedService>
-              <ServiceReferences>SV1 SV2 </ServiceReferences>
+              <ServiceReferences>SV1 </ServiceReferences>
             </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2 </ServiceReferences>
+            </AssociatedService>
           </Associations>
         </OrderItem>
       </OrderItems>
     </Order>
-    <TicketDocInfos />
-    <DataLists>
+    <DataList>
       <ServiceList>
         <Service ObjectKey="SV1">
           <ServiceID Owner="C9">1011</ServiceID>
@@ -186,7 +186,7 @@
           </Settlement>
           <Price>
             <Total>0</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -219,7 +219,7 @@
           </Settlement>
           <Price>
             <Total>2400</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -228,7 +228,7 @@
           </Associations>
         </Service>
       </ServiceList>
-    </DataLists>
+    </DataList>
     <Metadata>
       <Other>
         <OtherMetadata>
@@ -237,6 +237,17 @@
               <Decimals>2</Decimals>
             </CurrencyMetadata>
           </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
         </OtherMetadata>
       </Other>
     </Metadata>

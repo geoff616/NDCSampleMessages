@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OrderChangeRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderChangeRQ.xsd" Version="1.1.5">
+<OrderChangeRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderChangeRQ.xsd" Version="1.1.5">
   <Document>
     <Name>ATHENA NDC GATEWAY</Name>
     <ReferenceVersion>1.0</ReferenceVersion>
@@ -27,11 +28,11 @@
   </Party>
   <Query>
     <Order>
-      <OrderID Owner="9A">F9A23I</OrderID>
+      <OrderID Owner="9A">F9A2PI</OrderID>
       <Details>
         <ShoppingResponse>
           <Owner>C9</Owner>
-          <ResponseID>RE824dbfc0cf724ca898e357abe0c8d3c7</ResponseID>
+          <ResponseID>RE89d9333f7a694c719024096f60dae451</ResponseID>
           <OfferID Owner="C9">1</OfferID>
 	  <OfferID Owner="C9">2</OfferID>
         </ShoppingResponse>
@@ -39,7 +40,7 @@
       <ActionType>Create</ActionType>
       <OrderItems>
         <OrderItem>
-          <OrderItemID Owner="C9">2#M#111174806#111178186</OrderItemID>
+          <OrderItemID Owner="C9">2#M#111186373#111192206</OrderItemID>
           <Associations>
             <Passengers>
               <Passenger ObjectKey="PAX2">
@@ -64,7 +65,7 @@
           <ActionType>Create</ActionType>
         </OrderItem>
 	<OrderItem>
-          <OrderItemID Owner="C9">2#M#111161070#111163316</OrderItemID>
+          <OrderItemID Owner="C9">2#M#111187465#111171127</OrderItemID>
           <Associations>
             <Passengers>
               <Passenger ObjectKey="PAX2">
@@ -91,391 +92,240 @@
       </OrderItems>
     </Order>
   </Query>
-  <DataLists>
+  <DataList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
-        <Departure>
-          <AirportCode>CDG</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>17:30</Time>
-        </Departure>
-        <Arrival>
-          <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>19:05</Time>
-          <AirportName>Frankfurt International</AirportName>
-        </Arrival>
-        <MarketingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>4041</FlightNumber>
-        </MarketingCarrier>
-        <OperatingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>4041</FlightNumber>
-        </OperatingCarrier>
-        <Equipment>
-          <AircraftCode>E95</AircraftCode>
-          <Name>E95 - EMBRAER 195 JET</Name>
-        </Equipment>
-        <FlightDetail>
-          <FlightDuration>
-            <Value>PT1H35M</Value>
-          </FlightDuration>
-        </FlightDetail>
-      </FlightSegment>
-      <FlightSegment SegmentKey="SEG2">
-        <Departure>
-          <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>20:25</Time>
-          <AirportName>Frankfurt International</AirportName>
-        </Departure>
-        <Arrival>
-          <AirportCode>RIX</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>23:30</Time>
-          <AirportName>Riga International</AirportName>
-        </Arrival>
-        <MarketingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>3892</FlightNumber>
-        </MarketingCarrier>
-        <OperatingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>3892</FlightNumber>
-        </OperatingCarrier>
-        <Equipment>
-          <AircraftCode>E95</AircraftCode>
-          <Name>E95 - EMBRAER 195 JET</Name>
-        </Equipment>
-        <FlightDetail>
-          <FlightDuration>
-            <Value>PT3H5M</Value>
-          </FlightDuration>
-        </FlightDetail>
-      </FlightSegment>
-      <FlightSegment SegmentKey="SEG3">
-        <Departure>
-          <AirportCode>RIX</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>14:30</Time>
-          <AirportName>Riga International</AirportName>
-        </Departure>
-        <Arrival>
-          <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>15:50</Time>
-          <AirportName>Frankfurt International</AirportName>
-        </Arrival>
-        <MarketingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>3891</FlightNumber>
-        </MarketingCarrier>
-        <OperatingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>3891</FlightNumber>
-        </OperatingCarrier>
-        <Equipment>
-          <AircraftCode>E95</AircraftCode>
-          <Name>E95 - EMBRAER 195 JET</Name>
-        </Equipment>
-        <FlightDetail>
-          <FlightDuration>
-            <Value>PT1H20M</Value>
-          </FlightDuration>
-        </FlightDetail>
-      </FlightSegment>
-      <FlightSegment SegmentKey="SEG4">
-        <Departure>
-          <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>17:45</Time>
-          <AirportName>Frankfurt International</AirportName>
-        </Departure>
-        <Arrival>
-          <AirportCode>CDG</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>18:00</Time>
-        </Arrival>
-        <MarketingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
-        </MarketingCarrier>
-        <OperatingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
-        </OperatingCarrier>
-        <Equipment>
-          <AircraftCode>E95</AircraftCode>
-          <Name>E95 - EMBRAER 195 JET</Name>
-        </Equipment>
-        <FlightDetail>
-          <FlightDuration>
-            <Value>PT0H15M</Value>
-          </FlightDuration>
-        </FlightDetail>
-      </FlightSegment>
+          <Departure>
+            <AirportCode>CDG</AirportCode>
+            <Date>2015-11-10</Date>
+            <Time>08:15</Time>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2015-11-10</Date>
+            <Time>09:10</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>4027</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>4027</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT0H55M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2015-11-10</Date>
+            <Time>10:50</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>RIX</AirportCode>
+            <Date>2015-11-10</Date>
+            <Time>13:55</Time>
+            <AirportName>Riga International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3890</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3890</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT3H5M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG5">
+          <Departure>
+            <AirportCode>RIX</AirportCode>
+            <Date>2015-12-10</Date>
+            <Time>14:10</Time>
+            <AirportName>Riga International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2015-12-10</Date>
+            <Time>15:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3891</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3891</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H20M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG6">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2015-12-10</Date>
+            <Time>16:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>CDG</AirportCode>
+            <Date>2015-12-10</Date>
+            <Time>17:55</Time>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>4040</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>4040</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H15M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
     </FlightSegmentList>
     <FlightList>
       <Flight FlightKey="FL1">
-        <Journey>
-          <Time>PT6H0M</Time>
-        </Journey>
-        <SegmentReferences>SEG1 SEG2</SegmentReferences>
-      </Flight>
-      <Flight FlightKey="FL2">
-        <Journey>
-          <Time>PT3H30M</Time>
-        </Journey>
-        <SegmentReferences>SEG3 SEG4</SegmentReferences>
-      </Flight>
+          <Journey>
+            <Time>PT5H40M</Time>
+          </Journey>
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+        <Flight FlightKey="FL2">
+          <Journey>
+            <Time>PT3H45M</Time>
+          </Journey>
+          <SegmentReferences>SEG5 SEG6</SegmentReferences>
+        </Flight>
     </FlightList>
     <OriginDestinationList>
       <OriginDestination OriginDestinationKey="OD1">
-        <DepartureCode>CDG</DepartureCode>
-        <ArrivalCode>RIX</ArrivalCode>
-        <FlightReferences>FL1</FlightReferences>
-      </OriginDestination>
-      <OriginDestination OriginDestinationKey="OD2">
-        <DepartureCode>RIX</DepartureCode>
-        <ArrivalCode>CDG</ArrivalCode>
-        <FlightReferences>FL2</FlightReferences>
-      </OriginDestination>
+          <DepartureCode>CDG</DepartureCode>
+          <ArrivalCode>RIX</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+        <OriginDestination OriginDestinationKey="OD2">
+          <DepartureCode>RIX</DepartureCode>
+          <ArrivalCode>CDG</ArrivalCode>
+          <FlightReferences>FL2</FlightReferences>
+        </OriginDestination>
     </OriginDestinationList>
     <ServiceList>
       <Service ObjectKey="SV1">
-        <ServiceID Owner="9A">1067</ServiceID>
-        <Name>Baggage</Name>
-        <Encoding>
-          <RFIC>
-            <Code>BG</Code>
-          </RFIC>
-          <Code>XBG</Code>
-        </Encoding>
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>20 kg Baggage Allowance</Text>
-            <Link>http://uat.jrtechnologies.in/ServiceImage/baggage.jpg</Link>
-            <Media>
-              <ObjectID>baggage.jpg</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://uat.jrtechnologies.in/ServiceImage/baggage.jpg</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>17000</Total>
-          <PassengerReferences>PAX1</PassengerReferences>
-        </Price>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX2</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>PAX1 PAX2</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
-      <Service ObjectKey="SV2">
-        <ServiceID Owner="9A">1068</ServiceID>
-        <Name>Meal/Beverage</Name>
-        <Encoding>
-          <RFIC>
-            <Code>ML</Code>
-          </RFIC>
-          <Code>XML</Code>
-        </Encoding>
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>Complimentary Meal</Text>
-            <Link>http://uat.jrtechnologies.in/ServiceImage/1_boeuf_Promo.jpg</Link>
-            <Media>
-              <ObjectID>1_boeuf_Promo.jpg</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://uat.jrtechnologies.in/ServiceImage/1_boeuf_Promo.jpg</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX1</PassengerReferences>
-        </Price>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX2</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>PAX1 PAX2</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
-      <Service ObjectKey="SV3">
-        <ServiceID Owner="9A">1069</ServiceID>
-        <Name>InFlight</Name>
-        <Encoding>
-          <RFIC>
-            <Code>IE</Code>
-          </RFIC>
-          <Code>XIE</Code>
-        </Encoding>
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>31in seat pitch (78cm)</Text>
-            <Link>http://uat.jrtechnologies.in/ServiceImage/comfort-eco-dom-1_title.jpg</Link>
-            <Media>
-              <ObjectID>comfort-eco-dom-1_title.jpg</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://uat.jrtechnologies.in/ServiceImage/comfort-eco-dom-1_title.jpg</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>15000</Total>
-          <PassengerReferences>PAX1</PassengerReferences>
-        </Price>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX2</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>PAX1 PAX2</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
-      <Service ObjectKey="SV4">
-        <ServiceID Owner="9A">1070</ServiceID>
-        <Name>Meal/Beverage</Name>
-        <Encoding>
-          <RFIC>
-            <Code>ML</Code>
-          </RFIC>
-          <Code>XML</Code>
-        </Encoding>
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>Asian vegetarian meal</Text>
-            <Link>http://uat.jrtechnologies.in/ServiceImage/1_boeuf_Promo.jpg</Link>
-            <Media>
-              <ObjectID>1_boeuf_Promo.jpg</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://uat.jrtechnologies.in/ServiceImage/1_boeuf_Promo.jpg</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX1</PassengerReferences>
-        </Price>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX2</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>PAX1 PAX2</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
-      <Service ObjectKey="SV5">
-        <ServiceID Owner="9A">1071</ServiceID>
-        <Name>Seat</Name>
-        <Encoding>
-          <RFIC>
-            <Code>IE</Code>
-          </RFIC>
-          <Code>XIE</Code>
-        </Encoding>
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>ADVANCED SEAT SELECTION</Text>
-            <Link>http://uat.jrtechnologies.in/ServiceImage/cabin_economy_wide_pormo.jpg</Link>
-            <Media>
-              <ObjectID>cabin_economy_wide_pormo.jpg</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://uat.jrtechnologies.in/ServiceImage/cabin_economy_wide_pormo.jpg</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>17000</Total>
-          <PassengerReferences>PAX1</PassengerReferences>
-        </Price>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>PAX2</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>PAX1 PAX2</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
+          <ServiceID Owner="9A">1021</ServiceID>
+          <Name>Meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Vegetarian Vegan Meal</Text>
+              <Link>http://athena.jrtechnologies.com/ServiceImage/int_economy_promo.jpg</Link>
+              <Media>
+                <ObjectID>int_economy_promo.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://athena.jrtechnologies.com/ServiceImage/int_economy_promo.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX1</PassengerReferences>
+          </Price>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX2</PassengerReferences>
+          </Price>
+          <Associations>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG5 SEG6</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV2">
+          <ServiceID Owner="9A">1023</ServiceID>
+          <Name>Inflight entertainment</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>The latest blockbusters, classics from film history, music and games</Text>
+              <Link>http://athena.jrtechnologies.com/ServiceImage/comfort-eco-int-1_title.jpg</Link>
+              <Media>
+                <ObjectID>comfort-eco-int-1_title.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://athena.jrtechnologies.com/ServiceImage/comfort-eco-int-1_title.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>500</Total>
+            <PassengerReferences>PAX1</PassengerReferences>
+          </Price>
+          <Price>
+            <Total>500</Total>
+            <PassengerReferences>PAX2</PassengerReferences>
+          </Price>
+          <Associations>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG5 SEG6</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
     </ServiceList>
-  </DataLists>
+  </DataList>
 </OrderChangeRQ>

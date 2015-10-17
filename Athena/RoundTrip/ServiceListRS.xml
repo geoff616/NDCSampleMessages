@@ -10,6 +10,21 @@
         <PTC Quantity="1">ADT</PTC>
       </AnonymousTraveler>
     </AnonymousTravelerList>
+    <ServiceBundleList>
+      <ServiceBundle ListKey="BD1">
+        <ItemCount>3</ItemCount>
+        <Associations>
+          <ServiceReference>SV1</ServiceReference>
+          <ServiceReference>SV2</ServiceReference>
+          <ServiceReference>SV3</ServiceReference>
+        </Associations>
+        <Selection>
+          <MaximumQuantity>2</MaximumQuantity>
+        </Selection>
+        <BundleID>B1004</BundleID>
+        <BundleName>Discounted Package</BundleName>
+      </ServiceBundle>
+    </ServiceBundleList>
     <ServiceList>
       <Service ObjectKey="SV1">
         <ServiceID Owner="9A">1021</ServiceID>
@@ -134,6 +149,17 @@
             <Decimals>2</Decimals>
           </CurrencyMetadata>
         </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
       </OtherMetadata>
     </Other>
   </Metadata>

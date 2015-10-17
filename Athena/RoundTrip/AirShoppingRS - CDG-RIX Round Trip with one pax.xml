@@ -5,25 +5,25 @@
   </Document>
   <Success />
   <AirShoppingProcessing />
-  <ShoppingResponseID>
+  <ShoppingResponseIDs>
     <Owner>9A</Owner>
-    <ResponseID>RE7f3f57ad0f464ccc8000d80821c914a9</ResponseID>
-  </ShoppingResponseID>
+    <ResponseID>RE80143224f0c2497988fe6d1b2925569e</ResponseID>
+  </ShoppingResponseIDs>
   <OffersGroup>
     <AirlineOffers>
-      <TotalOfferQuantity>2</TotalOfferQuantity>
+      <TotalOfferQuantity>9</TotalOfferQuantity>
       <Owner>9A</Owner>
       <AirlineOffer>
         <OfferID Owner="9A">1</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
-            <Total Code="EUR">287000</Total>
+            <Total Code="EUR">321600</Total>
             <Details>
               <Detail>
-                <SubTotal Code="EUR">287000</SubTotal>
+                <SubTotal Code="EUR">321600</SubTotal>
                 <Application>Base Fare</Application>
               </Detail>
             </Details>
@@ -33,13 +33,87 @@
           </DetailCurrencyPrice>
         </TotalPrice>
         <PricedOffer>
-          <OfferPrice OfferItemID="1#M#111174806#111178186">
+          <OfferPrice OfferItemID="1#M#111186373#111192206">
             <RequestedDate>
               <PriceDetail>
                 <TotalAmount>
-                  <SimpleCurrencyPrice Code="EUR">287000</SimpleCurrencyPrice>
+                  <SimpleCurrencyPrice Code="EUR">321600</SimpleCurrencyPrice>
                 </TotalAmount>
-                <BaseAmount Code="EUR">287000</BaseAmount>
+                <BaseAmount Code="EUR">321600</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>ESR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL1</FlightReferences>
+              <FlightSegmentReference ref="SEG1">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG2">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC1</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">2</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">359400</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">359400</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111186373#111192206">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">359400</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">359400</BaseAmount>
                 <Taxes>
                   <Total Code="EUR">0</Total>
                 </Taxes>
@@ -76,6 +150,228 @@
               </FlightSegmentReference>
             </ApplicableFlight>
             <PriceClass>
+              <PriceClassReference>PC2</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">3</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">286000</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">286000</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111186373#111192206">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">286000</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">286000</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>ERR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL1</FlightReferences>
+              <FlightSegmentReference ref="SEG1">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG2">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC3</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">4</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">275800</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">275800</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111184972#111171477">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">275800</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">275800</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>EFR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL2</FlightReferences>
+              <FlightSegmentReference ref="SEG3">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG4">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC2</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">5</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">246400</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">246400</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111184972#111171477">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">246400</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">246400</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>ESR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL2</FlightReferences>
+              <FlightSegmentReference ref="SEG3">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG4">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
               <PriceClassReference>PC1</PriceClassReference>
             </PriceClass>
             <IncludedService>
@@ -88,16 +384,16 @@
         </PricedOffer>
       </AirlineOffer>
       <AirlineOffer>
-        <OfferID Owner="9A">2</OfferID>
+        <OfferID Owner="9A">6</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
-            <Total Code="EUR">319600</Total>
+            <Total Code="EUR">219000</Total>
             <Details>
               <Detail>
-                <SubTotal Code="EUR">319600</SubTotal>
+                <SubTotal Code="EUR">219000</SubTotal>
                 <Application>Base Fare</Application>
               </Detail>
             </Details>
@@ -107,13 +403,161 @@
           </DetailCurrencyPrice>
         </TotalPrice>
         <PricedOffer>
-          <OfferPrice OfferItemID="1#M#111161070#111163316">
+          <OfferPrice OfferItemID="1#M#111184972#111171477">
             <RequestedDate>
               <PriceDetail>
                 <TotalAmount>
-                  <SimpleCurrencyPrice Code="EUR">319600</SimpleCurrencyPrice>
+                  <SimpleCurrencyPrice Code="EUR">219000</SimpleCurrencyPrice>
                 </TotalAmount>
-                <BaseAmount Code="EUR">319600</BaseAmount>
+                <BaseAmount Code="EUR">219000</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>ERR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL2</FlightReferences>
+              <FlightSegmentReference ref="SEG3">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG4">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC3</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">7</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">237000</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">237000</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111187465#111171127">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">237000</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">237000</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>ERR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD2</OriginDestinationReferences>
+              <FlightReferences>FL3</FlightReferences>
+              <FlightSegmentReference ref="SEG5">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG6">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC3</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">8</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">298200</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">298200</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111187465#111171127">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">298200</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">298200</BaseAmount>
                 <Taxes>
                   <Total Code="EUR">0</Total>
                 </Taxes>
@@ -137,13 +581,87 @@
           <Associations>
             <ApplicableFlight>
               <OriginDestinationReferences>OD2</OriginDestinationReferences>
-              <FlightReferences>FL2</FlightReferences>
-              <FlightSegmentReference ref="SEG3">
+              <FlightReferences>FL3</FlightReferences>
+              <FlightSegmentReference ref="SEG5">
                 <Cabin>
                   <CabinDesignator>M</CabinDesignator>
                 </Cabin>
               </FlightSegmentReference>
-              <FlightSegmentReference ref="SEG4">
+              <FlightSegmentReference ref="SEG6">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC2</PriceClassReference>
+            </PriceClass>
+            <IncludedService>
+              <ServiceReferences>SV1</ServiceReferences>
+            </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+      <AirlineOffer>
+        <OfferID Owner="9A">9</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">266600</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="EUR">266600</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="EUR">0</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#111187465#111171127">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">266600</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">266600</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">0</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>ESR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD2</OriginDestinationReferences>
+              <FlightReferences>FL3</FlightReferences>
+              <FlightSegmentReference ref="SEG5">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG6">
                 <Cabin>
                   <CabinDesignator>M</CabinDesignator>
                 </Cabin>
@@ -171,26 +689,24 @@
     </AnonymousTravelerList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
-        <Departure>
+        <Departure Time="08:15">
           <AirportCode>CDG</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>17:30</Time>
+          <Date>2015-11-10</Date>
         </Departure>
-        <Arrival>
+        <Arrival Time="09:10">
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>19:05</Time>
+          <Date>2015-11-10</Date>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4041</FlightNumber>
+          <FlightNumber>4027</FlightNumber>
         </MarketingCarrier>
         <OperatingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4041</FlightNumber>
+          <FlightNumber>4027</FlightNumber>
         </OperatingCarrier>
         <Equipment>
           <AircraftCode>E95</AircraftCode>
@@ -198,32 +714,30 @@
         </Equipment>
         <FlightDetail>
           <FlightDuration>
-            <Value>PT1H35M</Value>
+            <Value>PT0H55M</Value>
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG2">
-        <Departure>
+        <Departure Time="10:50">
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>20:25</Time>
+          <Date>2015-11-10</Date>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="13:55">
           <AirportCode>RIX</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>23:30</Time>
+          <Date>2015-11-10</Date>
           <AirportName>Riga International</AirportName>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>3892</FlightNumber>
+          <FlightNumber>3890</FlightNumber>
         </MarketingCarrier>
         <OperatingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>3892</FlightNumber>
+          <FlightNumber>3890</FlightNumber>
         </OperatingCarrier>
         <Equipment>
           <AircraftCode>E95</AircraftCode>
@@ -236,16 +750,75 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG3">
-        <Departure>
-          <AirportCode>RIX</AirportCode>
+        <Departure Time="18:15">
+          <AirportCode>CDG</AirportCode>
           <Date>2015-11-10</Date>
-          <Time>14:30</Time>
-          <AirportName>Riga International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="19:30">
           <AirportCode>FRA</AirportCode>
           <Date>2015-11-10</Date>
-          <Time>15:50</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>4041</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>4041</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H15M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG4">
+        <Departure Time="20:05">
+          <AirportCode>FRA</AirportCode>
+          <Date>2015-11-10</Date>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival Time="06:00">
+          <AirportCode>RIX</AirportCode>
+          <Date>2015-11-12</Date>
+          <AirportName>Riga International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3892</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3892</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT33H55M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG5">
+        <Departure Time="14:10">
+          <AirportCode>RIX</AirportCode>
+          <Date>2015-12-10</Date>
+          <AirportName>Riga International</AirportName>
+        </Departure>
+        <Arrival Time="15:30">
+          <AirportCode>FRA</AirportCode>
+          <Date>2015-12-10</Date>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -268,27 +841,25 @@
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
-      <FlightSegment SegmentKey="SEG4">
-        <Departure>
+      <FlightSegment SegmentKey="SEG6">
+        <Departure Time="16:40">
           <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>17:45</Time>
+          <Date>2015-12-10</Date>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="17:55">
           <AirportCode>CDG</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>18:00</Time>
+          <Date>2015-12-10</Date>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
+          <FlightNumber>4040</FlightNumber>
         </MarketingCarrier>
         <OperatingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
+          <FlightNumber>4040</FlightNumber>
         </OperatingCarrier>
         <Equipment>
           <AircraftCode>E95</AircraftCode>
@@ -296,7 +867,7 @@
         </Equipment>
         <FlightDetail>
           <FlightDuration>
-            <Value>PT0H15M</Value>
+            <Value>PT1H15M</Value>
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
@@ -304,35 +875,55 @@
     <FlightList>
       <Flight FlightKey="FL1">
         <Journey>
-          <Time>PT6H0M</Time>
+          <Time>PT5H40M</Time>
         </Journey>
         <SegmentReferences>SEG1 SEG2</SegmentReferences>
       </Flight>
       <Flight FlightKey="FL2">
         <Journey>
-          <Time>PT3H30M</Time>
+          <Time>PT11H45M</Time>
         </Journey>
         <SegmentReferences>SEG3 SEG4</SegmentReferences>
+      </Flight>
+      <Flight FlightKey="FL3">
+        <Journey>
+          <Time>PT3H45M</Time>
+        </Journey>
+        <SegmentReferences>SEG5 SEG6</SegmentReferences>
       </Flight>
     </FlightList>
     <OriginDestinationList>
       <OriginDestination OriginDestinationKey="OD1">
         <DepartureCode>CDG</DepartureCode>
         <ArrivalCode>RIX</ArrivalCode>
-        <FlightReferences>FL1</FlightReferences>
+        <FlightReferences>FL1 FL2</FlightReferences>
       </OriginDestination>
       <OriginDestination OriginDestinationKey="OD2">
         <DepartureCode>RIX</DepartureCode>
         <ArrivalCode>CDG</ArrivalCode>
-        <FlightReferences>FL2</FlightReferences>
+        <FlightReferences>FL3</FlightReferences>
       </OriginDestination>
     </OriginDestinationList>
     <PriceClassList>
       <PriceClass ObjectKey="PC1">
+        <Name>M-ESR</Name>
+        <Code>M</Code>
+        <FareBasisCode>
+          <Code>ESR</Code>
+        </FareBasisCode>
+      </PriceClass>
+      <PriceClass ObjectKey="PC2">
         <Name>M-EFR</Name>
         <Code>M</Code>
         <FareBasisCode>
           <Code>EFR</Code>
+        </FareBasisCode>
+      </PriceClass>
+      <PriceClass ObjectKey="PC3">
+        <Name>M-ERR</Name>
+        <Code>M</Code>
+        <FareBasisCode>
+          <Code>ERR</Code>
         </FareBasisCode>
       </PriceClass>
     </PriceClassList>
@@ -369,7 +960,7 @@
             <TravelerReferences>SH1</TravelerReferences>
           </Traveler>
           <Flight>
-            <SegmentReferences>SEG1 SEG2 SEG3 SEG4</SegmentReferences>
+            <SegmentReferences>SEG1 SEG2 SEG3 SEG4 SEG5 SEG6</SegmentReferences>
           </Flight>
         </Associations>
       </Service>
@@ -405,7 +996,7 @@
             <TravelerReferences>SH1</TravelerReferences>
           </Traveler>
           <Flight>
-            <SegmentReferences>SEG1 SEG2 SEG3 SEG4</SegmentReferences>
+            <SegmentReferences>SEG1 SEG2 SEG3 SEG4 SEG5 SEG6</SegmentReferences>
           </Flight>
         </Associations>
       </Service>
@@ -425,7 +1016,7 @@
           <DescriptionMetadata MetadataKey="ID1">
             <AugmentationPoint>
               <AugPoint>
-                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
               </AugPoint>
             </AugmentationPoint>
           </DescriptionMetadata>

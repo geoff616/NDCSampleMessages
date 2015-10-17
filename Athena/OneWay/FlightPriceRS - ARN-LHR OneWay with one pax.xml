@@ -4,10 +4,10 @@
     <ReferenceVersion>1.0</ReferenceVersion>
   </Document>
   <Success />
-  <ShoppingResponseID>
+  <ShoppingResponseIDs>
     <Owner>9A</Owner>
-    <ResponseID>REe18adfeaba7e467f90868d58916bd199</ResponseID>
-  </ShoppingResponseID>
+    <ResponseID>RE42fac9bdc64947959a792764b142d918</ResponseID>
+  </ShoppingResponseIDs>
   <PricedFlightOffers>
     <PricedFlightOffer>
       <OfferID Owner="9A">1</OfferID>
@@ -39,7 +39,7 @@
         </FareDetail>
       </OfferPrice>
       <TimeLimits>
-        <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+        <OfferExpiration Timestamp="2015-10-15T23:59:00" />
       </TimeLimits>
       <Associations>
         <ApplicableFlight>
@@ -76,15 +76,13 @@
     </AnonymousTravelerList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
-        <Departure>
+        <Departure Time="13:20">
           <AirportCode>ARN</AirportCode>
           <Date>2015-12-25</Date>
-          <Time>13:20</Time>
         </Departure>
-        <Arrival>
+        <Arrival Time="15:30">
           <AirportCode>FRA</AirportCode>
           <Date>2015-12-25</Date>
-          <Time>15:30</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -108,16 +106,14 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG2">
-        <Departure>
+        <Departure Time="16:50">
           <AirportCode>FRA</AirportCode>
           <Date>2015-12-25</Date>
-          <Time>16:50</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="16:35">
           <AirportCode>LHR</AirportCode>
           <Date>2015-12-25</Date>
-          <Time>16:35</Time>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
@@ -253,7 +249,7 @@
           <DescriptionMetadata MetadataKey="ID1">
             <AugmentationPoint>
               <AugPoint>
-                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
               </AugPoint>
             </AugmentationPoint>
           </DescriptionMetadata>

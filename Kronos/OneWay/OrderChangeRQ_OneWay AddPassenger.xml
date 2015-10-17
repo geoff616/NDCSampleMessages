@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OrderChangeRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST 
-
-../OrderChangeRQ.xsd" Version="1.1.5">
+<OrderChangeRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1.5" xsi:schemaLocation="http://www.iata.org/IATA/EDIST OrderChangeRQ.xsd">
   <Document>
     <Name>KRONOS NDC GATEWAY</Name>
     <ReferenceVersion>1.0</ReferenceVersion>
@@ -29,11 +27,11 @@
   </Party>
   <Query>
     <Order>
-      <OrderID Owner="C9">L9A6S1</OrderID>
+      <OrderID Owner="C9">L9A8W1</OrderID>
       <Details>
         <ShoppingResponse>
           <Owner>C9</Owner>
-          <ResponseID>RE9cd621c57a3442718e9a0c1374acd35b</ResponseID>
+          <ResponseID>RE3d9cc571a87a45f69f7f783bfabe44fd</ResponseID>
           <OfferID Owner="C9">1</OfferID>
         </ShoppingResponse>
       </Details>
@@ -65,7 +63,7 @@
       </OrderItems>
     </Order>
   </Query>
-  <DataLists>
+  <DataList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
         <Departure>
@@ -216,5 +214,5 @@
         </Associations>
       </Service>
     </ServiceList>
-  </DataLists>
+  </DataList>
 </OrderChangeRQ>

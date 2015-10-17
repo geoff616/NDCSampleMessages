@@ -1,4 +1,4 @@
-<ServiceListRS xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<ServiceListRS xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Document>
     <Name>KRONOS NDC GATEWAY</Name>
     <ReferenceVersion>1.0</ReferenceVersion>
@@ -12,33 +12,6 @@
     </AnonymousTravelerList>
     <ServiceList>
       <Service ObjectKey="SV1">
-        <ServiceID Owner="C9">1011</ServiceID>
-        <Name>Complimentary Meal</Name>
-        <Encoding />
-        <Descriptions>
-          <Description>
-            <Text>Complimentary three course meal and drinks</Text>
-            <Link>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</Link>
-            <Media>
-              <ObjectID>iconerror.png</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>SH1</PassengerReferences>
-        </Price>
-      </Service>
-      <Service ObjectKey="SV2">
         <ServiceID Owner="C9">1012</ServiceID>
         <Name>Excess Baggage  </Name>
         <Encoding>
@@ -70,7 +43,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV3">
+      <Service ObjectKey="SV2">
         <ServiceID Owner="C9">1013</ServiceID>
         <Name>Excess Baggage  </Name>
         <Encoding>
@@ -102,7 +75,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV4">
+      <Service ObjectKey="SV3">
         <ServiceID Owner="C9">1014</ServiceID>
         <Name>Excess Baggage</Name>
         <Encoding>
@@ -134,7 +107,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV5">
+      <Service ObjectKey="SV4">
         <ServiceID Owner="C9">1015</ServiceID>
         <Name>Advance Seat selection</Name>
         <Encoding />
@@ -161,13 +134,13 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV6">
+      <Service ObjectKey="SV5">
         <ServiceID Owner="C9">1016</ServiceID>
         <Name>Lounge pass </Name>
         <Encoding />
         <Descriptions>
           <Description>
-            <Text>Escape the crowds and find a quiet space to work or relax – whoever you're flying with.</Text>
+            <Text>Escape the crowds and find a quiet space to work or relax â€“ whoever you're flying with.</Text>
             <Link>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</Link>
             <Media>
               <ObjectID>iconerror.png</ObjectID>
@@ -188,7 +161,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV7">
+      <Service ObjectKey="SV6">
         <ServiceID Owner="C9">1017</ServiceID>
         <Name>Meal</Name>
         <Encoding />
@@ -215,7 +188,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV8">
+      <Service ObjectKey="SV7">
         <ServiceID Owner="C9">1018</ServiceID>
         <Name>Special Assistance</Name>
         <Encoding />
@@ -242,7 +215,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV9">
+      <Service ObjectKey="SV8">
         <ServiceID Owner="C9">1019</ServiceID>
         <Name>Lounge pass </Name>
         <Encoding />
@@ -279,6 +252,17 @@
             <Decimals>2</Decimals>
           </CurrencyMetadata>
         </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
       </OtherMetadata>
     </Other>
   </Metadata>

@@ -63,7 +63,7 @@
       <Flight>
         <Departure>
           <AirportCode>CDG</AirportCode>
-          <Date>2015-10-10</Date>
+          <Date>2015-11-10</Date>
           <Time>17:30</Time>
         </Departure>
         <Arrival>
@@ -94,7 +94,7 @@
       <Flight>
         <Departure>
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
+          <Date>2015-11-10</Date>
           <Time>20:25</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
@@ -128,7 +128,7 @@
       <Flight>
         <Departure>
           <AirportCode>RIX</AirportCode>
-          <Date>2015-11-10</Date>
+          <Date>2015-12-10</Date>
           <Time>14:30</Time>
           <AirportName>Riga International</AirportName>
         </Departure>
@@ -160,7 +160,7 @@
       <Flight>
         <Departure>
           <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
+          <Date>2015-12-10</Date>
           <Time>17:45</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
@@ -190,23 +190,27 @@
       </Flight>
     </OriginDestination>
   </Query>
-  <Preference>
-    <AirlinePreferences>
-      <Airline>
-        <AirlineID>9A</AirlineID>
-      </Airline>
-    </AirlinePreferences>
-    <FarePreferences>
-      <FareCodes>
-        <Code>
-          <Code>ESR</Code>
-        </Code>
-        <Code>
-          <Code>EFR</Code>
-        </Code>
-      </FareCodes>
-    </FarePreferences>
-  </Preference>
+  <Preferences>
+		<Preference>
+			<AirlinePreferences>
+				<Airline>
+					<AirlineID>9A</AirlineID>
+				</Airline>
+			</AirlinePreferences>
+		</Preference>
+		<Preference>
+			<FarePreferences>
+			  <FareCodes>
+				<Code>
+				  <Code>ESR</Code>
+				</Code>
+				<Code>
+				  <Code>EFR</Code>
+				</Code>
+			  </FareCodes>
+			</FarePreferences>
+		</Preference>
+	</Preferences>
   <DataLists>
     <OriginDestinationList>
       <OriginDestination>

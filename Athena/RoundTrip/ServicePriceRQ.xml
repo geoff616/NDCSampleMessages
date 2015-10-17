@@ -1,4 +1,5 @@
-<ServicePriceRQ  xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1.5" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ServicePriceRQ.xsd">
+<ServicePriceRQ  xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+Version="1.1.5" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ServicePriceRQ.xsd">
   <Document>
     <Name>ATHENA NDC GATEWAY</Name>
     <ReferenceVersion>1.0</ReferenceVersion>
@@ -24,7 +25,7 @@
       </TravelAgencySender>
     </Sender>
   </Party>
-  <ShoppingResponseID>
-    <ResponseID>RE7f3f57ad0f464ccc8000d80821c914a9</ResponseID>
-  </ShoppingResponseID>
+  <ShoppingResponseIDs>
+    <ResponseID>RE80143224f0c2497988fe6d1b2925569e</ResponseID>
+  </ShoppingResponseIDs>
 </ServicePriceRQ>

@@ -5,10 +5,11 @@
   </Document>
   <Success />
   <Response>
-    <ReShoppingResponseID>
+    <ItinReshopProcessing />
+    <ShoppingResponseIDs>
       <Owner>C9</Owner>
-      <ResponseID>RE68d37cf569ca4ffc8df5fc94342a6696</ResponseID>
-    </ReShoppingResponseID>
+      <ResponseID>RE0a796aa4160a427e8da3768be45a32e8</ResponseID>
+    </ShoppingResponseIDs>
     <Passengers>
       <Passenger ObjectKey="PAX1">
         <PTC Quantity="1">ADT</PTC>
@@ -21,7 +22,7 @@
           <Given>Mithalesh</Given>
           <Middle>Ignatius</Middle>
         </Name>
-        <ProfileID>101377609630461</ProfileID>
+        <ProfileID>1096286784150007</ProfileID>
         <Contacts>
           <Contact>
             <AddressContact>
@@ -53,10 +54,10 @@
       </Passenger>
     </Passengers>
     <Order>
-      <OrderID Owner="C9">L9A821</OrderID>
+      <OrderID Owner="C9">L9A8X1</OrderID>
       <TotalOrderPrice>
         <DetailCurrencyPrice>
-          <Total Code="EUR">658600</Total>
+          <Total Code="EUR">663400</Total>
           <Taxes>
             <Total Code="EUR">0</Total>
           </Taxes>
@@ -76,11 +77,11 @@
       <ReShopOffer>
         <OfferID Owner="C9">1</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
-            <Total Code="EUR">617600</Total>
+            <Total Code="EUR">620000</Total>
             <Taxes>
               <Total Code="EUR">0</Total>
             </Taxes>
@@ -115,16 +116,16 @@
             <RequestedDate>
               <PriceDetail>
                 <TotalAmount>
-                  <SimpleCurrencyPrice Code="EUR">308800</SimpleCurrencyPrice>
+                  <SimpleCurrencyPrice Code="EUR">311200</SimpleCurrencyPrice>
                 </TotalAmount>
-                <BaseAmount Code="EUR">308800</BaseAmount>
+                <BaseAmount Code="EUR">311200</BaseAmount>
                 <Taxes>
                   <Total Code="EUR">0</Total>
                 </Taxes>
               </PriceDetail>
               <Associations>
                 <AssociatedTraveler>
-                  <TravelerReferences />
+                  <TravelerReferences>PAX1</TravelerReferences>
                 </AssociatedTraveler>
                 <AssociatedService>
                   <ServiceReferences>SV1 SV2</ServiceReferences>
@@ -148,7 +149,7 @@
                   <TravelerReferences>PAX2</TravelerReferences>
                 </AssociatedTraveler>
                 <IncludedService>
-                  <ServiceReferences>SV1 NSV1</ServiceReferences>
+                  <ServiceReferences>NSV1</ServiceReferences>
                 </IncludedService>
                 <AssociatedService>
                   <ServiceReferences>SV2</ServiceReferences>
@@ -190,12 +191,12 @@
         <ReshopDifferential>
           <OriginalOrder>
             <Total>
-              <Amount>308800</Amount>
+              <Amount>311200</Amount>
             </Total>
           </OriginalOrder>
           <NewOffer>
             <Total>
-              <Amount>617600</Amount>
+              <Amount>620000</Amount>
             </Total>
           </NewOffer>
           <PenaltyAmount>
@@ -221,11 +222,11 @@
       <ReShopOffer>
         <OfferID Owner="C9">2</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
-            <Total Code="EUR">699600</Total>
+            <Total Code="EUR">702000</Total>
             <Taxes>
               <Total Code="EUR">0</Total>
             </Taxes>
@@ -260,16 +261,16 @@
             <RequestedDate>
               <PriceDetail>
                 <TotalAmount>
-                  <SimpleCurrencyPrice Code="EUR">349800</SimpleCurrencyPrice>
+                  <SimpleCurrencyPrice Code="EUR">352200</SimpleCurrencyPrice>
                 </TotalAmount>
-                <BaseAmount Code="EUR">349800</BaseAmount>
+                <BaseAmount Code="EUR">352200</BaseAmount>
                 <Taxes>
                   <Total Code="EUR">0</Total>
                 </Taxes>
               </PriceDetail>
               <Associations>
                 <AssociatedTraveler>
-                  <TravelerReferences />
+                  <TravelerReferences>PAX1</TravelerReferences>
                 </AssociatedTraveler>
                 <AssociatedService>
                   <ServiceReferences>SV1 SV2</ServiceReferences>
@@ -292,6 +293,12 @@
                 <AssociatedTraveler>
                   <TravelerReferences>PAX2</TravelerReferences>
                 </AssociatedTraveler>
+                <IncludedService>
+                  <ServiceReferences>NSV1</ServiceReferences>
+                </IncludedService>
+                <AssociatedService>
+                  <ServiceReferences>SV2</ServiceReferences>
+                </AssociatedService>
               </Associations>
             </RequestedDate>
             <FareDetail>
@@ -329,12 +336,12 @@
         <ReshopDifferential>
           <OriginalOrder>
             <Total>
-              <Amount>349800</Amount>
+              <Amount>352200</Amount>
             </Total>
           </OriginalOrder>
           <NewOffer>
             <Total>
-              <Amount>699600</Amount>
+              <Amount>702000</Amount>
             </Total>
           </NewOffer>
           <PenaltyAmount>
@@ -358,18 +365,16 @@
         </ReshopDifferential>
       </ReShopOffer>
     </ReShopOffers>
-    <DataLists>
+    <DataList>
       <FlightSegmentList>
         <FlightSegment SegmentKey="SEG1">
-          <Departure>
+          <Departure Time="18:35">
             <AirportCode>ARN</AirportCode>
             <Date>2016-01-30</Date>
-            <Time>18:35</Time>
           </Departure>
-          <Arrival>
+          <Arrival Time="20:45">
             <AirportCode>FRA</AirportCode>
             <Date>2016-01-30</Date>
-            <Time>20:45</Time>
             <AirportName>Frankfurt International</AirportName>
           </Arrival>
           <MarketingCarrier>
@@ -393,16 +398,14 @@
           </FlightDetail>
         </FlightSegment>
         <FlightSegment SegmentKey="SEG2">
-          <Departure>
+          <Departure Time="21:15">
             <AirportCode>FRA</AirportCode>
             <Date>2016-01-30</Date>
-            <Time>21:15</Time>
             <AirportName>Frankfurt International</AirportName>
           </Departure>
-          <Arrival>
+          <Arrival Time="20:00">
             <AirportCode>RIX</AirportCode>
             <Date>2016-01-31</Date>
-            <Time>20:00</Time>
             <AirportName>Riga International</AirportName>
           </Arrival>
           <MarketingCarrier>
@@ -426,16 +429,14 @@
           </FlightDetail>
         </FlightSegment>
         <FlightSegment SegmentKey="SEG5">
-          <Departure>
+          <Departure Time="14:15">
             <AirportCode>RIX</AirportCode>
             <Date>2016-06-25</Date>
-            <Time>14:15</Time>
             <AirportName>Riga International</AirportName>
           </Departure>
-          <Arrival>
+          <Arrival Time="15:30">
             <AirportCode>FRA</AirportCode>
             <Date>2016-06-25</Date>
-            <Time>15:30</Time>
             <AirportName>Frankfurt International</AirportName>
           </Arrival>
           <MarketingCarrier>
@@ -459,16 +460,14 @@
           </FlightDetail>
         </FlightSegment>
         <FlightSegment SegmentKey="SEG6">
-          <Departure>
+          <Departure Time="16:00">
             <AirportCode>FRA</AirportCode>
             <Date>2016-06-25</Date>
-            <Time>16:00</Time>
             <AirportName>Frankfurt International</AirportName>
           </Departure>
-          <Arrival>
+          <Arrival Time="18:00">
             <AirportCode>ARN</AirportCode>
             <Date>2016-06-25</Date>
-            <Time>18:00</Time>
           </Arrival>
           <MarketingCarrier>
             <AirlineID>C9</AirlineID>
@@ -552,7 +551,7 @@
           </Settlement>
           <Price>
             <Total>0</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -585,7 +584,11 @@
           </Settlement>
           <Price>
             <Total>2400</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
+          </Price>
+          <Price>
+            <Total>2400</Total>
+            <PassengerReferences>PAX2</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -625,12 +628,12 @@
               <TravelerReferences>PAX2</TravelerReferences>
             </Traveler>
             <Flight>
-              <SegmentReferences>SEG1 SEG2</SegmentReferences>
+              <SegmentReferences>SEG1 SEG2 SEG5 SEG6</SegmentReferences>
             </Flight>
           </Associations>
         </Service>
       </ServiceList>
-    </DataLists>
+    </DataList>
     <Metadata>
       <Other>
         <OtherMetadata>
@@ -645,7 +648,7 @@
             <DescriptionMetadata MetadataKey="ID1">
               <AugmentationPoint>
                 <AugPoint>
-                  <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                  <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
                 </AugPoint>
               </AugmentationPoint>
             </DescriptionMetadata>

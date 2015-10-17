@@ -4,10 +4,10 @@
     <ReferenceVersion>1.0</ReferenceVersion>
   </Document>
   <Success />
-  <ShoppingResponseID>
+  <ShoppingResponseIDs>
     <Owner>C9</Owner>
-    <ResponseID>RE2b4ae10913b241e4ab9d95af9125e590</ResponseID>
-  </ShoppingResponseID>
+    <ResponseID>REa834e097a159434ebf90c67d2c66d111</ResponseID>
+  </ShoppingResponseIDs>
   <PricedFlightOffers>
     <PricedFlightOffer>
       <OfferID Owner="C9">1</OfferID>
@@ -39,7 +39,7 @@
         </FareDetail>
       </OfferPrice>
       <TimeLimits>
-        <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+        <OfferExpiration Timestamp="2015-10-15T23:59:00" />
       </TimeLimits>
       <Associations>
         <ApplicableFlight>
@@ -60,10 +60,10 @@
           <PriceClassReference>PC1</PriceClassReference>
         </PriceClass>
         <IncludedService>
-          <ServiceReferences>SV1 SV3</ServiceReferences>
+          <ServiceReferences>SV2</ServiceReferences>
         </IncludedService>
         <AssociatedService>
-          <ServiceReferences>SV2</ServiceReferences>
+          <ServiceReferences>SV1</ServiceReferences>
         </AssociatedService>
       </Associations>
     </PricedFlightOffer>
@@ -76,15 +76,13 @@
     </AnonymousTravelerList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
-        <Departure>
+        <Departure Time="06:00">
           <AirportCode>ARN</AirportCode>
           <Date>2016-05-05</Date>
-          <Time>06:00</Time>
         </Departure>
-        <Arrival>
+        <Arrival Time="08:10">
           <AirportCode>FRA</AirportCode>
           <Date>2016-05-05</Date>
-          <Time>08:10</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -108,16 +106,14 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG2">
-        <Departure>
+        <Departure Time="09:50">
           <AirportCode>FRA</AirportCode>
           <Date>2016-05-05</Date>
-          <Time>09:50</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="12:55">
           <AirportCode>RIX</AirportCode>
           <Date>2016-05-05</Date>
-          <Time>12:55</Time>
           <AirportName>Riga International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -167,42 +163,6 @@
     </PriceClassList>
     <ServiceList>
       <Service ObjectKey="SV1">
-        <ServiceID Owner="C9">1011</ServiceID>
-        <Name>Complimentary Meal</Name>
-        <Encoding />
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>Complimentary three course meal and drinks</Text>
-            <Link>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</Link>
-            <Media>
-              <ObjectID>iconerror.png</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>SH1</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>SH1</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
-      <Service ObjectKey="SV2">
         <ServiceID Owner="C9">1017</ServiceID>
         <Name>Meal</Name>
         <Encoding />
@@ -238,7 +198,7 @@
           </Flight>
         </Associations>
       </Service>
-      <Service ObjectKey="SV3">
+      <Service ObjectKey="SV2">
         <ServiceID Owner="C9">1018</ServiceID>
         <Name>Special Assistance</Name>
         <Encoding />
@@ -290,7 +250,7 @@
           <DescriptionMetadata MetadataKey="ID1">
             <AugmentationPoint>
               <AugPoint>
-                <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
               </AugPoint>
             </AugmentationPoint>
           </DescriptionMetadata>

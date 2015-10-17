@@ -5,10 +5,10 @@
   </Document>
   <Success />
   <AirShoppingProcessing />
-  <ShoppingResponseID>
+  <ShoppingResponseIDs>
     <Owner>C9</Owner>
-    <ResponseID>RE1483855093934f3eab41b84010934560</ResponseID>
-  </ShoppingResponseID>
+    <ResponseID>REcd7f1a73480f488681ca7fc9a6c04a8d</ResponseID>
+  </ShoppingResponseIDs>
   <OffersGroup>
     <AirlineOffers>
       <TotalOfferQuantity>6</TotalOfferQuantity>
@@ -16,7 +16,7 @@
       <AirlineOffer>
         <OfferID Owner="C9">1</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
@@ -79,10 +79,10 @@
               <PriceClassReference>PC1</PriceClassReference>
             </PriceClass>
             <IncludedService>
-              <ServiceReferences>SV1 SV3</ServiceReferences>
+              <ServiceReferences>SV2</ServiceReferences>
             </IncludedService>
             <AssociatedService>
-              <ServiceReferences>SV2</ServiceReferences>
+              <ServiceReferences>SV1</ServiceReferences>
             </AssociatedService>
           </Associations>
         </PricedOffer>
@@ -90,7 +90,7 @@
       <AirlineOffer>
         <OfferID Owner="C9">2</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
@@ -153,10 +153,10 @@
               <PriceClassReference>PC2</PriceClassReference>
             </PriceClass>
             <IncludedService>
-              <ServiceReferences>SV1 SV3</ServiceReferences>
+              <ServiceReferences>SV2</ServiceReferences>
             </IncludedService>
             <AssociatedService>
-              <ServiceReferences>SV2</ServiceReferences>
+              <ServiceReferences>SV1</ServiceReferences>
             </AssociatedService>
           </Associations>
         </PricedOffer>
@@ -164,7 +164,7 @@
       <AirlineOffer>
         <OfferID Owner="C9">3</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
@@ -227,10 +227,10 @@
               <PriceClassReference>PC1</PriceClassReference>
             </PriceClass>
             <IncludedService>
-              <ServiceReferences>SV1 SV3</ServiceReferences>
+              <ServiceReferences>SV2</ServiceReferences>
             </IncludedService>
             <AssociatedService>
-              <ServiceReferences>SV2</ServiceReferences>
+              <ServiceReferences>SV1</ServiceReferences>
             </AssociatedService>
           </Associations>
         </PricedOffer>
@@ -238,7 +238,7 @@
       <AirlineOffer>
         <OfferID Owner="C9">4</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
@@ -301,10 +301,10 @@
               <PriceClassReference>PC2</PriceClassReference>
             </PriceClass>
             <IncludedService>
-              <ServiceReferences>SV1 SV3</ServiceReferences>
+              <ServiceReferences>SV2</ServiceReferences>
             </IncludedService>
             <AssociatedService>
-              <ServiceReferences>SV2</ServiceReferences>
+              <ServiceReferences>SV1</ServiceReferences>
             </AssociatedService>
           </Associations>
         </PricedOffer>
@@ -312,7 +312,7 @@
       <AirlineOffer>
         <OfferID Owner="C9">5</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
@@ -375,10 +375,10 @@
               <PriceClassReference>PC1</PriceClassReference>
             </PriceClass>
             <IncludedService>
-              <ServiceReferences>SV1 SV3</ServiceReferences>
+              <ServiceReferences>SV2</ServiceReferences>
             </IncludedService>
             <AssociatedService>
-              <ServiceReferences>SV2</ServiceReferences>
+              <ServiceReferences>SV1</ServiceReferences>
             </AssociatedService>
           </Associations>
         </PricedOffer>
@@ -386,7 +386,7 @@
       <AirlineOffer>
         <OfferID Owner="C9">6</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
@@ -449,10 +449,10 @@
               <PriceClassReference>PC2</PriceClassReference>
             </PriceClass>
             <IncludedService>
-              <ServiceReferences>SV1 SV3</ServiceReferences>
+              <ServiceReferences>SV2</ServiceReferences>
             </IncludedService>
             <AssociatedService>
-              <ServiceReferences>SV2</ServiceReferences>
+              <ServiceReferences>SV1</ServiceReferences>
             </AssociatedService>
           </Associations>
         </PricedOffer>
@@ -467,15 +467,13 @@
     </AnonymousTravelerList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
-        <Departure>
+        <Departure Time="18:35">
           <AirportCode>ARN</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>18:35</Time>
         </Departure>
-        <Arrival>
+        <Arrival Time="20:45">
           <AirportCode>FRA</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>20:45</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -499,16 +497,14 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG2">
-        <Departure>
+        <Departure Time="21:15">
           <AirportCode>FRA</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>21:15</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="20:00">
           <AirportCode>RIX</AirportCode>
           <Date>2016-01-31</Date>
-          <Time>20:00</Time>
           <AirportName>Riga International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -532,15 +528,13 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG3">
-        <Departure>
+        <Departure Time="06:35">
           <AirportCode>ARN</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>06:35</Time>
         </Departure>
-        <Arrival>
+        <Arrival Time="08:50">
           <AirportCode>FRA</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>08:50</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -564,16 +558,14 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG4">
-        <Departure>
+        <Departure Time="10:00">
           <AirportCode>FRA</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>10:00</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="13:05">
           <AirportCode>RIX</AirportCode>
           <Date>2016-01-30</Date>
-          <Time>13:05</Time>
           <AirportName>Riga International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -597,16 +589,14 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG5">
-        <Departure>
+        <Departure Time="14:15">
           <AirportCode>RIX</AirportCode>
           <Date>2016-06-25</Date>
-          <Time>14:15</Time>
           <AirportName>Riga International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="15:30">
           <AirportCode>FRA</AirportCode>
           <Date>2016-06-25</Date>
-          <Time>15:30</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -630,16 +620,14 @@
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG6">
-        <Departure>
+        <Departure Time="16:00">
           <AirportCode>FRA</AirportCode>
           <Date>2016-06-25</Date>
-          <Time>16:00</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="18:00">
           <AirportCode>ARN</AirportCode>
           <Date>2016-06-25</Date>
-          <Time>18:00</Time>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>C9</AirlineID>
@@ -712,42 +700,6 @@
     </PriceClassList>
     <ServiceList>
       <Service ObjectKey="SV1">
-        <ServiceID Owner="C9">1011</ServiceID>
-        <Name>Complimentary Meal</Name>
-        <Encoding />
-        <FeeMethod>OC</FeeMethod>
-        <Descriptions>
-          <Description>
-            <Text>Complimentary three course meal and drinks</Text>
-            <Link>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</Link>
-            <Media>
-              <ObjectID>iconerror.png</ObjectID>
-            </Media>
-            <Media>
-              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/iconerror.png</MediaLink>
-            </Media>
-          </Description>
-        </Descriptions>
-        <Settlement>
-          <Method>
-            <Code>AD</Code>
-            <Definition>Internal Airline Document</Definition>
-          </Method>
-        </Settlement>
-        <Price>
-          <Total>0</Total>
-          <PassengerReferences>SH1</PassengerReferences>
-        </Price>
-        <Associations>
-          <Traveler>
-            <TravelerReferences>SH1</TravelerReferences>
-          </Traveler>
-          <Flight>
-            <SegmentReferences>SEG1 SEG2 SEG3 SEG4 SEG5 SEG6</SegmentReferences>
-          </Flight>
-        </Associations>
-      </Service>
-      <Service ObjectKey="SV2">
         <ServiceID Owner="C9">1017</ServiceID>
         <Name>Meal</Name>
         <Encoding />
@@ -783,7 +735,7 @@
           </Flight>
         </Associations>
       </Service>
-      <Service ObjectKey="SV3">
+      <Service ObjectKey="SV2">
         <ServiceID Owner="C9">1018</ServiceID>
         <Name>Special Assistance</Name>
         <Encoding />
@@ -835,7 +787,7 @@
           <DescriptionMetadata MetadataKey="ID1">
             <AugmentationPoint>
               <AugPoint>
-                <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
               </AugPoint>
             </AugmentationPoint>
           </DescriptionMetadata>

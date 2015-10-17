@@ -28,6 +28,7 @@
   </Party>
   <Success />
   <Response>
+    <OrderViewProcessing />
     <Passengers>
       <Passenger ObjectKey="PAX1">
         <PTC Quantity="1">ADT</PTC>
@@ -40,7 +41,7 @@
           <Given>Mithalesh</Given>
           <Middle>Ignatius</Middle>
         </Name>
-        <ProfileID>101444608442004</ProfileID>
+        <ProfileID>10780803455004</ProfileID>
         <Contacts>
           <Contact>
             <AddressContact>
@@ -69,15 +70,16 @@
       </Passenger>
     </Passengers>
     <Order>
-      <OrderID Owner="9A">F9A23I</OrderID>
+      <OrderID Owner="9A">F9A2PI</OrderID>
       <BookingReferences>
         <BookingReference>
-          <ID>06721266f32447c098a96eb1c9e59ad5</ID>
+          <ID>4a1b7b297a054fa68292c2c4c35d0772</ID>
+          <AirlineID>9A</AirlineID>
         </BookingReference>
       </BookingReferences>
       <TotalOrderPrice>
         <DetailCurrencyPrice>
-          <Total Code="EUR">606600</Total>
+          <Total Code="EUR">589200</Total>
           <Taxes>
             <Total>0</Total>
           </Taxes>
@@ -85,32 +87,30 @@
       </TotalOrderPrice>
       <OrderItems>
         <OrderItem>
-          <OrderItemID Owner="JRT">1#M#111161070#111163316</OrderItemID>
+          <OrderItemID Owner="JRT">1#M#111186373#111192206</OrderItemID>
           <FlightItem>
             <OriginDestination>
               <Flight>
                 <SegmentKey>SEG2</SegmentKey>
-                <Departure>
+                <Departure Time="10:50">
                   <AirportCode>FRA</AirportCode>
-                  <Date>2015-10-10</Date>
-                  <Time>20:25</Time>
+                  <Date>2015-11-10</Date>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="13:55">
                   <AirportCode>RIX</AirportCode>
-                  <Date>2015-10-10</Date>
-                  <Time>23:30</Time>
+                  <Date>2015-11-10</Date>
                   <AirportName>Riga International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
                   <AirlineID>9A</AirlineID>
                   <Name>Athena Air</Name>
-                  <FlightNumber>3892</FlightNumber>
+                  <FlightNumber>3890</FlightNumber>
                 </MarketingCarrier>
                 <OperatingCarrier>
                   <AirlineID>9A</AirlineID>
                   <Name>Athena Air</Name>
-                  <FlightNumber>3892</FlightNumber>
+                  <FlightNumber>3890</FlightNumber>
                 </OperatingCarrier>
                 <Equipment>
                   <AircraftCode>E95</AircraftCode>
@@ -119,26 +119,24 @@
               </Flight>
               <Flight>
                 <SegmentKey>SEG1</SegmentKey>
-                <Departure>
+                <Departure Time="08:15">
                   <AirportCode>CDG</AirportCode>
-                  <Date>2015-10-10</Date>
-                  <Time>17:30</Time>
+                  <Date>2015-11-10</Date>
                 </Departure>
-                <Arrival>
+                <Arrival Time="09:10">
                   <AirportCode>FRA</AirportCode>
-                  <Date>2015-10-10</Date>
-                  <Time>19:05</Time>
+                  <Date>2015-11-10</Date>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
                   <AirlineID>9A</AirlineID>
                   <Name>Athena Air</Name>
-                  <FlightNumber>4041</FlightNumber>
+                  <FlightNumber>4027</FlightNumber>
                 </MarketingCarrier>
                 <OperatingCarrier>
                   <AirlineID>9A</AirlineID>
                   <Name>Athena Air</Name>
-                  <FlightNumber>4041</FlightNumber>
+                  <FlightNumber>4027</FlightNumber>
                 </OperatingCarrier>
                 <Equipment>
                   <AircraftCode>E95</AircraftCode>
@@ -148,17 +146,15 @@
             </OriginDestination>
             <OriginDestination>
               <Flight>
-                <SegmentKey>SEG3</SegmentKey>
-                <Departure>
+                <SegmentKey>SEG5</SegmentKey>
+                <Departure Time="14:10">
                   <AirportCode>RIX</AirportCode>
-                  <Date>2015-11-10</Date>
-                  <Time>14:30</Time>
+                  <Date>2015-12-10</Date>
                   <AirportName>Riga International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="15:30">
                   <AirportCode>FRA</AirportCode>
-                  <Date>2015-11-10</Date>
-                  <Time>15:50</Time>
+                  <Date>2015-12-10</Date>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -177,27 +173,25 @@
                 </Equipment>
               </Flight>
               <Flight>
-                <SegmentKey>SEG4</SegmentKey>
-                <Departure>
+                <SegmentKey>SEG6</SegmentKey>
+                <Departure Time="16:40">
                   <AirportCode>FRA</AirportCode>
-                  <Date>2015-11-10</Date>
-                  <Time>17:45</Time>
+                  <Date>2015-12-10</Date>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="17:55">
                   <AirportCode>CDG</AirportCode>
-                  <Date>2015-11-10</Date>
-                  <Time>18:00</Time>
+                  <Date>2015-12-10</Date>
                 </Arrival>
                 <MarketingCarrier>
                   <AirlineID>9A</AirlineID>
                   <Name>Athena Air</Name>
-                  <FlightNumber>4046</FlightNumber>
+                  <FlightNumber>4040</FlightNumber>
                 </MarketingCarrier>
                 <OperatingCarrier>
                   <AirlineID>9A</AirlineID>
                   <Name>Athena Air</Name>
-                  <FlightNumber>4046</FlightNumber>
+                  <FlightNumber>4040</FlightNumber>
                 </OperatingCarrier>
                 <Equipment>
                   <AircraftCode>E95</AircraftCode>
@@ -211,14 +205,16 @@
               <PassengerReferences>PAX1</PassengerReferences>
             </Passengers>
             <IncludedService>
-              <ServiceReferences>SV1 SV2 </ServiceReferences>
+              <ServiceReferences>SV1 </ServiceReferences>
             </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2 </ServiceReferences>
+            </AssociatedService>
           </Associations>
         </OrderItem>
       </OrderItems>
     </Order>
-    <TicketDocInfos />
-    <DataLists>
+    <DataList>
       <ServiceList>
         <Service ObjectKey="SV1">
           <ServiceID Owner="9A">1021</ServiceID>
@@ -245,11 +241,11 @@
           </Settlement>
           <Price>
             <Total>0</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
-              <SegmentReferences>SEG1 SEG2 SEG3 SEG4</SegmentReferences>
+              <SegmentReferences>SEG1 SEG2 SEG5 SEG6</SegmentReferences>
             </Flight>
           </Associations>
         </Service>
@@ -278,16 +274,16 @@
           </Settlement>
           <Price>
             <Total>500</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
-              <SegmentReferences>SEG1 SEG2 SEG3 SEG4</SegmentReferences>
+              <SegmentReferences>SEG1 SEG2 SEG5 SEG6</SegmentReferences>
             </Flight>
           </Associations>
         </Service>
       </ServiceList>
-    </DataLists>
+    </DataList>
     <Metadata>
       <Other>
         <OtherMetadata>
@@ -296,6 +292,17 @@
               <Decimals>2</Decimals>
             </CurrencyMetadata>
           </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
         </OtherMetadata>
       </Other>
     </Metadata>

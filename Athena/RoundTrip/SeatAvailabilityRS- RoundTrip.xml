@@ -16,7 +16,7 @@
         <Columns>F</Columns>
         <Rows>
           <First>3</First>
-          <Last>31</Last>
+          <Last>26</Last>
         </Rows>
       </SeatDisplay>
     </Cabin>
@@ -33,7 +33,7 @@
         <Columns>F</Columns>
         <Rows>
           <First>3</First>
-          <Last>31</Last>
+          <Last>26</Last>
         </Rows>
       </SeatDisplay>
     </Cabin>
@@ -50,7 +50,7 @@
         <Columns>F</Columns>
         <Rows>
           <First>3</First>
-          <Last>31</Last>
+          <Last>28</Last>
         </Rows>
       </SeatDisplay>
     </Cabin>
@@ -67,7 +67,7 @@
         <Columns>F</Columns>
         <Rows>
           <First>3</First>
-          <Last>31</Last>
+          <Last>28</Last>
         </Rows>
       </SeatDisplay>
     </Cabin>
@@ -77,24 +77,24 @@
       <FlightSegment SegmentKey="SEG1">
         <Departure>
           <AirportCode>CDG</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>17:30</Time>
+          <Date>2015-11-10</Date>
+          <Time>08:15</Time>
         </Departure>
         <Arrival>
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>19:05</Time>
+          <Date>2015-11-10</Date>
+          <Time>09:10</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4041</FlightNumber>
+          <FlightNumber>4027</FlightNumber>
         </MarketingCarrier>
         <OperatingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4041</FlightNumber>
+          <FlightNumber>4027</FlightNumber>
         </OperatingCarrier>
         <Equipment>
           <AircraftCode>E95</AircraftCode>
@@ -105,32 +105,32 @@
         </ClassOfService>
         <FlightDetail>
           <FlightDuration>
-            <Value>PT1H35M</Value>
+            <Value>PT0H55M</Value>
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG2">
         <Departure>
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>20:25</Time>
+          <Date>2015-11-10</Date>
+          <Time>10:50</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
         <Arrival>
           <AirportCode>RIX</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>23:30</Time>
+          <Date>2015-11-10</Date>
+          <Time>13:55</Time>
           <AirportName>Riga International</AirportName>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>3892</FlightNumber>
+          <FlightNumber>3890</FlightNumber>
         </MarketingCarrier>
         <OperatingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>3892</FlightNumber>
+          <FlightNumber>3890</FlightNumber>
         </OperatingCarrier>
         <Equipment>
           <AircraftCode>E95</AircraftCode>
@@ -148,14 +148,14 @@
       <FlightSegment SegmentKey="SEG3">
         <Departure>
           <AirportCode>RIX</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>14:30</Time>
+          <Date>2015-12-10</Date>
+          <Time>14:10</Time>
           <AirportName>Riga International</AirportName>
         </Departure>
         <Arrival>
           <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>15:50</Time>
+          <Date>2015-12-10</Date>
+          <Time>15:30</Time>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -184,24 +184,24 @@
       <FlightSegment SegmentKey="SEG4">
         <Departure>
           <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>17:45</Time>
+          <Date>2015-12-10</Date>
+          <Time>16:40</Time>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
         <Arrival>
           <AirportCode>CDG</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>18:00</Time>
+          <Date>2015-12-10</Date>
+          <Time>17:55</Time>
         </Arrival>
         <MarketingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
+          <FlightNumber>4040</FlightNumber>
         </MarketingCarrier>
         <OperatingCarrier>
           <AirlineID>9A</AirlineID>
           <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
+          <FlightNumber>4040</FlightNumber>
         </OperatingCarrier>
         <Equipment>
           <AircraftCode>E95</AircraftCode>
@@ -212,7 +212,7 @@
         </ClassOfService>
         <FlightDetail>
           <FlightDuration>
-            <Value>PT0H15M</Value>
+            <Value>PT1H15M</Value>
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
@@ -2305,448 +2305,6 @@
           </Characteristics>
         </Location>
       </Seats>
-      <Seats refs="SV5 SV6" ListKey="D26SEG1">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>26</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F26SEG1">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>26</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A27SEG1">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C27SEG1">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D27SEG1">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F27SEG1">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A28SEG1">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C28SEG1">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D28SEG1">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F28SEG1">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A29SEG1">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C29SEG1">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D29SEG1">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F29SEG1">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A30SEG1">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>H</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C30SEG1">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D30SEG1">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F30SEG1">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A31SEG1">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C31SEG1">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D31SEG1">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F31SEG1">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
       <Seats refs="SV5 SV6" ListKey="A3SEG2">
         <Location>
           <Column>A</Column>
@@ -4766,448 +4324,6 @@
             </Characteristic>
             <Characteristic>
               <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D26SEG2">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>26</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F26SEG2">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>26</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A27SEG2">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C27SEG2">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D27SEG2">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F27SEG2">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>27</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A28SEG2">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C28SEG2">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D28SEG2">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F28SEG2">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A29SEG2">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C29SEG2">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D29SEG2">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F29SEG2">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A30SEG2">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>H</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C30SEG2">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D30SEG2">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F30SEG2">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A31SEG2">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C31SEG2">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D31SEG2">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F31SEG2">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
             </Characteristic>
           </Characteristics>
         </Location>
@@ -7381,302 +6497,6 @@
           </Characteristics>
         </Location>
       </Seats>
-      <Seats refs="SV5 SV6" ListKey="D28SEG3">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F28SEG3">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A29SEG3">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C29SEG3">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D29SEG3">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F29SEG3">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A30SEG3">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>H</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C30SEG3">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D30SEG3">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F30SEG3">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A31SEG3">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C31SEG3">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D31SEG3">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F31SEG3">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
       <Seats refs="SV5 SV6" ListKey="A3SEG4">
         <Location>
           <Column>A</Column>
@@ -9846,302 +8666,6 @@
           </Characteristics>
         </Location>
       </Seats>
-      <Seats refs="SV5 SV6" ListKey="D28SEG4">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F28SEG4">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>28</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A29SEG4">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C29SEG4">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D29SEG4">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F29SEG4">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>29</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A30SEG4">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>H</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C30SEG4">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D30SEG4">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F30SEG4">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>30</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="A31SEG4">
-        <Location>
-          <Column>A</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="C31SEG4">
-        <Location>
-          <Column>C</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>1A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>LS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="D31SEG4">
-        <Location>
-          <Column>D</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>A</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
-      <Seats refs="SV5 SV6" ListKey="F31SEG4">
-        <Location>
-          <Column>F</Column>
-          <Row>
-            <Number>31</Number>
-          </Row>
-          <Characteristics>
-            <Characteristic>
-              <Code>W</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>DE</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>I</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>RS</Code>
-            </Characteristic>
-            <Characteristic>
-              <Code>V</Code>
-            </Characteristic>
-          </Characteristics>
-        </Location>
-      </Seats>
     </SeatList>
   </DataLists>
   <Metadata>
@@ -10158,7 +8682,7 @@
           <DescriptionMetadata MetadataKey="ID1">
             <AugmentationPoint>
               <AugPoint>
-                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
               </AugPoint>
             </AugmentationPoint>
           </DescriptionMetadata>

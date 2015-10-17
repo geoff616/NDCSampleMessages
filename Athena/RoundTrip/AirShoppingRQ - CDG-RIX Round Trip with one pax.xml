@@ -64,7 +64,7 @@
       <OriginDestination>
         <Departure>
           <AirportCode>CDG</AirportCode>
-          <Date>2015-10-10</Date>
+          <Date>2015-11-10</Date>
         </Departure>
         <Arrival>
           <AirportCode>RIX</AirportCode>
@@ -77,7 +77,7 @@
 	  <OriginDestination>
         <Departure>
           <AirportCode>RIX</AirportCode>
-          <Date>2015-11-10</Date>
+          <Date>2015-12-10</Date>
         </Departure>
         <Arrival>
           <AirportCode>CDG</AirportCode>
@@ -89,19 +89,22 @@
       </OriginDestination>
     </OriginDestinations>
   </CoreQuery>
-  <Preference>
-    <AirlinePreferences>
-      <Airline>
-        <AirlineID>9A</AirlineID>
-      </Airline>
-    </AirlinePreferences>
-    <CabinPreferences>
-      <CabinType>
-        <Code>M</Code>
-        <Definition>Economy/coach discounted</Definition>
-      </CabinType>
-    </CabinPreferences>
-  </Preference>
+  <Preferences>
+		<Preference>
+			<AirlinePreferences>
+				<Airline>
+					<AirlineID>9A</AirlineID>
+				</Airline>
+			</AirlinePreferences>
+		</Preference>
+		<Preference>
+			<CabinPreferences>
+				<CabinType>
+					<Code>M</Code>
+				</CabinType>
+			</CabinPreferences>
+		</Preference>
+	</Preferences>
   <Metadata>
     <Other>
       <OtherMetadata>

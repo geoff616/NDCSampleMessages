@@ -6,7 +6,7 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../AirShoppingRQ.xsd" Version
       <CountryCode>US</CountryCode>
       <CityCode>WAS</CityCode>
     </Location>
-    <RequestTime Zone="EST">2015-10-09T07:38:00</RequestTime>
+    <RequestTime Zone="EST">2015-10-12T07:38:00</RequestTime>
     <TouchPoint>
       <Device>
         <Code>2</Code>
@@ -90,19 +90,23 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../AirShoppingRQ.xsd" Version
       </OriginDestination>
     </OriginDestinations>
   </CoreQuery>
-  <Preference>
-    <AirlinePreferences>
-      <Airline>
-        <AirlineID>C9</AirlineID>
-      </Airline>
-    </AirlinePreferences>
-    <CabinPreferences>
-      <CabinType>
-        <Code>M</Code>
-        <Definition>Economy/coach discounted</Definition>
-      </CabinType>
-    </CabinPreferences>
-  </Preference>
+  <Preferences>
+		<Preference>
+			<AirlinePreferences>
+				<Airline>
+					<AirlineID>C9</AirlineID>
+				</Airline>
+			</AirlinePreferences>
+		</Preference>
+		<Preference>
+			<CabinPreferences>
+				<CabinType>
+					<Code>M</Code>
+					<Definition>Economy/coach discounted</Definition>
+				</CabinType>
+			</CabinPreferences>
+		</Preference>
+	</Preferences>
   <Metadata>
     <Other>
       <OtherMetadata>

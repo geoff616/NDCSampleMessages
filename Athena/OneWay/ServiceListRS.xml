@@ -10,6 +10,49 @@
         <PTC Quantity="1">ADT</PTC>
       </AnonymousTraveler>
     </AnonymousTravelerList>
+    <ServiceBundleList>
+      <ServiceBundle ListKey="BD1">
+        <ItemCount>3</ItemCount>
+        <Associations>
+          <ServiceReference>SV4</ServiceReference>
+          <ServiceReference>SV1</ServiceReference>
+          <ServiceReference>SV2</ServiceReference>
+        </Associations>
+        <Selection>
+          <MaximumQuantity>2</MaximumQuantity>
+        </Selection>
+        <BundleID>B1004</BundleID>
+        <BundleName>Discounted Package</BundleName>
+      </ServiceBundle>
+      <ServiceBundle ListKey="BD2">
+        <ItemCount>4</ItemCount>
+        <Associations>
+          <ServiceReference>SV4</ServiceReference>
+          <ServiceReference>SV1</ServiceReference>
+          <ServiceReference>SV3</ServiceReference>
+          <ServiceReference>SV5</ServiceReference>
+        </Associations>
+        <Selection>
+          <MaximumQuantity>3</MaximumQuantity>
+        </Selection>
+        <BundleID>B1003</BundleID>
+        <BundleName>Flex</BundleName>
+      </ServiceBundle>
+      <ServiceBundle ListKey="BD3">
+        <ItemCount>4</ItemCount>
+        <Associations>
+          <ServiceReference>SV4</ServiceReference>
+          <ServiceReference>SV1</ServiceReference>
+          <ServiceReference>SV2</ServiceReference>
+          <ServiceReference>SV3</ServiceReference>
+        </Associations>
+        <Selection>
+          <MaximumQuantity>2</MaximumQuantity>
+        </Selection>
+        <BundleID>B1002</BundleID>
+        <BundleName>Special Package</BundleName>
+      </ServiceBundle>
+    </ServiceBundleList>
     <ServiceList>
       <Service ObjectKey="SV1">
         <ServiceID Owner="9A">1022</ServiceID>
@@ -66,6 +109,33 @@
         </Price>
       </Service>
       <Service ObjectKey="SV3">
+        <ServiceID Owner="9A">1024</ServiceID>
+        <Name>Premium seating </Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text> Enjoy your journey even before you fly, knowing that the ideal seat is waiting for you.</Text>
+            <Link>http://athena.jrtechnologies.com/ServiceImage/comfort-premium-787-2_title.jpg</Link>
+            <Media>
+              <ObjectID>comfort-premium-787-2_title.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://athena.jrtechnologies.com/ServiceImage/comfort-premium-787-2_title.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>20</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV4">
         <ServiceID Owner="9A">1021</ServiceID>
         <Name>Meal</Name>
         <Encoding />
@@ -92,7 +162,7 @@
           <PassengerReferences>SH1</PassengerReferences>
         </Price>
       </Service>
-      <Service ObjectKey="SV4">
+      <Service ObjectKey="SV5">
         <ServiceID Owner="9A">1025</ServiceID>
         <Name>Excess Baggage</Name>
         <Encoding>
@@ -134,6 +204,17 @@
             <Decimals>2</Decimals>
           </CurrencyMetadata>
         </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
       </OtherMetadata>
     </Other>
   </Metadata>

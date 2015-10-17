@@ -1,4 +1,4 @@
-<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd" Version="1.1.5">
+<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd"  Version="1.1.5">
   <Document>
     <Name>KRONOS NDC GATEWAY</Name>
     <ReferenceVersion>1.0</ReferenceVersion>
@@ -34,7 +34,7 @@
       <OriginDestinationReferences>OD1</OriginDestinationReferences>
     </OriginDestination>
   </Query>
-  <DataLists>
+  <DataList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
         <Departure>
@@ -123,5 +123,5 @@
         <FlightReferences>FL1</FlightReferences>
       </OriginDestination>
     </OriginDestinationList>
-  </DataLists>
+  </DataList>
 </SeatAvailabilityRQ>

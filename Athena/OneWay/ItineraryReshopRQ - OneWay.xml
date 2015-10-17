@@ -52,7 +52,7 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
     <Reshop>
       <Actions>
         <ActionType>Create</ActionType>
-        <OrderID Owner="9A">F9A21I</OrderID>
+        <OrderID Owner="9A">F9A2RI</OrderID>
         <OrderItems>
           <OrderItem>
             <FlightItem>
@@ -135,20 +135,24 @@ xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd">
             <Gender>Male</Gender>
           </Passenger>
         </Passengers>
-        <Preference>
-          <AirlinePreferences>
-            <Airline>
-              <AirlineID>9A</AirlineID>
-            </Airline>
-          </AirlinePreferences>
-          <FarePreferences>
-            <FareCodes>
-              <Code>
-                <Code>ESO</Code>
-              </Code>
-            </FareCodes>
-          </FarePreferences>
-        </Preference>
+			<Preferences>
+				<Preference>
+					<AirlinePreferences>
+						<Airline>
+						  <AirlineID>9A</AirlineID>
+						</Airline>
+					</AirlinePreferences>
+				</Preference>
+				<Preference>
+					<FarePreferences>
+						<FareCodes>
+						  <Code>
+							<Code>ESO</Code>
+						  </Code>
+						</FareCodes>
+					</FarePreferences>
+				</Preference>
+			</Preferences>
       </Actions>
     </Reshop>
   </Query>

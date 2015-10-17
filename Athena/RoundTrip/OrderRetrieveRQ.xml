@@ -49,7 +49,7 @@
 	</Party>
 	<Query>
 		<Filters>
-			<OrderID Owner="9A">F9A23I</OrderID>
+			<OrderID Owner="9A">F9A2PI</OrderID>
 		</Filters>
 	</Query>
 </OrderRetrieveRQ>

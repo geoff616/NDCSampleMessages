@@ -5,10 +5,11 @@
   </Document>
   <Success />
   <Response>
-    <ReShoppingResponseID>
+    <ItinReshopProcessing />
+    <ShoppingResponseIDs>
       <Owner>C9</Owner>
-      <ResponseID>RE9cd621c57a3442718e9a0c1374acd35b</ResponseID>
-    </ReShoppingResponseID>
+      <ResponseID>RE3d9cc571a87a45f69f7f783bfabe44fd</ResponseID>
+    </ShoppingResponseIDs>
     <Passengers>
       <Passenger ObjectKey="PAX1">
         <PTC Quantity="1">ADT</PTC>
@@ -21,7 +22,7 @@
           <Given>Mithalesh</Given>
           <Middle>Ignatius</Middle>
         </Name>
-        <ProfileID>101377609630461</ProfileID>
+        <ProfileID>1096286784150007</ProfileID>
         <Contacts>
           <Contact>
             <AddressContact>
@@ -53,10 +54,10 @@
       </Passenger>
     </Passengers>
     <Order>
-      <OrderID Owner="C9">L9A6S1</OrderID>
+      <OrderID Owner="C9">L9A8W1</OrderID>
       <TotalOrderPrice>
         <DetailCurrencyPrice>
-          <Total Code="EUR">186900</Total>
+          <Total Code="EUR">189300</Total>
           <Taxes>
             <Total Code="EUR">0</Total>
           </Taxes>
@@ -73,11 +74,11 @@
       <ReShopOffer>
         <OfferID Owner="C9">1</OfferID>
         <TimeLimits>
-          <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+          <OfferExpiration Timestamp="2015-10-15T23:59:00" />
         </TimeLimits>
         <TotalPrice>
           <DetailCurrencyPrice>
-            <Total Code="EUR">373800</Total>
+            <Total Code="EUR">376200</Total>
             <Taxes>
               <Total Code="EUR">0</Total>
             </Taxes>
@@ -112,16 +113,16 @@
             <RequestedDate>
               <PriceDetail>
                 <TotalAmount>
-                  <SimpleCurrencyPrice Code="EUR">186900</SimpleCurrencyPrice>
+                  <SimpleCurrencyPrice Code="EUR">189300</SimpleCurrencyPrice>
                 </TotalAmount>
-                <BaseAmount Code="EUR">186900</BaseAmount>
+                <BaseAmount Code="EUR">189300</BaseAmount>
                 <Taxes>
                   <Total Code="EUR">0</Total>
                 </Taxes>
               </PriceDetail>
               <Associations>
                 <AssociatedTraveler>
-                  <TravelerReferences />
+                  <TravelerReferences>PAX1</TravelerReferences>
                 </AssociatedTraveler>
                 <AssociatedService>
                   <ServiceReferences>SV1 SV2</ServiceReferences>
@@ -145,7 +146,7 @@
                   <TravelerReferences>PAX2</TravelerReferences>
                 </AssociatedTraveler>
                 <IncludedService>
-                  <ServiceReferences>SV1 NSV1</ServiceReferences>
+                  <ServiceReferences>NSV2</ServiceReferences>
                 </IncludedService>
                 <AssociatedService>
                   <ServiceReferences>SV2</ServiceReferences>
@@ -187,12 +188,12 @@
         <ReshopDifferential>
           <OriginalOrder>
             <Total>
-              <Amount>186900</Amount>
+              <Amount>189300</Amount>
             </Total>
           </OriginalOrder>
           <NewOffer>
             <Total>
-              <Amount>373800</Amount>
+              <Amount>376200</Amount>
             </Total>
           </NewOffer>
           <PenaltyAmount>
@@ -216,18 +217,16 @@
         </ReshopDifferential>
       </ReShopOffer>
     </ReShopOffers>
-    <DataLists>
+    <DataList>
       <FlightSegmentList>
         <FlightSegment SegmentKey="SEG1">
-          <Departure>
+          <Departure Time="06:00">
             <AirportCode>ARN</AirportCode>
             <Date>2016-05-05</Date>
-            <Time>06:00</Time>
           </Departure>
-          <Arrival>
+          <Arrival Time="08:10">
             <AirportCode>FRA</AirportCode>
             <Date>2016-05-05</Date>
-            <Time>08:10</Time>
             <AirportName>Frankfurt International</AirportName>
           </Arrival>
           <MarketingCarrier>
@@ -251,16 +250,14 @@
           </FlightDetail>
         </FlightSegment>
         <FlightSegment SegmentKey="SEG2">
-          <Departure>
+          <Departure Time="09:50">
             <AirportCode>FRA</AirportCode>
             <Date>2016-05-05</Date>
-            <Time>09:50</Time>
             <AirportName>Frankfurt International</AirportName>
           </Departure>
-          <Arrival>
+          <Arrival Time="12:55">
             <AirportCode>RIX</AirportCode>
             <Date>2016-05-05</Date>
-            <Time>12:55</Time>
             <AirportName>Riga International</AirportName>
           </Arrival>
           <MarketingCarrier>
@@ -334,7 +331,7 @@
           </Settlement>
           <Price>
             <Total>0</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -367,7 +364,11 @@
           </Settlement>
           <Price>
             <Total>2400</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
+          </Price>
+          <Price>
+            <Total>2400</Total>
+            <PassengerReferences>PAX2</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -375,7 +376,7 @@
             </Flight>
           </Associations>
         </Service>
-        <Service ObjectKey="NSV1">
+        <Service ObjectKey="NSV2">
           <ServiceID Owner="C9">1018</ServiceID>
           <Name>Special Assistance</Name>
           <Encoding />
@@ -412,7 +413,7 @@
           </Associations>
         </Service>
       </ServiceList>
-    </DataLists>
+    </DataList>
     <Metadata>
       <Other>
         <OtherMetadata>
@@ -427,7 +428,7 @@
             <DescriptionMetadata MetadataKey="ID1">
               <AugmentationPoint>
                 <AugPoint>
-                  <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                  <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
                 </AugPoint>
               </AugmentationPoint>
             </DescriptionMetadata>

@@ -108,13 +108,13 @@
     <OrderItems>
       <ShoppingResponse>
         <Owner>9A</Owner>
-        <ResponseID>RE7f3f57ad0f464ccc8000d80821c914a9</ResponseID>
+        <ResponseID>RE80143224f0c2497988fe6d1b2925569e</ResponseID>
         <Offers>
           <Offer>
             <OfferID Owner="9A">1</OfferID>
             <OfferItems>
               <OfferItem>
-                <OfferItemID Owner="9A">1#M#111174806#111178186</OfferItemID>
+                <OfferItemID Owner="9A">1#M#111186373#111192206</OfferItemID>
                 <Passengers>
                   <PassengerReference>PAX1</PassengerReference>
                 </Passengers>
@@ -130,10 +130,10 @@
             </OfferItems>
           </Offer>
           <Offer>
-            <OfferID Owner="9A">2</OfferID>
+            <OfferID Owner="9A">9</OfferID>
             <OfferItems>
               <OfferItem>
-                <OfferItemID Owner="9A">1#M#111161070#111163316</OfferItemID>
+                <OfferItemID Owner="9A">1#M#111187465#111171127</OfferItemID>
                 <Passengers>
                   <PassengerReference>PAX1</PassengerReference>
                 </Passengers>
@@ -214,7 +214,7 @@
         </Settlement>
         <Price>
           <Total>0</Total>
-          <PassengerReferences>SH1</PassengerReferences>
+          <PassengerReferences>PAX1</PassengerReferences>
         </Price>
       </Service>
       <Service ObjectKey="SV2">
@@ -242,7 +242,7 @@
         </Settlement>
         <Price>
           <Total>500</Total>
-          <PassengerReferences>SH1</PassengerReferences>
+          <PassengerReferences>PAX1</PassengerReferences>
         </Price>
       </Service>
       </ServiceList>

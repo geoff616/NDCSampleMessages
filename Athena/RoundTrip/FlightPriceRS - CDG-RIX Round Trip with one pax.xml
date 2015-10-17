@@ -4,10 +4,10 @@
     <ReferenceVersion>1.0</ReferenceVersion>
   </Document>
   <Success />
-  <ShoppingResponseID>
+  <ShoppingResponseIDs>
     <Owner>9A</Owner>
-    <ResponseID>RE046b8efc680641ffa8e8617fd1a2103b</ResponseID>
-  </ShoppingResponseID>
+    <ResponseID>REc859ea624d7047efb17faac02bf3eac5</ResponseID>
+  </ShoppingResponseIDs>
   <PricedFlightOffers>
     <PricedFlightOffer>
       <OfferID Owner="9A">1</OfferID>
@@ -15,9 +15,9 @@
         <RequestedDate>
           <PriceDetail>
             <TotalAmount>
-              <SimpleCurrencyPrice Code="EUR">319600</SimpleCurrencyPrice>
+              <SimpleCurrencyPrice Code="EUR">246400</SimpleCurrencyPrice>
             </TotalAmount>
-            <BaseAmount Code="EUR">319600</BaseAmount>
+            <BaseAmount Code="EUR">246400</BaseAmount>
             <Taxes>
               <Total Code="EUR">0</Total>
             </Taxes>
@@ -32,25 +32,25 @@
           <FareComponent>
             <FareBasis>
               <FareBasisCode>
-                <Code>EFR</Code>
+                <Code>ESR</Code>
               </FareBasisCode>
             </FareBasis>
           </FareComponent>
         </FareDetail>
       </OfferPrice>
       <TimeLimits>
-        <OfferExpiration Timestamp="2015-10-10T23:59:00" />
+        <OfferExpiration Timestamp="2015-10-15T23:59:00" />
       </TimeLimits>
       <Associations>
         <ApplicableFlight>
-          <OriginDestinationReferences>OD2</OriginDestinationReferences>
-          <FlightReferences>FL2</FlightReferences>
-          <FlightSegmentReference ref="SEG3">
+          <OriginDestinationReferences>OD1</OriginDestinationReferences>
+          <FlightReferences>FL1</FlightReferences>
+          <FlightSegmentReference ref="SEG1">
             <Cabin>
               <CabinDesignator>M</CabinDesignator>
             </Cabin>
           </FlightSegmentReference>
-          <FlightSegmentReference ref="SEG4">
+          <FlightSegmentReference ref="SEG2">
             <Cabin>
               <CabinDesignator>M</CabinDesignator>
             </Cabin>
@@ -76,15 +76,13 @@
     </AnonymousTravelerList>
     <FlightSegmentList>
       <FlightSegment SegmentKey="SEG1">
-        <Departure>
+        <Departure Time="18:15">
           <AirportCode>CDG</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>17:30</Time>
+          <Date>2015-11-10</Date>
         </Departure>
-        <Arrival>
+        <Arrival Time="19:30">
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>19:05</Time>
+          <Date>2015-11-10</Date>
           <AirportName>Frankfurt International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -103,21 +101,19 @@
         </Equipment>
         <FlightDetail>
           <FlightDuration>
-            <Value>PT1H35M</Value>
+            <Value>PT1H15M</Value>
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
       <FlightSegment SegmentKey="SEG2">
-        <Departure>
+        <Departure Time="20:05">
           <AirportCode>FRA</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>20:25</Time>
+          <Date>2015-11-10</Date>
           <AirportName>Frankfurt International</AirportName>
         </Departure>
-        <Arrival>
+        <Arrival Time="06:00">
           <AirportCode>RIX</AirportCode>
-          <Date>2015-10-10</Date>
-          <Time>23:30</Time>
+          <Date>2015-11-12</Date>
           <AirportName>Riga International</AirportName>
         </Arrival>
         <MarketingCarrier>
@@ -136,72 +132,7 @@
         </Equipment>
         <FlightDetail>
           <FlightDuration>
-            <Value>PT3H5M</Value>
-          </FlightDuration>
-        </FlightDetail>
-      </FlightSegment>
-      <FlightSegment SegmentKey="SEG3">
-        <Departure>
-          <AirportCode>RIX</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>14:30</Time>
-          <AirportName>Riga International</AirportName>
-        </Departure>
-        <Arrival>
-          <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>15:50</Time>
-          <AirportName>Frankfurt International</AirportName>
-        </Arrival>
-        <MarketingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>3891</FlightNumber>
-        </MarketingCarrier>
-        <OperatingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>3891</FlightNumber>
-        </OperatingCarrier>
-        <Equipment>
-          <AircraftCode>E95</AircraftCode>
-          <Name>E95 - EMBRAER 195 JET</Name>
-        </Equipment>
-        <FlightDetail>
-          <FlightDuration>
-            <Value>PT1H20M</Value>
-          </FlightDuration>
-        </FlightDetail>
-      </FlightSegment>
-      <FlightSegment SegmentKey="SEG4">
-        <Departure>
-          <AirportCode>FRA</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>17:45</Time>
-          <AirportName>Frankfurt International</AirportName>
-        </Departure>
-        <Arrival>
-          <AirportCode>CDG</AirportCode>
-          <Date>2015-11-10</Date>
-          <Time>18:00</Time>
-        </Arrival>
-        <MarketingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
-        </MarketingCarrier>
-        <OperatingCarrier>
-          <AirlineID>9A</AirlineID>
-          <Name>Athena Air</Name>
-          <FlightNumber>4046</FlightNumber>
-        </OperatingCarrier>
-        <Equipment>
-          <AircraftCode>E95</AircraftCode>
-          <Name>E95 - EMBRAER 195 JET</Name>
-        </Equipment>
-        <FlightDetail>
-          <FlightDuration>
-            <Value>PT0H15M</Value>
+            <Value>PT33H55M</Value>
           </FlightDuration>
         </FlightDetail>
       </FlightSegment>
@@ -209,15 +140,9 @@
     <FlightList>
       <Flight FlightKey="FL1">
         <Journey>
-          <Time>PT6H0M</Time>
+          <Time>PT11H45M</Time>
         </Journey>
         <SegmentReferences>SEG1 SEG2</SegmentReferences>
-      </Flight>
-      <Flight FlightKey="FL2">
-        <Journey>
-          <Time>PT3H30M</Time>
-        </Journey>
-        <SegmentReferences>SEG3 SEG4</SegmentReferences>
       </Flight>
     </FlightList>
     <OriginDestinationList>
@@ -229,15 +154,15 @@
       <OriginDestination OriginDestinationKey="OD2">
         <DepartureCode>RIX</DepartureCode>
         <ArrivalCode>CDG</ArrivalCode>
-        <FlightReferences>FL2</FlightReferences>
+        <FlightReferences />
       </OriginDestination>
     </OriginDestinationList>
     <PriceClassList>
       <PriceClass ObjectKey="PC1">
-        <Name>M-EFR</Name>
+        <Name>M-ESR</Name>
         <Code>M</Code>
         <FareBasisCode>
-          <Code>EFR</Code>
+          <Code>ESR</Code>
         </FareBasisCode>
       </PriceClass>
     </PriceClassList>
@@ -274,7 +199,7 @@
             <TravelerReferences>SH1</TravelerReferences>
           </Traveler>
           <Flight>
-            <SegmentReferences>SEG3 SEG4</SegmentReferences>
+            <SegmentReferences>SEG1 SEG2</SegmentReferences>
           </Flight>
         </Associations>
       </Service>
@@ -310,7 +235,7 @@
             <TravelerReferences>SH1</TravelerReferences>
           </Traveler>
           <Flight>
-            <SegmentReferences>SEG3 SEG4</SegmentReferences>
+            <SegmentReferences>SEG1 SEG2</SegmentReferences>
           </Flight>
         </Associations>
       </Service>
@@ -330,7 +255,7 @@
           <DescriptionMetadata MetadataKey="ID1">
             <AugmentationPoint>
               <AugPoint>
-                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
               </AugPoint>
             </AugmentationPoint>
           </DescriptionMetadata>

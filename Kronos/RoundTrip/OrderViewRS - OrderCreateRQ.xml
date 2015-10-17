@@ -28,6 +28,7 @@
   </Party>
   <Success />
   <Response>
+    <OrderViewProcessing />
     <Passengers>
       <Passenger ObjectKey="PAX1">
         <PTC Quantity="1">ADT</PTC>
@@ -69,15 +70,16 @@
       </Passenger>
     </Passengers>
     <Order>
-      <OrderID Owner="C9">L9A821</OrderID>
+      <OrderID Owner="C9">L9A8X1</OrderID>
       <BookingReferences>
         <BookingReference>
-          <ID>d9b33021d29f4fd1b67773bc3bf8b91a</ID>
+          <ID>a2672b70c0ec4d06a99c4b8469fb9d68</ID>
+          <AirlineID>C9</AirlineID>
         </BookingReference>
       </BookingReferences>
       <TotalOrderPrice>
         <DetailCurrencyPrice>
-          <Total Code="EUR">658600</Total>
+          <Total Code="EUR">663400</Total>
           <Taxes>
             <Total>0</Total>
           </Taxes>
@@ -90,15 +92,13 @@
             <OriginDestination>
               <Flight>
                 <SegmentKey>SEG1</SegmentKey>
-                <Departure>
+                <Departure Time="18:35">
                   <AirportCode>ARN</AirportCode>
                   <Date>2016-01-30</Date>
-                  <Time>18:35</Time>
                 </Departure>
-                <Arrival>
+                <Arrival Time="20:45">
                   <AirportCode>FRA</AirportCode>
                   <Date>2016-01-30</Date>
-                  <Time>20:45</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -118,16 +118,14 @@
               </Flight>
               <Flight>
                 <SegmentKey>SEG2</SegmentKey>
-                <Departure>
+                <Departure Time="21:15">
                   <AirportCode>FRA</AirportCode>
                   <Date>2016-01-30</Date>
-                  <Time>21:15</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="20:00">
                   <AirportCode>RIX</AirportCode>
                   <Date>2016-01-31</Date>
-                  <Time>20:00</Time>
                   <AirportName>Riga International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -149,16 +147,14 @@
             <OriginDestination>
               <Flight>
                 <SegmentKey>SEG6</SegmentKey>
-                <Departure>
+                <Departure Time="16:00">
                   <AirportCode>FRA</AirportCode>
                   <Date>2016-06-25</Date>
-                  <Time>16:00</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="18:00">
                   <AirportCode>ARN</AirportCode>
                   <Date>2016-06-25</Date>
-                  <Time>18:00</Time>
                 </Arrival>
                 <MarketingCarrier>
                   <AirlineID>C9</AirlineID>
@@ -177,16 +173,14 @@
               </Flight>
               <Flight>
                 <SegmentKey>SEG5</SegmentKey>
-                <Departure>
+                <Departure Time="14:15">
                   <AirportCode>RIX</AirportCode>
                   <Date>2016-06-25</Date>
-                  <Time>14:15</Time>
                   <AirportName>Riga International</AirportName>
                 </Departure>
-                <Arrival>
+                <Arrival Time="15:30">
                   <AirportCode>FRA</AirportCode>
                   <Date>2016-06-25</Date>
-                  <Time>15:30</Time>
                   <AirportName>Frankfurt International</AirportName>
                 </Arrival>
                 <MarketingCarrier>
@@ -211,14 +205,16 @@
               <PassengerReferences>PAX1</PassengerReferences>
             </Passengers>
             <IncludedService>
-              <ServiceReferences>SV1 SV2 </ServiceReferences>
+              <ServiceReferences>SV1 </ServiceReferences>
             </IncludedService>
+            <AssociatedService>
+              <ServiceReferences>SV2 </ServiceReferences>
+            </AssociatedService>
           </Associations>
         </OrderItem>
       </OrderItems>
     </Order>
-    <TicketDocInfos />
-    <DataLists>
+    <DataList>
       <ServiceList>
         <Service ObjectKey="SV1">
           <ServiceID Owner="C9">1011</ServiceID>
@@ -245,7 +241,7 @@
           </Settlement>
           <Price>
             <Total>0</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -278,7 +274,7 @@
           </Settlement>
           <Price>
             <Total>2400</Total>
-            <PassengerReferences>SH1</PassengerReferences>
+            <PassengerReferences>PAX1</PassengerReferences>
           </Price>
           <Associations>
             <Flight>
@@ -287,7 +283,7 @@
           </Associations>
         </Service>
       </ServiceList>
-    </DataLists>
+    </DataList>
     <Metadata>
       <Other>
         <OtherMetadata>
@@ -296,6 +292,17 @@
               <Decimals>2</Decimals>
             </CurrencyMetadata>
           </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
         </OtherMetadata>
       </Other>
     </Metadata>

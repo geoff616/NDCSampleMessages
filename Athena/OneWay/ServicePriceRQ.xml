@@ -24,7 +24,7 @@
       </TravelAgencySender>
     </Sender>
   </Party>
-  <ShoppingResponseID>
-    <ResponseID>RE27fde61becf843419639ed243c2468a6</ResponseID>
-  </ShoppingResponseID>
+  <ShoppingResponseIDs>
+    <ResponseID>RE6ac7227515a047a581d722971b9fa28f</ResponseID>
+  </ShoppingResponseIDs>
 </ServicePriceRQ>
