@@ -1,0 +1,30 @@
+<ServicePriceRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ServicePriceRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="219">
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<ShoppingResponseIDs>
+		<ResponseID>RE8fa365eb63fa4f9ea37e4e28aee7aa5c</ResponseID>
+	</ShoppingResponseIDs>
+</ServicePriceRQ>

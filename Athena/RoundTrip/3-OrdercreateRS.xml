@@ -1,0 +1,407 @@
+<OrderViewRS TimeStamp="0001-01-01T00:00:00" Version="15.2" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document>
+    <Name>9A</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>ndc@usdtravel.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <PseudoCity>A4A</PseudoCity>
+        <IATA_Number>98417900</IATA_Number>
+        <AgencyID Owner="9A">9A</AgencyID>
+        <AgentUser>
+          <Name>ksmith</Name>
+          <AgentUserID>ramesh@jrt.com</AgentUserID>
+          <UserRole>ADMIN</UserRole>
+        </AgentUser>
+      </TravelAgencySender>
+    </Sender>
+    <Participants xsi:nil="true" />
+    <Recipient xsi:nil="true" />
+  </Party>
+  <Success />
+  <Response>
+    <OrderViewProcessing />
+    <Passengers>
+      <Passenger ObjectKey="PAX1">
+        <PTC Quantity="1">INF</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2015-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudraa</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>101386368396009</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>Rudraa@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX2">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>103271770408001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX3">
+        <PTC Quantity="1">CHD</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2007-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rashi</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>103575700796006</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>rashi@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+    </Passengers>
+    <Order>
+      <OrderID Owner="9A">F9A2X1</OrderID>
+      <BookingReferences>
+        <BookingReference>
+          <ID>39ddfb</ID>
+          <AirlineID>9A</AirlineID>
+        </BookingReference>
+      </BookingReferences>
+      <TotalOrderPrice>
+        <DetailCurrencyPrice>
+          <Total Code="EUR">162492</Total>
+          <Taxes>
+            <Total>79218</Total>
+          </Taxes>
+        </DetailCurrencyPrice>
+      </TotalOrderPrice>
+      <OrderItems>
+        <OrderItem>
+          <OrderItemID Owner="JRT">3#M#111174343</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight refs="SEG1">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2016-05-10</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>LHR</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3900</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+            <OriginDestination>
+              <Flight refs="SEG13">
+                <Departure>
+                  <AirportCode>LHR</AirportCode>
+                  <Date>2016-05-10</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>FRA</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3901</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX1</PassengerReferences>
+            </Passengers>
+          </Associations>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="JRT">1#M#111174343</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight refs="SEG1">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2016-05-10</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>LHR</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3900</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+            <OriginDestination>
+              <Flight refs="SEG13">
+                <Departure>
+                  <AirportCode>LHR</AirportCode>
+                  <Date>2016-05-10</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>FRA</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3901</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX2</PassengerReferences>
+            </Passengers>
+          </Associations>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="JRT">2#M#111174343</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight refs="SEG1">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2016-05-10</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>LHR</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3900</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+            <OriginDestination>
+              <Flight refs="SEG13">
+                <Departure>
+                  <AirportCode>LHR</AirportCode>
+                  <Date>2016-05-10</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>FRA</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>3901</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX3</PassengerReferences>
+            </Passengers>
+          </Associations>
+        </OrderItem>
+      </OrderItems>
+    </Order>
+    <DataList>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>07:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>LHR</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>07:20</Time>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3900</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3900</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT0H-20M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG13">
+          <Departure>
+            <AirportCode>LHR</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>08:20</Time>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>11:55</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3901</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3901</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT3H35M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <SegmentReferences>SEG1</SegmentReferences>
+        </Flight>
+        <Flight FlightKey="FL2">
+          <SegmentReferences>SEG13</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>LHR</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+        <OriginDestination OriginDestinationKey="OD2">
+          <DepartureCode>LHR</DepartureCode>
+          <ArrivalCode>FRA</ArrivalCode>
+          <FlightReferences>FL2</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+    </DataList>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Response>
+</OrderViewRS>

@@ -1,0 +1,320 @@
+<ItinReshopRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="16.1" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <Response>
+    <ItinReshopProcessing />
+    <ReShoppingResponseID>
+      <Owner>9A</Owner>
+      <ResponseID>RE0293e6d6dcea470192b0215e81cb04fc</ResponseID>
+    </ReShoppingResponseID>
+    <Passengers>
+      <Passenger ObjectKey="PAX1">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-05</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>105062344143001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX2">
+        <PTC Quantity="1">CHD</PTC>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudra</Given>
+        </Name>
+        <Gender>Male</Gender>
+      </Passenger>
+    </Passengers>
+    <Order>
+      <OrderID Owner="9A">F9A2Y1</OrderID>
+      <TotalOrderPrice>
+        <DetailCurrencyPrice>
+          <Total Code="EUR">64633</Total>
+          <Taxes>
+            <Total Code="EUR">54191</Total>
+          </Taxes>
+        </DetailCurrencyPrice>
+      </TotalOrderPrice>
+      <TotalOrderItemQuantity>1</TotalOrderItemQuantity>
+      <OrderItems>
+        <OrderItem>
+          <OrderItemID Owner="9A">1#M#110013557#210013557</OrderItemID>
+        </OrderItem>
+      </OrderItems>
+    </Order>
+    <ReShopOffers>
+      <ReShopOffer>
+        <OfferID Owner="9A">1</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2016-05-06T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">153496</Total>
+            <Taxes>
+              <Total Code="EUR">108382</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <Penalty>
+          <Details>
+            <Detail>
+              <Type>Changes/Cancellation/NoShow</Type>
+              <Amounts>
+                <Amount>
+                  <CurrencyAmountValue>100</CurrencyAmountValue>
+                  <ApplicableFeeRemarks>
+                    <Remark>The penalty for changes or cancellations after the order is placed is 100 Euros. Non refundable for no-show. </Remark>
+                  </ApplicableFeeRemarks>
+                </Amount>
+              </Amounts>
+            </Detail>
+          </Details>
+        </Penalty>
+        <ReShopPricedOffer>
+          <OfferPrice OfferItemID="1#M#110013557#210013557">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">118824</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">64633</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">54191</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="2#M#110013557#210013557">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">88863</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">34672</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">54191</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX2</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>EFO</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL1</FlightReferences>
+              <FlightSegmentReference ref="SEG1">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                  <MarketingName />
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG2">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                  <MarketingName />
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC1</PriceClassReference>
+            </PriceClass>
+          </Associations>
+        </ReShopPricedOffer>
+        <ReshopDifferential>
+          <OriginalOrder>
+            <Total>
+              <Amount>64633</Amount>
+            </Total>
+          </OriginalOrder>
+          <NewOffer>
+            <Total>
+              <Amount>153496</Amount>
+            </Total>
+          </NewOffer>
+          <PenaltyAmount>
+            <Total>
+              <Amount>0</Amount>
+            </Total>
+          </PenaltyAmount>
+          <FeesAmount>
+            <Total>
+              <Amount>0</Amount>
+            </Total>
+          </FeesAmount>
+          <ReshopDue>
+            <ByPassenger>
+              <Total>
+                <Amount>88863</Amount>
+                <AmountType>ADC</AmountType>
+              </Total>
+            </ByPassenger>
+          </ReshopDue>
+        </ReshopDifferential>
+      </ReShopOffer>
+    </ReShopOffers>
+    <DataLists>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>09:25</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>ATH</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>13:10</Time>
+            <AirportName>Athens Eleftherios Venizelos</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT3H45M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>ATH</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>18:10</Time>
+            <AirportName>Athens Eleftherios Venizelos</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>DXB</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>22:50</Time>
+            <AirportName>Dubai International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT4H40M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <Journey>
+            <Time>PT13H25M</Time>
+          </Journey>
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>DXB</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+      <PriceClassList>
+        <PriceClass ObjectKey="PC1">
+          <Name>M-EFO</Name>
+          <Code>M</Code>
+          <FareBasisCode>
+            <Code>EFO</Code>
+          </FareBasisCode>
+        </PriceClass>
+      </PriceClassList>
+      <ServiceList />
+    </DataLists>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Response>
+</ItinReshopRS>

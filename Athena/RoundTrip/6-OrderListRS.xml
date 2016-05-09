@@ -1,0 +1,47 @@
+<OrderListRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document>
+    <Name>ATHENA NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <Response>
+    <OrderListProcessing />
+    <Orders>
+      <Order>
+        <Agency>
+          <AgencyID>9A</AgencyID>
+          <Name>Athena</Name>
+          <IATA_Number>98417900</IATA_Number>
+        </Agency>
+        <CreationDate>2016-05-05</CreationDate>
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-08</Date>
+        </Departure>
+        <Passengers>
+          <FullName>Rudra Patel</FullName>
+          <FullName>Ramesh Patel</FullName>
+        </Passengers>
+        <OrderID xsi:type="xsd:string">F9A2Y1</OrderID>
+      </Order>
+      <Order>
+        <Agency>
+          <AgencyID>C9</AgencyID>
+        </Agency>
+        <CreationDate>2016-05-05</CreationDate>
+        <Departure>
+          <AirportCode>LHR</AirportCode>
+          <Date>2016-05-10</Date>
+        </Departure>
+        <Passengers>
+          <FullName>Johnny Smith</FullName>
+          <FullName>Rashi Patel</FullName>
+          <FullName>Johnny Smith</FullName>
+          <FullName>Rudraa Patel</FullName>
+          <FullName>Ramesh Patel</FullName>
+        </Passengers>
+        <OrderID xsi:type="xsd:string">F9A2W1</OrderID>
+      </Order>
+    </Orders>
+  </Response>
+</OrderListRS>

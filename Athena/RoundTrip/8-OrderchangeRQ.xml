@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderChangeRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST 
+OrderChangeRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="101">
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Query>
+	<Passengers>
+      <Passenger ObjectKey="PAX1">
+        <PTC Quantity="1">CHD</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2007-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rashi</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>103575700796006</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>rashi@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX2">
+        <PTC Quantity="1">INF</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2015-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudraa</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>101386368396009</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>Rudraa@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX3">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>103271770408001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX4">
+        <PTC Quantity="1">CHD</PTC>
+        <Name>
+          <Surname>Smith</Surname>
+          <Given>Johnny</Given>
+        </Name>
+        <Gender>Male</Gender>
+      </Passenger>
+    </Passengers>
+		<Order>
+			<OrderID Owner="C9">F9A2X1</OrderID>
+			<Details>
+				<ShoppingResponse>
+					<Owner>C9</Owner>
+					<ResponseID>REe80097e44f2e45d3bbcc1efe297bbbee</ResponseID>
+					<OfferID Owner="C9">1</OfferID>
+					<OfferID Owner="C9">2</OfferID>
+				</ShoppingResponse>
+			</Details>
+			<ActionType>Create</ActionType>
+			<OrderItems>
+				<OrderItem>
+					<OrderItemID Owner="C9">4#M#111174343</OrderItemID>
+					<Associations>
+						<Passengers>
+							<Passenger refs="PAX4">
+								<PTC Quantity="1">CHD</PTC>
+								<Name>
+									<Surname>Patel</Surname>
+									<Given>Rudra</Given>
+								</Name>
+								<Gender>Male</Gender>
+							</Passenger>
+						</Passengers>
+						<Flight>
+							<OriginDestinationReferences>OD1</OriginDestinationReferences>
+						</Flight>
+					</Associations>
+					<ActionType>Create</ActionType>
+				</OrderItem>
+				<OrderItem>
+					<OrderItemID Owner="C9">4#M#111174326</OrderItemID>
+					<Associations>
+						<Passengers>
+							<Passenger refs="PAX4">
+								<PTC Quantity="1">CHD</PTC>
+								<Name>
+									<Surname>Patel</Surname>
+									<Given>Rudra</Given>
+								</Name>
+								<Gender>Male</Gender>
+							</Passenger>
+						</Passengers>
+						<Flight>
+							<OriginDestinationReferences>OD2</OriginDestinationReferences>
+						</Flight>
+					</Associations>
+					<ActionType>Create</ActionType>
+				</OrderItem>
+			</OrderItems>
+		</Order>
+	</Query>
+	<DataList>
+		<FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>07:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>LHR</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>07:20</Time>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3900</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3900</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT0H-20M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG13">
+          <Departure>
+            <AirportCode>LHR</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>08:20</Time>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-10</Date>
+            <Time>11:55</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3901</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>3901</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>E95</AircraftCode>
+            <Name>E95 - EMBRAER 195 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT3H35M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <Journey>
+            <Time>PT0H20M</Time>
+          </Journey>
+          <SegmentReferences>SEG1</SegmentReferences>
+        </Flight>
+        <Flight FlightKey="FL2">
+          <Journey>
+            <Time>PT3H35M</Time>
+          </Journey>
+          <SegmentReferences>SEG13</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>LHR</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+        <OriginDestination OriginDestinationKey="OD2">
+          <DepartureCode>LHR</DepartureCode>
+          <ArrivalCode>FRA</ArrivalCode>
+          <FlightReferences>FL2</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+	</DataList>
+</OrderChangeRQ>

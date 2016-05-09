@@ -1,0 +1,125 @@
+<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="201">
+	<Document>
+		<Name>ATHENA NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="9A">9A</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Parameters>
+		<CurrCodes>
+			<CurrCode>EUR</CurrCode>
+		</CurrCodes>
+	</Parameters>
+	<Query>
+		<OriginDestination>
+			<OriginDestinationReferences>OD1</OriginDestinationReferences>
+		</OriginDestination>
+	</Query>
+	<DataList>
+		<FlightSegmentList>
+			<FlightSegment SegmentKey="SEG1">
+				<Departure>
+				  <AirportCode>FRA</AirportCode>
+				  <Date>2016-05-08</Date>
+				  <Time>09:25</Time>
+				  <AirportName>Frankfurt International</AirportName>
+				</Departure>
+				<Arrival>
+				  <AirportCode>ATH</AirportCode>
+				  <Date>2016-05-08</Date>
+				  <Time>13:10</Time>
+				  <AirportName>Athens Eleftherios Venizelos</AirportName>
+				</Arrival>
+				<MarketingCarrier>
+				  <AirlineID>9A</AirlineID>
+				  <Name>Athena Air</Name>
+				  <FlightNumber>1278</FlightNumber>
+				</MarketingCarrier>
+				<OperatingCarrier>
+				  <AirlineID>9A</AirlineID>
+				  <Name>Athena Air</Name>
+				  <FlightNumber>1278</FlightNumber>
+				</OperatingCarrier>
+				<Equipment>
+				  <AircraftCode>321</AircraftCode>
+				  <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+				</Equipment>
+				<FlightDetail>
+				  <FlightDuration>
+					<Value>PT3H45M</Value>
+				  </FlightDuration>
+				</FlightDetail>
+				 <ClassOfService>
+					<Code>M</Code>
+				  </ClassOfService>
+			  </FlightSegment>
+			  <FlightSegment SegmentKey="SEG2">
+				<Departure>
+				  <AirportCode>ATH</AirportCode>
+				  <Date>2016-05-08</Date>
+				  <Time>18:10</Time>
+				  <AirportName>Athens Eleftherios Venizelos</AirportName>
+				</Departure>
+				<Arrival>
+				  <AirportCode>DXB</AirportCode>
+				  <Date>2016-05-08</Date>
+				  <Time>22:50</Time>
+				  <AirportName>Dubai International</AirportName>
+				</Arrival>
+				<MarketingCarrier>
+				  <AirlineID>9A</AirlineID>
+				  <Name>Athena Air</Name>
+				  <FlightNumber>1278</FlightNumber>
+				</MarketingCarrier>
+				<OperatingCarrier>
+				  <AirlineID>9A</AirlineID>
+				  <Name>Athena Air</Name>
+				  <FlightNumber>1278</FlightNumber>
+				</OperatingCarrier>
+				<Equipment>
+				  <AircraftCode>321</AircraftCode>
+				  <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+				</Equipment>
+				<FlightDetail>
+				  <FlightDuration>
+					<Value>PT4H40M</Value>
+				  </FlightDuration>
+				</FlightDetail>
+				 <ClassOfService>
+					<Code>M</Code>
+				  </ClassOfService>
+			  </FlightSegment>
+		</FlightSegmentList>
+		<FlightList>
+			<Flight FlightKey="FL1">
+				<SegmentReferences>SEG1 SEG2</SegmentReferences>
+			</Flight>
+		</FlightList>
+		<OriginDestinationList>
+			<OriginDestination OriginDestinationKey="OD1">
+				<DepartureCode>FRA</DepartureCode>
+				<ArrivalCode>DXB</ArrivalCode>
+				<FlightReferences>FL1</FlightReferences>
+			</OriginDestination>
+		</OriginDestinationList>
+	</DataList>
+</SeatAvailabilityRQ>

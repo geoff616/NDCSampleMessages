@@ -1,0 +1,237 @@
+<OrderViewRS TimeStamp="0001-01-01T00:00:00" Version="15.2" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document>
+    <Name>9A</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>ndc@usdtravel.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <PseudoCity>A4A</PseudoCity>
+        <IATA_Number>98417900</IATA_Number>
+        <AgencyID Owner="9A">9A</AgencyID>
+        <AgentUser>
+          <Name>ksmith</Name>
+          <AgentUserID>ramesh@jrt.com</AgentUserID>
+          <UserRole>ADMIN</UserRole>
+        </AgentUser>
+      </TravelAgencySender>
+    </Sender>
+    <Participants xsi:nil="true" />
+    <Recipient xsi:nil="true" />
+  </Party>
+  <Success />
+  <Response>
+    <OrderViewProcessing />
+    <Passengers>
+      <Passenger ObjectKey="PAX1">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>105062344143001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+    </Passengers>
+    <Order>
+      <OrderID Owner="9A">F9A2Y1</OrderID>
+      <BookingReferences>
+        <BookingReference>
+          <ID>64702b</ID>
+          <AirlineID>9A</AirlineID>
+        </BookingReference>
+      </BookingReferences>
+      <TotalOrderPrice>
+        <DetailCurrencyPrice>
+          <Total Code="EUR">64633</Total>
+          <Taxes>
+            <Total>54191</Total>
+          </Taxes>
+        </DetailCurrencyPrice>
+      </TotalOrderPrice>
+      <OrderItems>
+        <OrderItem>
+          <OrderItemID Owner="JRT">1#M#110013557#210013557</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight refs="SEG1">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2016-05-08</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>ATH</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>1278</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+              <Flight refs="SEG2">
+                <Departure>
+                  <AirportCode>ATH</AirportCode>
+                  <Date>2016-05-08</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>DXB</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>9A</AirlineID>
+                  <Name>Athena Air</Name>
+                  <FlightNumber>1278</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>9A</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX1</PassengerReferences>
+            </Passengers>
+          </Associations>
+        </OrderItem>
+      </OrderItems>
+    </Order>
+    <DataList>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>09:25</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>ATH</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>13:10</Time>
+            <AirportName>Athens Eleftherios Venizelos</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT3H45M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>ATH</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>18:10</Time>
+            <AirportName>Athens Eleftherios Venizelos</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>DXB</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>22:50</Time>
+            <AirportName>Dubai International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT4H40M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>DXB</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+    </DataList>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Response>
+</OrderViewRS>

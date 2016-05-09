@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderChangeRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST 
+OrderChangeRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="101">
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="9A">9A</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Query>
+	<Passengers>
+		<Passenger ObjectKey="PAX1">
+								<PTC Quantity="1">ADT</PTC>
+								<ResidenceCode>US</ResidenceCode>
+								<Age>
+									<BirthDate>1985-09-05</BirthDate>
+								</Age>
+								<Name>
+									<Surname>Patel</Surname>
+									<Given>Ramesh</Given>
+									<Middle>N</Middle>
+								</Name>
+								<Contacts>
+									<Contact>
+										<AddressContact>
+											<Street>22 Main Street</Street>
+											<PostalCode>14202</PostalCode>
+											<CountryCode>DE</CountryCode>
+										</AddressContact>
+									</Contact>
+									<Contact>
+										<EmailContact>
+											<Address>ramesh@jrtechnologies.com</Address>
+										</EmailContact>
+									</Contact>
+									<Contact>
+										<PhoneContact>
+											<Application>Emergency</Application>
+											<Number>9869159259</Number>
+										</PhoneContact>
+									</Contact>
+								</Contacts>
+							</Passenger>
+							<Passenger ObjectKey="PAX2">
+								<PTC Quantity="1">CHD</PTC>
+								<Name>
+									<Surname>Patel</Surname>
+									<Given>Rudra</Given>
+								</Name>
+								<Gender>Male</Gender>
+							</Passenger>
+	</Passengers>
+		<Order>
+			<OrderID Owner="9A">F9A2Y1</OrderID>
+			<Details>
+				<ShoppingResponse>
+					<Owner>9A</Owner>
+					<ResponseID>RE0293e6d6dcea470192b0215e81cb04fc</ResponseID>
+					<OfferID Owner="9A">1</OfferID>
+				</ShoppingResponse>
+			</Details>
+			<ActionType>Create</ActionType>
+			<OrderItems>
+				<OrderItem>
+					<OrderItemID Owner="9A">1#M#110013557#210013557</OrderItemID>
+					<Associations>
+						<Passengers>
+							<Passenger refs="PAX2">
+								<PTC Quantity="1">CHD</PTC>
+								<Name>
+									<Surname>Patel</Surname>
+									<Given>Rudra</Given>
+								</Name>
+								<Gender>Male</Gender>
+							</Passenger>
+						</Passengers>
+						<Flight>
+							<OriginDestinationReferences>OD1</OriginDestinationReferences>
+						</Flight>
+					</Associations>
+					<ActionType>Create</ActionType>
+				</OrderItem>
+			</OrderItems>
+		</Order>
+	</Query>
+	<DataList>
+		<FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>09:25</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>ATH</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>13:10</Time>
+            <AirportName>Athens Eleftherios Venizelos</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT3H45M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>ATH</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>18:10</Time>
+            <AirportName>Athens Eleftherios Venizelos</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>DXB</AirportCode>
+            <Date>2016-05-08</Date>
+            <Time>22:50</Time>
+            <AirportName>Dubai International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>9A</AirlineID>
+            <Name>Athena Air</Name>
+            <FlightNumber>1278</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT4H40M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <Journey>
+            <Time>PT13H25M</Time>
+          </Journey>
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>DXB</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+	</DataList>
+</OrderChangeRQ>

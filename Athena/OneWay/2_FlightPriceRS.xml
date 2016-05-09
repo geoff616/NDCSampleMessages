@@ -1,0 +1,162 @@
+<FlightPriceRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document>
+    <Name>ATHENA NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <ShoppingResponseIDs>
+    <Owner>9A</Owner>
+    <ResponseID>RE6064c94817b14d71b06ca3ebb1c1a189</ResponseID>
+  </ShoppingResponseIDs>
+  <PricedFlightOffers>
+    <PricedFlightOffer>
+      <OfferID Owner="9A">1</OfferID>
+      <OfferPrice OfferItemID="1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="EUR">24545</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="EUR">10775</BaseAmount>
+            <Taxes>
+              <Total Code="EUR">13770</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+          </Associations>
+        </RequestedDate>
+        <FareDetail>
+          <FareComponent>
+            <FareBasis>
+              <FareBasisCode>
+                <Code>EFO</Code>
+              </FareBasisCode>
+            </FareBasis>
+          </FareComponent>
+        </FareDetail>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2016-05-06T23:59:00" />
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <OriginDestinationReferences>OD1</OriginDestinationReferences>
+          <FlightReferences>FL1</FlightReferences>
+          <FlightSegmentReference ref="SEG1">
+            <Cabin>
+              <CabinDesignator>M</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC1</PriceClassReference>
+        </PriceClass>
+      </Associations>
+      <Penalty>
+        <Details>
+          <Detail>
+            <Type>Changes/Cancellation/NoShow</Type>
+            <Amounts>
+              <Amount>
+                <CurrencyAmountValue>50</CurrencyAmountValue>
+                <ApplicableFeeRemarks>
+                  <Remark>The penalty for changes or cancellations after the order is placed is 50 Euros. Non refundable for no-show. </Remark>
+                </ApplicableFeeRemarks>
+              </Amount>
+            </Amounts>
+          </Detail>
+        </Details>
+      </Penalty>
+    </PricedFlightOffer>
+  </PricedFlightOffers>
+  <DataLists>
+    <AnonymousTravelerList>
+      <AnonymousTraveler ObjectKey="SH1">
+        <PTC Quantity="1">ADT</PTC>
+      </AnonymousTraveler>
+    </AnonymousTravelerList>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG1">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-08</Date>
+          <Time>08:40</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>LHR</AirportCode>
+          <Date>2016-05-08</Date>
+          <Time>08:20</Time>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3900</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>9A</AirlineID>
+          <Name>Athena Air</Name>
+          <FlightNumber>3900</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>E95</AircraftCode>
+          <Name>E95 - EMBRAER 195 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT0H-20M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+    </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL1">
+        <Journey>
+          <Time>PT0H20M</Time>
+        </Journey>
+        <SegmentReferences>SEG1</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="OD1">
+        <DepartureCode>FRA</DepartureCode>
+        <ArrivalCode>LHR</ArrivalCode>
+        <FlightReferences>FL1</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    <PriceClassList>
+      <PriceClass ObjectKey="PC1">
+        <Name>M-EFO</Name>
+        <Code>M</Code>
+        <FareBasisCode>
+          <Code>EFO</Code>
+        </FareBasisCode>
+      </PriceClass>
+    </PriceClassList>
+  </DataLists>
+  <Metadata>
+    <Other>
+      <OtherMetadata>
+        <CurrencyMetadatas>
+          <CurrencyMetadata MetadataKey="EUR">
+            <Decimals>2</Decimals>
+          </CurrencyMetadata>
+        </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
+      </OtherMetadata>
+    </Other>
+  </Metadata>
+</FlightPriceRS>
