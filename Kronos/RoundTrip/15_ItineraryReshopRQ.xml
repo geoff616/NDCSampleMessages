@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItinReshopRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../ItinReshopRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="16.1" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="107">
+	<PointOfSale>
+		<Location>
+			<CountryCode>US</CountryCode>
+			<CityCode>WAS</CityCode>
+		</Location>
+		<RequestTime Zone="EST">2015-10-12T07:38:00</RequestTime>
+		<TouchPoint>
+			<Device>
+				<Code>2</Code>
+				<Definition>Web Browser</Definition>
+				<Position>
+					<Latitude>38.89756</Latitude>
+					<Longitude>-77.03650</Longitude>
+					<NAC>8KD7V PGGM0</NAC>
+				</Position>
+			</Device>
+			<Event>
+				<Code>9</Code>
+				<Definition>Shop</Definition>
+			</Event>
+		</TouchPoint>
+	</PointOfSale>
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Query>
+		<Reshop>
+			<Actions>
+				<ActionType>Create</ActionType>
+				<OrderID Owner="C9">L9A8U0</OrderID>
+				<OrderItems>
+					<OrderItem>
+						<FlightItem>
+							<OriginDestination>
+								  <Flight refs="SEG1">
+									<Departure>
+									  <AirportCode>BCN</AirportCode>
+									  <Date>2016-05-20</Date>
+									</Departure>
+									<Arrival>
+									  <AirportCode>FRA</AirportCode>
+									</Arrival>
+									<MarketingCarrier>
+									  <AirlineID>C9</AirlineID>
+									  <Name>Kronos Air</Name>
+									  <FlightNumber>1125</FlightNumber>
+									</MarketingCarrier>
+									<OperatingCarrier>
+									  <AirlineID>C9</AirlineID>
+									</OperatingCarrier>
+								  </Flight>
+								  <Flight refs="SEG2">
+									<Departure>
+									  <AirportCode>FRA</AirportCode>
+									  <Date>2016-05-20</Date>
+									</Departure>
+									<Arrival>
+									  <AirportCode>TXL</AirportCode>
+									</Arrival>
+									<MarketingCarrier>
+									  <AirlineID>C9</AirlineID>
+									  <Name>Kronos Air</Name>
+									  <FlightNumber>1125</FlightNumber>
+									</MarketingCarrier>
+									<OperatingCarrier>
+									  <AirlineID>C9</AirlineID>
+									</OperatingCarrier>
+								  </Flight>
+								</OriginDestination>
+								<OriginDestination>
+								  <Flight refs="SEG27">
+									<Departure>
+									  <AirportCode>TXL</AirportCode>
+									  <Date>2016-05-30</Date>
+									</Departure>
+									<Arrival>
+									  <AirportCode>FRA</AirportCode>
+									</Arrival>
+									<MarketingCarrier>
+									  <AirlineID>C9</AirlineID>
+									  <Name>Kronos Air</Name>
+									  <FlightNumber>1124</FlightNumber>
+									</MarketingCarrier>
+									<OperatingCarrier>
+									  <AirlineID>C9</AirlineID>
+									</OperatingCarrier>
+								  </Flight>
+								  <Flight refs="SEG28">
+									<Departure>
+									  <AirportCode>FRA</AirportCode>
+									  <Date>2016-05-30</Date>
+									</Departure>
+									<Arrival>
+									  <AirportCode>BCN</AirportCode>
+									</Arrival>
+									<MarketingCarrier>
+									  <AirlineID>C9</AirlineID>
+									  <Name>Kronos Air</Name>
+									  <FlightNumber>1124</FlightNumber>
+									</MarketingCarrier>
+									<OperatingCarrier>
+									  <AirlineID>C9</AirlineID>
+									</OperatingCarrier>
+								  </Flight>
+								</OriginDestination>
+						</FlightItem>
+					</OrderItem>
+				</OrderItems>
+				<Passengers>
+					<Passenger ObjectKey="PAX7">
+						<PTC Quantity="1">CHD</PTC>
+						<Name>
+							<Surname>Smith</Surname>
+							<Given>Johnny</Given>
+						</Name>
+						<Gender>Male</Gender>
+					</Passenger>
+				</Passengers>
+				<Preference>
+					
+						<AirlinePreferences>
+							<Airline>
+								<AirlineID>C9</AirlineID>
+							</Airline>
+						</AirlinePreferences>
+					
+						<FarePreferences>
+							<FareCodes>
+								<Code>
+									<Code>EFR</Code>
+								</Code>
+								<Code>
+									<Code>EFR</Code>
+								</Code>
+							</FareCodes>
+						</FarePreferences>
+					
+				</Preference>
+			</Actions>
+		</Reshop>
+	</Query>
+	<DataLists>
+		<RecognizedTravelerList>
+			<RecognizedTraveler ObjectKey="PAX1">
+			<PTC Quantity="1">INF</PTC>
+			<ResidenceCode>US</ResidenceCode>
+			<Age>
+			  <BirthDate>2015-09-04</BirthDate>
+			</Age>
+			<Name>
+			  <Surname>Patel</Surname>
+			  <Given>Rudraa</Given>
+			  <Middle>N</Middle>
+			</Name>
+			<ProfileID>1097122291420001</ProfileID>
+			<Contacts>
+			  <Contact>
+				<AddressContact>
+				  <Street>22 Main Street</Street>
+				  <PostalCode>14202</PostalCode>
+				  <CountryCode>DE</CountryCode>
+				</AddressContact>
+			  </Contact>
+			  <Contact>
+				<EmailContact>
+				  <Address>Rudraa@jrtechnologies.com</Address>
+				</EmailContact>
+			  </Contact>
+			  <Contact>
+				<PhoneContact>
+				  <Application>Emergency</Application>
+				  <Number>9869159259</Number>
+				</PhoneContact>
+			  </Contact>
+			</Contacts>
+			</RecognizedTraveler>
+			<RecognizedTraveler ObjectKey="PAX2">
+        <PTC Quantity="1">CHD</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2010-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudra</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>104988010228007</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>Rudra@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </RecognizedTraveler>
+      <RecognizedTraveler ObjectKey="PAX3">
+        <PTC Quantity="1">INF</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2015-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudrapratap</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>107174813470006</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>rudrapratap@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </RecognizedTraveler>
+      <RecognizedTraveler ObjectKey="PAX4">
+        <PTC Quantity="1">CHD</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2007-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rashi</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>101727561046001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>rashi@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </RecognizedTraveler>
+      <RecognizedTraveler ObjectKey="PAX5">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Bhagavati</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>107512035729001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>bhagavati@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </RecognizedTraveler>
+      <RecognizedTraveler ObjectKey="PAX6">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>106765712793001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </RecognizedTraveler>
+		</RecognizedTravelerList>
+		<FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>BCN</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>10:30</Time>
+            <AirportName>Barcelona Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>12:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT2H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>16:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>17:50</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG27">
+          <Departure>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>01:20</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>02:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG28">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>07:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>BCN</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>09:30</Time>
+            <AirportName>Barcelona Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT2H0M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+        <Flight FlightKey="FL2">
+          <SegmentReferences>SEG27 SEG28</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>BCN</DepartureCode>
+          <ArrivalCode>TXL</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+        <OriginDestination OriginDestinationKey="OD2">
+          <DepartureCode>TXL</DepartureCode>
+          <ArrivalCode>BCN</ArrivalCode>
+          <FlightReferences>FL2</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+    </DataLists>
+</ItinReshopRQ>

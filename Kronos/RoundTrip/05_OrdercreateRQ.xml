@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OrderCreateRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="15.2" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderCreateRQ.xsd">
+  <PointOfSale>
+    <Location>
+      <CountryCode>US</CountryCode>
+      <CityCode>WAS</CityCode>
+    </Location>
+    <RequestTime Zone="EST">2015-10-14T07:45:00+07:45</RequestTime>
+    <TouchPoint>
+      <Device>
+        <Code>2</Code>
+        <Definition>Web Browser</Definition>
+        <Position>
+          <Latitude>38.89756</Latitude>
+          <Longitude>-77.03650</Longitude>
+          <NAC>8KD7V PGGM0</NAC>
+        </Position>
+      </Device>
+      <Event>
+        <Code>1</Code>
+        <Definition>Order or buy</Definition>
+      </Event>
+    </TouchPoint>
+  </PointOfSale>
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>ndc@usdtravel.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <PseudoCity>A4A</PseudoCity>
+        <IATA_Number>98417900</IATA_Number>
+        <AgencyID Owner="C9">C9</AgencyID>
+        <AgentUser>
+          <Name>ksmith</Name>
+          <AgentUserID>ramesh@jrt.com</AgentUserID>
+          <UserRole>ADMIN</UserRole>
+        </AgentUser>
+      </TravelAgencySender>
+    </Sender>
+  </Party>
+  <Query>
+   <Passengers>
+   <Passenger ObjectKey="PAX1">
+		<PTC Quantity="1">ADT</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>1985-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Ramesh</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>ramesh@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+	<Passenger ObjectKey="PAX2">
+		<PTC Quantity="1">ADT</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>1985-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Bhagavati</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>bhagavati@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+	<Passenger ObjectKey="PAX3">
+		<PTC Quantity="1">CHD</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>2007-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Rashi</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>rashi@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+	<Passenger ObjectKey="PAX4">
+		<PTC Quantity="1">CHD</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>2010-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Rudra</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>Rudra@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+	<Passenger ObjectKey="PAX5">
+		<PTC Quantity="1">INF</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>2015-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Rudraa</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>Rudraa@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+	<Passenger ObjectKey="PAX6">
+		<PTC Quantity="1">INF</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>2015-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Rudrapratap</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>rudrapratap@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+  </Passengers>
+    <OrderItems>
+      <ShoppingResponse>
+        <Owner>C9</Owner>
+        <ResponseID>REc0f30ee8c94b49aa8452de6e9947db69</ResponseID>
+        <Offers>
+          <Offer>
+            <OfferID Owner="C9">1</OfferID>
+            <OfferItems>
+              <OfferItem>
+                <OfferItemID Owner="C9">1#M#109986797#309986797</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX1</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">1#M#109986797#309986797</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX2</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">2#M#109986797#309986797</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX3</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">2#M#109986797#309986797</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX4</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">3#M#109986797#309986797</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX5</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">3#M#109986797#309986797</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX6</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+            </OfferItems>
+          </Offer>
+		  <Offer>
+            <OfferID Owner="C9">42</OfferID>
+            <OfferItems>
+              <OfferItem>
+                <OfferItemID Owner="C9">1#M#309986590#109986590</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX1</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">1#M#309986590#109986590</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX2</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">2#M#309986590#109986590</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX3</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">2#M#309986590#109986590</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX4</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">3#M#309986590#109986590</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX5</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+			  <OfferItem>
+                <OfferItemID Owner="C9">3#M#309986590#109986590</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX6</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+            </OfferItems>
+          </Offer>
+		</Offers>
+      </ShoppingResponse>
+    </OrderItems>
+    <Payments>
+      <Payment>
+        <Method>
+          <PaymentCard>
+            <CardCode>MC</CardCode>
+            <CardNumber>1111222233334444</CardNumber>
+            <SeriesCode>584</SeriesCode>
+            <EffectiveExpireDate>
+              <Effective>0322</Effective>
+            </EffectiveExpireDate>
+          </PaymentCard>
+        </Method>
+        <Amount Taxable="true">2461154</Amount>
+        <Payer>
+          <Name>
+            <Surname>Patel</Surname>
+            <Given>Ramesh</Given>
+          </Name>
+          <Contacts>
+            <Contact>
+              <AddressContact>
+                <Street>22 Main Street</Street>
+                <CityName>
+                  <CityCode>FRA</CityCode>
+                </CityName>
+                <PostalCode>14201</PostalCode>
+                <CountryCode>DE</CountryCode>
+              </AddressContact>
+              <EmailContact>
+                <Address>ramesh@jrtechnologies.com</Address>
+              </EmailContact>
+            </Contact>
+          </Contacts>
+        </Payer>
+      </Payment>
+    </Payments>
+    <DataLists>
+  <FlightSegmentList>
+	<FlightSegment SegmentKey="SEG1">
+        <Departure>
+          <AirportCode>BCN</AirportCode>
+          <Date>2016-05-20</Date>
+          <Time>10:30</Time>
+          <AirportName>Barcelona Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-20</Date>
+          <Time>12:40</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1125</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1125</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>321</AircraftCode>
+          <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT2H10M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG2">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-20</Date>
+          <Time>16:40</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>TXL</AirportCode>
+          <Date>2016-05-20</Date>
+          <Time>17:50</Time>
+          <AirportName>Berlin Tegel Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1125</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1125</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>321</AircraftCode>
+          <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H10M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      
+	<FlightSegment SegmentKey="SEG27">
+        <Departure>
+          <AirportCode>TXL</AirportCode>
+          <Date>2016-05-30</Date>
+          <Time>01:20</Time>
+          <AirportName>Berlin Tegel Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-30</Date>
+          <Time>02:30</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1124</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1124</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>321</AircraftCode>
+          <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H10M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG28">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-30</Date>
+          <Time>07:30</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>BCN</AirportCode>
+          <Date>2016-05-30</Date>
+          <Time>09:30</Time>
+          <AirportName>Barcelona Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1124</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1124</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>321</AircraftCode>
+          <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT2H0M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      
+  </FlightSegmentList>
+   <FlightList>
+      <Flight FlightKey="FL1">
+        <Journey>
+          <Time>PT7H20M</Time>
+        </Journey>
+        <SegmentReferences>SEG1 SEG2</SegmentReferences>
+      </Flight>
+	  <Flight FlightKey="FL14">
+        <Journey>
+          <Time>PT8H10M</Time>
+        </Journey>
+        <SegmentReferences>SEG27 SEG28</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="OD1">
+        <DepartureCode>BCN</DepartureCode>
+        <ArrivalCode>TXL</ArrivalCode>
+        <FlightReferences>FL1</FlightReferences>
+      </OriginDestination>
+      <OriginDestination OriginDestinationKey="OD2">
+        <DepartureCode>TXL</DepartureCode>
+        <ArrivalCode>BCN</ArrivalCode>
+        <FlightReferences>FL14</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    </DataLists>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Query>
+</OrderCreateRQ>

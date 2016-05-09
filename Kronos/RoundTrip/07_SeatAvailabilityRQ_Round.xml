@@ -1,0 +1,208 @@
+<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="201">
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Parameters>
+		<CurrCodes>
+			<CurrCode>EUR</CurrCode>
+		</CurrCodes>
+	</Parameters>
+	<Query>
+		<OriginDestination>
+			<OriginDestinationReferences>OD1</OriginDestinationReferences>
+		</OriginDestination>
+		<OriginDestination>
+			<OriginDestinationReferences>OD2</OriginDestinationReferences>
+		</OriginDestination>
+	</Query>
+	<DataList>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>BCN</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>10:30</Time>
+            <AirportName>Barcelona Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>12:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+		  <ClassOfService>
+					<Code>M</Code>
+				</ClassOfService>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT2H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>16:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>17:50</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+		  <ClassOfService>
+					<Code>M</Code>
+				</ClassOfService>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG27">
+          <Departure>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>01:20</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>02:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+		  <ClassOfService>
+					<Code>M</Code>
+				</ClassOfService>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG28">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>07:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>BCN</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>09:30</Time>
+            <AirportName>Barcelona Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+		  <ClassOfService>
+					<Code>M</Code>
+				</ClassOfService>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT2H0M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+        <Flight FlightKey="FL2">
+          <SegmentReferences>SEG27 SEG28</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>BCN</DepartureCode>
+          <ArrivalCode>TXL</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+        <OriginDestination OriginDestinationKey="OD2">
+          <DepartureCode>TXL</DepartureCode>
+          <ArrivalCode>BCN</ArrivalCode>
+          <FlightReferences>FL2</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+    </DataList>
+</SeatAvailabilityRQ>

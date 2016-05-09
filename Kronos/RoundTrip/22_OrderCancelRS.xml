@@ -1,0 +1,8 @@
+<OrderCancelRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderCancelRS.xsd">
+  <Document />
+  <Success />
+  <Response>
+    <OrderCancelProcessing />
+    <OrderReference>L9A8U0</OrderReference>
+  </Response>
+</OrderCancelRS>

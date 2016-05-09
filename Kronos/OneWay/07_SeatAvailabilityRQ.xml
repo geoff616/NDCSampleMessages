@@ -1,0 +1,125 @@
+<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" Target="Test" PrimaryLangID="en" AltLangID="en" RetransmissionIndicator="false" AsynchronousAllowedInd="false" TransactionIdentifier="a" SequenceNmbr="201" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd">
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Parameters>
+		<CurrCodes>
+			<CurrCode>EUR</CurrCode>
+		</CurrCodes>
+	</Parameters>
+	<Query>
+		<OriginDestination>
+			<OriginDestinationReferences>OD1</OriginDestinationReferences>
+		</OriginDestination>
+	</Query>
+	<DataList>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG5">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>09:35</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>CDG</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>10:45</Time>
+            <AirportName>Charles de Gaulle</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>320</AircraftCode>
+            <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+          </Equipment>
+		  <ClassOfService>
+			<Code>M</Code>
+		</ClassOfService>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG6">
+          <Departure>
+            <AirportCode>CDG</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>14:45</Time>
+            <AirportName>Charles de Gaulle</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>16:25</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>320</AircraftCode>
+            <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+          </Equipment>
+		  <ClassOfService>
+			<Code>M</Code>
+		</ClassOfService>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H40M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <SegmentReferences>SEG5 SEG6</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>TXL</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+    </DataList>
+    </SeatAvailabilityRQ>

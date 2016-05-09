@@ -1,0 +1,1545 @@
+<ItinReshopRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="16.1" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../ItinReshopRS.xsd">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <Response>
+    <ItinReshopProcessing />
+    <ReShoppingResponseID>
+      <Owner>C9</Owner>
+      <ResponseID>REd47f831489a0468eb74d2d4ddc7705e8</ResponseID>
+    </ReShoppingResponseID>
+    <Passengers>
+      <Passenger ObjectKey="PAX1">
+        <PTC Quantity="1">INF</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2015-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudraa</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>1097122291420001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>Rudraa@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX2">
+        <PTC Quantity="1">CHD</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2010-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudra</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>104988010228007</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>Rudra@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX3">
+        <PTC Quantity="1">INF</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2015-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudrapratap</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>107174813470006</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>rudrapratap@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX4">
+        <PTC Quantity="1">CHD</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>2007-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rashi</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>101727561046001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>rashi@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX5">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Bhagavati</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>107512035729001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>bhagavati@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX6">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>106765712793001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX7">
+        <PTC Quantity="1">CHD</PTC>
+        <Name>
+          <Surname>Smith</Surname>
+          <Given>Johnny</Given>
+        </Name>
+        <Gender>Male</Gender>
+      </Passenger>
+    </Passengers>
+    <Order>
+      <OrderID Owner="C9">L9A8U0</OrderID>
+      <TotalOrderPrice>
+        <DetailCurrencyPrice>
+          <Total Code="EUR">1331130</Total>
+          <Taxes>
+            <Total Code="EUR">1130022</Total>
+          </Taxes>
+        </DetailCurrencyPrice>
+      </TotalOrderPrice>
+      <TotalOrderItemQuantity>6</TotalOrderItemQuantity>
+      <OrderItems>
+        <OrderItem>
+          <OrderItemID Owner="C9">2#M#309986590#109986590</OrderItemID>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="C9">2#M#109986797#309986797</OrderItemID>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="C9">1#M#309986590#109986590</OrderItemID>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="C9">1#M#109986797#309986797</OrderItemID>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="C9">3#M#309986590#109986590</OrderItemID>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="C9">3#M#109986797#309986797</OrderItemID>
+        </OrderItem>
+      </OrderItems>
+    </Order>
+    <ReShopOffers>
+      <ReShopOffer>
+        <OfferID Owner="C9">1</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2016-05-06T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">1221466</Total>
+            <Taxes>
+              <Total Code="EUR">712768</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <Penalty>
+          <Details>
+            <Detail>
+              <Type>Changes/Cancellation/NoShow</Type>
+              <Amounts>
+                <Amount>
+                  <CurrencyAmountValue>125</CurrencyAmountValue>
+                  <ApplicableFeeRemarks>
+                    <Remark>The penalty for changes or cancellations after the order is placed is 125 Euros. Non refundable for no-show. </Remark>
+                  </ApplicableFeeRemarks>
+                </Amount>
+              </Amounts>
+            </Detail>
+          </Details>
+        </Penalty>
+        <ReShopPricedOffer>
+          <OfferPrice OfferItemID="2#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">278933</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">177109</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX4</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="2#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">278933</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">177109</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX2</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="1#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">278933</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">177109</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX6</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="3#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">278933</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">177109</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX3</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="1#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">278933</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">177109</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX5</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="3#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">278933</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">177109</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="7#M#109986797#309986797">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">158812</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">56988</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">101824</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX7</TravelerReferences>
+                </AssociatedTraveler>
+                <IncludedService>
+                  <ServiceReferences>SV1 SV2 SV3 SV4 SV5 SV6 SV7 SV8 SV9 SV10 SV11 SV12 SV13 SV14 SV15 SV16</ServiceReferences>
+                </IncludedService>
+                <AssociatedService>
+                  <ServiceReferences>SV17 SV18</ServiceReferences>
+                </AssociatedService>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>EFR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL1</FlightReferences>
+              <FlightSegmentReference ref="SEG1">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                  <MarketingName />
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG2">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                  <MarketingName />
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC1</PriceClassReference>
+            </PriceClass>
+          </Associations>
+        </ReShopPricedOffer>
+        <ReshopDifferential>
+          <OriginalOrder>
+            <Total>
+              <Amount>1062654</Amount>
+            </Total>
+          </OriginalOrder>
+          <NewOffer>
+            <Total>
+              <Amount>1221466</Amount>
+            </Total>
+          </NewOffer>
+          <PenaltyAmount>
+            <Total>
+              <Amount>0</Amount>
+            </Total>
+          </PenaltyAmount>
+          <FeesAmount>
+            <Total>
+              <Amount>0</Amount>
+            </Total>
+          </FeesAmount>
+          <ReshopDue>
+            <ByPassenger>
+              <Total>
+                <Amount>158812</Amount>
+                <AmountType>ADC</AmountType>
+              </Total>
+            </ByPassenger>
+          </ReshopDue>
+        </ReshopDifferential>
+      </ReShopOffer>
+      <ReShopOffer>
+        <OfferID Owner="C9">2</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2016-05-06T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="EUR">404773</Total>
+            <Taxes>
+              <Total Code="EUR">605591</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <Penalty>
+          <Details>
+            <Detail>
+              <Type>Changes/Cancellation/NoShow</Type>
+              <Amounts>
+                <Amount>
+                  <CurrencyAmountValue>125</CurrencyAmountValue>
+                  <ApplicableFeeRemarks>
+                    <Remark>The penalty for changes or cancellations after the order is placed is 125 Euros. Non refundable for no-show. </Remark>
+                  </ApplicableFeeRemarks>
+                </Amount>
+              </Amounts>
+            </Detail>
+          </Details>
+        </Penalty>
+        <ReShopPricedOffer>
+          <OfferPrice OfferItemID="2#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">131259</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">44746</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX4</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="2#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">131259</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">44746</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX2</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="1#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">131259</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">44746</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX6</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="3#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">131259</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">44746</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX3</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="1#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">131259</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">44746</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX5</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="3#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">131259</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">44746</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <OfferPrice OfferItemID="7#M#309986590#109986590">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="EUR">136297</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="EUR">49784</BaseAmount>
+                <Taxes>
+                  <Total Code="EUR">86513</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>PAX7</TravelerReferences>
+                </AssociatedTraveler>
+                <IncludedService>
+                  <ServiceReferences>SV1 SV2 SV3 SV4 SV5 SV6 SV7 SV8 SV9 SV10 SV11 SV12 SV13 SV14 SV15 SV16</ServiceReferences>
+                </IncludedService>
+                <AssociatedService>
+                  <ServiceReferences>SV17 SV18</ServiceReferences>
+                </AssociatedService>
+              </Associations>
+            </RequestedDate>
+            <FareDetail>
+              <FareComponent>
+                <FareBasis>
+                  <FareBasisCode>
+                    <Code>EFR</Code>
+                  </FareBasisCode>
+                </FareBasis>
+              </FareComponent>
+            </FareDetail>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD2</OriginDestinationReferences>
+              <FlightReferences>FL2</FlightReferences>
+              <FlightSegmentReference ref="SEG27">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                  <MarketingName />
+                </Cabin>
+              </FlightSegmentReference>
+              <FlightSegmentReference ref="SEG28">
+                <Cabin>
+                  <CabinDesignator>M</CabinDesignator>
+                  <MarketingName />
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+            <PriceClass>
+              <PriceClassReference>PC1</PriceClassReference>
+            </PriceClass>
+          </Associations>
+        </ReShopPricedOffer>
+        <ReshopDifferential>
+          <OriginalOrder>
+            <Total>
+              <Amount>268476</Amount>
+            </Total>
+          </OriginalOrder>
+          <NewOffer>
+            <Total>
+              <Amount>404773</Amount>
+            </Total>
+          </NewOffer>
+          <PenaltyAmount>
+            <Total>
+              <Amount>0</Amount>
+            </Total>
+          </PenaltyAmount>
+          <FeesAmount>
+            <Total>
+              <Amount>0</Amount>
+            </Total>
+          </FeesAmount>
+          <ReshopDue>
+            <ByPassenger>
+              <Total>
+                <Amount>136297</Amount>
+                <AmountType>ADC</AmountType>
+              </Total>
+            </ByPassenger>
+          </ReshopDue>
+        </ReshopDifferential>
+      </ReShopOffer>
+    </ReShopOffers>
+    <DataLists>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG1">
+          <Departure>
+            <AirportCode>BCN</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>10:30</Time>
+            <AirportName>Barcelona Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>12:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT2H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG2">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>16:40</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-20</Date>
+            <Time>17:50</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1125</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG27">
+          <Departure>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>01:20</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>02:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG28">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>07:30</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>BCN</AirportCode>
+            <Date>2016-05-30</Date>
+            <Time>09:30</Time>
+            <AirportName>Barcelona Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1124</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>321</AircraftCode>
+            <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT2H0M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <Journey>
+            <Time>PT7H20M</Time>
+          </Journey>
+          <SegmentReferences>SEG1 SEG2</SegmentReferences>
+        </Flight>
+        <Flight FlightKey="FL2">
+          <Journey>
+            <Time>PT8H10M</Time>
+          </Journey>
+          <SegmentReferences>SEG27 SEG28</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>BCN</DepartureCode>
+          <ArrivalCode>TXL</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+        <OriginDestination OriginDestinationKey="OD2">
+          <DepartureCode>TXL</DepartureCode>
+          <ArrivalCode>BCN</ArrivalCode>
+          <FlightReferences>FL2</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+      <PriceClassList>
+        <PriceClass ObjectKey="PC1">
+          <Name>M-EFR</Name>
+          <Code>M</Code>
+          <FareBasisCode>
+            <Code>EFR</Code>
+          </FareBasisCode>
+        </PriceClass>
+      </PriceClassList>
+      <ServiceList>
+        <Service ObjectKey="SV1">
+          <ServiceID Owner="C9">1002</ServiceID>
+          <Name>Inflight Wi-Fi</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Stay connected using any Wi-Fi enabled device</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/wifi.jpg</Link>
+              <Media>
+                <ObjectID>wifi.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/wifi.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV2">
+          <ServiceID Owner="C9">1004</ServiceID>
+          <Name>Lounge pass</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Escape the crowds and find a quiet space to work or relax</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/lounge.jpg</Link>
+              <Media>
+                <ObjectID>lounge.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/lounge.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV3">
+          <ServiceID Owner="C9">1008</ServiceID>
+          <Name>Advanced seat selection </Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>A convenient option that lets you reserve your preferred seat</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/AdvanceSeat.jpg</Link>
+              <Media>
+                <ObjectID>AdvanceSeat.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/AdvanceSeat.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV4">
+          <ServiceID Owner="C9">1009</ServiceID>
+          <Name>Premium Seating</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Take advantage of Premium cabin to rest,read or work in freedom</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/PremiumSeat.jpg</Link>
+              <Media>
+                <ObjectID>PremiumSeat.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/PremiumSeat.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV5">
+          <ServiceID Owner="C9">1010</ServiceID>
+          <Name>Vegetarian Meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/VegMeal.jpg</Link>
+              <Media>
+                <ObjectID>VegMeal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/VegMeal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV6">
+          <ServiceID Owner="C9">1011</ServiceID>
+          <Name>Standard Meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Vegetarian Oriental Meal</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/Standard Meal.jpg</Link>
+              <Media>
+                <ObjectID>Standard Meal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Standard Meal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV7">
+          <ServiceID Owner="C9">1012</ServiceID>
+          <Name>Standard Meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>This is a non-strict vegetarian meal </Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/StandardNonVeg.jpg</Link>
+              <Media>
+                <ObjectID>StandardNonVeg.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/StandardNonVeg.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV8">
+          <ServiceID Owner="C9">1013</ServiceID>
+          <Name>Low-Carb meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>For passengers with special dietary requirements as Low Carb</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/LowCarb Meal.jpg</Link>
+              <Media>
+                <ObjectID>LowCarb Meal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/LowCarb Meal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV9">
+          <ServiceID Owner="C9">1014</ServiceID>
+          <Name>Diabetic Meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Sugar is not used in the preparation of this meal.</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/Diabetic Meal.jpg</Link>
+              <Media>
+                <ObjectID>Diabetic Meal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Diabetic Meal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV10">
+          <ServiceID Owner="C9">1016</ServiceID>
+          <Name>Lactose-free meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>This meal is for customers who are lactose-intolerant.</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/LactoseFree Meal.jpg</Link>
+              <Media>
+                <ObjectID>LactoseFree Meal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/LactoseFree Meal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV11">
+          <ServiceID Owner="C9">1018</ServiceID>
+          <Name>Muslim Meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>*Halal* meal prepared according to Islamic principles.</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/Muslim Meal.jpg</Link>
+              <Media>
+                <ObjectID>Muslim Meal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Muslim Meal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV12">
+          <ServiceID Owner="C9">1020</ServiceID>
+          <Name>Kosher meal</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Prepared by kosher caterers under rabbinical supervision</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/Kosher Meal.jpg</Link>
+              <Media>
+                <ObjectID>Kosher Meal.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Kosher Meal.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV13">
+          <ServiceID Owner="C9">1022</ServiceID>
+          <Name>Snack</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Enjoy a wide selection of complimentary snacks and beverages.</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/snacks.jpg</Link>
+              <Media>
+                <ObjectID>snacks.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/snacks.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>1000</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV14">
+          <ServiceID Owner="C9">1028</ServiceID>
+          <Name>1st Bag</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>First bag free</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</Link>
+              <Media>
+                <ObjectID>bag1.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV15">
+          <ServiceID Owner="C9">1032</ServiceID>
+          <Name>2nd Bag</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Don't get caught out at the airport </Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/bag2.jpg</Link>
+              <Media>
+                <ObjectID>bag2.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag2.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV16">
+          <ServiceID Owner="C9">1035</ServiceID>
+          <Name>2nd Bag</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>The 2nd Bag is free for Gold passengers</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/bag2.jpg</Link>
+              <Media>
+                <ObjectID>bag2.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag2.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>0</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV17">
+          <ServiceID Owner="C9">1051</ServiceID>
+          <Name>3rd Bag</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Don't get caught out at the airport</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/bag3.jpg</Link>
+              <Media>
+                <ObjectID>bag3.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag3.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>11500</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV18">
+          <ServiceID Owner="C9">1062</ServiceID>
+          <Name>1st bag</Name>
+          <Encoding />
+          <FeeMethod>OC</FeeMethod>
+          <Descriptions>
+            <Description>
+              <Text>Don't get caught out at the airport</Text>
+              <Link>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</Link>
+              <Media>
+                <ObjectID>bag1.jpg</ObjectID>
+              </Media>
+              <Media>
+                <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</MediaLink>
+              </Media>
+            </Description>
+          </Descriptions>
+          <Settlement>
+            <Method>
+              <Code>AD</Code>
+              <Definition>Internal Airline Document</Definition>
+            </Method>
+          </Settlement>
+          <Price>
+            <Total>3500</Total>
+            <PassengerReferences>PAX7</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>PAX7</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG1 SEG2 SEG27 SEG28</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+      </ServiceList>
+    </DataLists>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Response>
+</ItinReshopRS>

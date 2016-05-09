@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OrderCreateRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="15.2" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderCreateRQ.xsd">
+  <PointOfSale>
+    <Location>
+      <CountryCode>US</CountryCode>
+      <CityCode>WAS</CityCode>
+    </Location>
+    <RequestTime Zone="EST">2015-10-14T07:45:00+07:45</RequestTime>
+    <TouchPoint>
+      <Device>
+        <Code>2</Code>
+        <Definition>Web Browser</Definition>
+        <Position>
+          <Latitude>38.89756</Latitude>
+          <Longitude>-77.03650</Longitude>
+          <NAC>8KD7V PGGM0</NAC>
+        </Position>
+      </Device>
+      <Event>
+        <Code>1</Code>
+        <Definition>Order or buy</Definition>
+      </Event>
+    </TouchPoint>
+  </PointOfSale>
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>ndc@usdtravel.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <PseudoCity>A4A</PseudoCity>
+        <IATA_Number>98417900</IATA_Number>
+        <AgencyID Owner="C9">C9</AgencyID>
+        <AgentUser>
+          <Name>ksmith</Name>
+          <AgentUserID>ramesh@jrt.com</AgentUserID>
+          <UserRole>ADMIN</UserRole>
+        </AgentUser>
+      </TravelAgencySender>
+    </Sender>
+  </Party>
+  <Query>
+   <Passengers>
+   <Passenger ObjectKey="PAX1">
+		<PTC Quantity="1">ADT</PTC>
+		<ResidenceCode>US</ResidenceCode>
+		<Age>
+			<BirthDate>1985-09-05</BirthDate>
+		</Age>
+		<Name>
+			<Surname>Patel</Surname>
+			<Given>Ramesh</Given>
+			<Middle>N</Middle>
+		</Name>
+		<Contacts>
+			<Contact>
+				<AddressContact>
+					<Street>22 Main Street</Street>
+					<PostalCode>14202</PostalCode>
+					<CountryCode>DE</CountryCode>
+				</AddressContact>
+			</Contact>
+			<Contact>
+				<EmailContact>
+					<Address>ramesh@jrtechnologies.com</Address>
+				</EmailContact>
+			</Contact>
+			<Contact>
+				<PhoneContact>
+					<Application>Emergency</Application>
+					<Number>9869159259</Number>
+				</PhoneContact>
+			</Contact>
+		</Contacts>
+	</Passenger>
+  </Passengers>
+    <OrderItems>
+      <ShoppingResponse>
+        <Owner>C9</Owner>
+        <ResponseID>RE2a07c59a77634ad08a606f8639ea428c</ResponseID>
+        <Offers>
+          <Offer>
+            <OfferID Owner="C9">7</OfferID>
+            <OfferItems>
+              <OfferItem>
+                <OfferItemID Owner="C9">1#M#109974565#309974565</OfferItemID>
+                <Passengers>
+                  <PassengerReference>PAX1</PassengerReference>
+                </Passengers>
+			  </OfferItem>
+            </OfferItems>
+          </Offer>
+		</Offers>
+      </ShoppingResponse>
+    </OrderItems>
+    <Payments>
+      <Payment>
+        <Method>
+          <PaymentCard>
+            <CardCode>MC</CardCode>
+            <CardNumber>1111222233334444</CardNumber>
+            <SeriesCode>584</SeriesCode>
+            <EffectiveExpireDate>
+              <Effective>0322</Effective>
+            </EffectiveExpireDate>
+          </PaymentCard>
+        </Method>
+        <Amount Taxable="true">90722</Amount>
+        <Payer>
+          <Name>
+            <Surname>Patel</Surname>
+            <Given>Ramesh</Given>
+          </Name>
+          <Contacts>
+            <Contact>
+              <AddressContact>
+                <Street>22 Main Street</Street>
+                <CityName>
+                  <CityCode>FRA</CityCode>
+                </CityName>
+                <PostalCode>14201</PostalCode>
+                <CountryCode>DE</CountryCode>
+              </AddressContact>
+              <EmailContact>
+                <Address>ramesh@jrtechnologies.com</Address>
+              </EmailContact>
+            </Contact>
+          </Contacts>
+        </Payer>
+      </Payment>
+    </Payments>
+    <DataLists>
+  <FlightSegmentList>
+	<FlightSegment SegmentKey="SEG5">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>09:35</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>CDG</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>10:45</Time>
+          <AirportName>Charles de Gaulle</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>320</AircraftCode>
+          <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H10M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG6">
+        <Departure>
+          <AirportCode>CDG</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>14:45</Time>
+          <AirportName>Charles de Gaulle</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>TXL</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>16:25</Time>
+          <AirportName>Berlin Tegel Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>320</AircraftCode>
+          <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H40M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      </FlightSegmentList>
+   <FlightList>
+      <Flight FlightKey="FL3">
+        <Journey>
+          <Time>PT6H50M</Time>
+        </Journey>
+        <SegmentReferences>SEG5 SEG6</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="OD1">
+        <DepartureCode>FRA</DepartureCode>
+        <ArrivalCode>TXL</ArrivalCode>
+        <FlightReferences>FL3</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    </DataLists>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Query>
+</OrderCreateRQ>

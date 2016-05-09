@@ -1,0 +1,201 @@
+<FlightPriceRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../FlightPriceRS.xsd">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <ShoppingResponseIDs>
+    <Owner>C9</Owner>
+    <ResponseID>RE95b347b4a74d450d97e3564d8951fb5e</ResponseID>
+  </ShoppingResponseIDs>
+  <PricedFlightOffers>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">1</OfferID>
+      <OfferPrice OfferItemID="1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="EUR">47272</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="EUR">22000</BaseAmount>
+            <Taxes>
+              <Total Code="EUR">25272</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+          </Associations>
+        </RequestedDate>
+        <FareDetail>
+          <FareComponent>
+            <FareBasis>
+              <FareBasisCode>
+                <Code>EFO</Code>
+              </FareBasisCode>
+            </FareBasis>
+          </FareComponent>
+        </FareDetail>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2016-05-06T23:59:00" />
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <OriginDestinationReferences>OD1</OriginDestinationReferences>
+          <FlightReferences>FL1</FlightReferences>
+          <FlightSegmentReference ref="SEG1">
+            <Cabin>
+              <CabinDesignator>M</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <FlightSegmentReference ref="SEG2">
+            <Cabin>
+              <CabinDesignator>M</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC1</PriceClassReference>
+        </PriceClass>
+      </Associations>
+      <Penalty>
+        <Details>
+          <Detail>
+            <Type>Changes/Cancellation/NoShow</Type>
+            <Amounts>
+              <Amount>
+                <CurrencyAmountValue>125</CurrencyAmountValue>
+                <ApplicableFeeRemarks>
+                  <Remark>The penalty for changes or cancellations after the order is placed is 125 Euros. Non refundable for no-show. </Remark>
+                </ApplicableFeeRemarks>
+              </Amount>
+            </Amounts>
+          </Detail>
+        </Details>
+      </Penalty>
+    </PricedFlightOffer>
+  </PricedFlightOffers>
+  <DataLists>
+    <AnonymousTravelerList>
+      <AnonymousTraveler ObjectKey="SH1">
+        <PTC Quantity="1">ADT</PTC>
+      </AnonymousTraveler>
+    </AnonymousTravelerList>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG1">
+        <Departure>
+          <AirportCode>FRA</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>09:35</Time>
+          <AirportName>Frankfurt International</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>CDG</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>10:45</Time>
+          <AirportName>Charles de Gaulle</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>320</AircraftCode>
+          <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H10M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG2">
+        <Departure>
+          <AirportCode>CDG</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>14:45</Time>
+          <AirportName>Charles de Gaulle</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>TXL</AirportCode>
+          <Date>2016-05-26</Date>
+          <Time>16:25</Time>
+          <AirportName>Berlin Tegel Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <Name>Kronos Air</Name>
+          <FlightNumber>1030</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>320</AircraftCode>
+          <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT1H40M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+    </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL1">
+        <Journey>
+          <Time>PT6H50M</Time>
+        </Journey>
+        <SegmentReferences>SEG1 SEG2</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="OD1">
+        <DepartureCode>FRA</DepartureCode>
+        <ArrivalCode>TXL</ArrivalCode>
+        <FlightReferences>FL1</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    <PriceClassList>
+      <PriceClass ObjectKey="PC1">
+        <Name>M-EFO</Name>
+        <Code>M</Code>
+        <FareBasisCode>
+          <Code>EFO</Code>
+        </FareBasisCode>
+      </PriceClass>
+    </PriceClassList>
+  </DataLists>
+  <Metadata>
+    <Other>
+      <OtherMetadata>
+        <CurrencyMetadatas>
+          <CurrencyMetadata MetadataKey="EUR">
+            <Decimals>2</Decimals>
+          </CurrencyMetadata>
+        </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
+      </OtherMetadata>
+    </Other>
+  </Metadata>
+</FlightPriceRS>

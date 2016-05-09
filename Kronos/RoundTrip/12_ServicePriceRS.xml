@@ -1,0 +1,639 @@
+<ServicePriceRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T04:39:00-08:00" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../ServicePriceRS.xsd">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <DataLists>
+    <AnonymousTravelerList>
+      <AnonymousTraveler ObjectKey="SH1">
+        <PTC Quantity="2">ADT</PTC>
+      </AnonymousTraveler>
+      <AnonymousTraveler ObjectKey="SH2">
+        <PTC Quantity="2">CHD</PTC>
+      </AnonymousTraveler>
+      <AnonymousTraveler ObjectKey="SH3">
+        <PTC Quantity="2">INF</PTC>
+      </AnonymousTraveler>
+    </AnonymousTravelerList>
+    <ServiceList>
+      <Service ObjectKey="SV1">
+        <ServiceID Owner="C9">1002</ServiceID>
+        <Name>Inflight Wi-Fi</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Stay connected using any Wi-Fi enabled device</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/wifi.jpg</Link>
+            <Media>
+              <ObjectID>wifi.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/wifi.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1900</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1200</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>700</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV2">
+        <ServiceID Owner="C9">1004</ServiceID>
+        <Name>Lounge pass</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Escape the crowds and find a quiet space to work or relax</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/lounge.jpg</Link>
+            <Media>
+              <ObjectID>lounge.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/lounge.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>5500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV3">
+        <ServiceID Owner="C9">1008</ServiceID>
+        <Name>Advanced seat selection </Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>A convenient option that lets you reserve your preferred seat</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/AdvanceSeat.jpg</Link>
+            <Media>
+              <ObjectID>AdvanceSeat.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/AdvanceSeat.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1600</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1200</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>700</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV4">
+        <ServiceID Owner="C9">1009</ServiceID>
+        <Name>Premium Seating</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Take advantage of Premium cabin to rest,read or work in freedom</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/PremiumSeat.jpg</Link>
+            <Media>
+              <ObjectID>PremiumSeat.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/PremiumSeat.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>7500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>5500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>4500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV5">
+        <ServiceID Owner="C9">1010</ServiceID>
+        <Name>Vegetarian Meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/VegMeal.jpg</Link>
+            <Media>
+              <ObjectID>VegMeal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/VegMeal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV6">
+        <ServiceID Owner="C9">1011</ServiceID>
+        <Name>Standard Meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian Oriental Meal</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/Standard Meal.jpg</Link>
+            <Media>
+              <ObjectID>Standard Meal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Standard Meal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV7">
+        <ServiceID Owner="C9">1012</ServiceID>
+        <Name>Standard Meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>This is a non-strict vegetarian meal </Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/StandardNonVeg.jpg</Link>
+            <Media>
+              <ObjectID>StandardNonVeg.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/StandardNonVeg.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV8">
+        <ServiceID Owner="C9">1013</ServiceID>
+        <Name>Low-Carb meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>For passengers with special dietary requirements as Low Carb</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/LowCarb Meal.jpg</Link>
+            <Media>
+              <ObjectID>LowCarb Meal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/LowCarb Meal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV9">
+        <ServiceID Owner="C9">1014</ServiceID>
+        <Name>Diabetic Meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Sugar is not used in the preparation of this meal.</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/Diabetic Meal.jpg</Link>
+            <Media>
+              <ObjectID>Diabetic Meal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Diabetic Meal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV10">
+        <ServiceID Owner="C9">1016</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant.</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/LactoseFree Meal.jpg</Link>
+            <Media>
+              <ObjectID>LactoseFree Meal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/LactoseFree Meal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV11">
+        <ServiceID Owner="C9">1018</ServiceID>
+        <Name>Muslim Meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>*Halal* meal prepared according to Islamic principles.</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/Muslim Meal.jpg</Link>
+            <Media>
+              <ObjectID>Muslim Meal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Muslim Meal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV12">
+        <ServiceID Owner="C9">1020</ServiceID>
+        <Name>Kosher meal</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Prepared by kosher caterers under rabbinical supervision</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/Kosher Meal.jpg</Link>
+            <Media>
+              <ObjectID>Kosher Meal.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/Kosher Meal.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV13">
+        <ServiceID Owner="C9">1022</ServiceID>
+        <Name>Snack</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Enjoy a wide selection of complimentary snacks and beverages.</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/snacks.jpg</Link>
+            <Media>
+              <ObjectID>snacks.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/snacks.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1000</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV14">
+        <ServiceID Owner="C9">1032</ServiceID>
+        <Name>2nd Bag</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Don't get caught out at the airport </Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/bag2.jpg</Link>
+            <Media>
+              <ObjectID>bag2.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag2.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV15">
+        <ServiceID Owner="C9">1051</ServiceID>
+        <Name>3rd Bag</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Don't get caught out at the airport</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/bag3.jpg</Link>
+            <Media>
+              <ObjectID>bag3.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag3.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>11500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>11500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>11500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV16">
+        <ServiceID Owner="C9">1062</ServiceID>
+        <Name>1st bag</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>Donâ€™t get caught out at the airport</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</Link>
+            <Media>
+              <ObjectID>bag1.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH2</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>3500</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+      <Service ObjectKey="SV17">
+        <ServiceID Owner="C9">1028</ServiceID>
+        <Name>1st Bag</Name>
+        <Encoding />
+        <Descriptions>
+          <Description>
+            <Text>First bag free</Text>
+            <Link>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</Link>
+            <Media>
+              <ObjectID>bag1.jpg</ObjectID>
+            </Media>
+            <Media>
+              <MediaLink>http://kronos.jrtechnologies.com/ServiceImage/bag1.jpg</MediaLink>
+            </Media>
+          </Description>
+        </Descriptions>
+        <Settlement>
+          <Method>
+            <Code>AD</Code>
+            <Definition>Internal Airline Document</Definition>
+          </Method>
+        </Settlement>
+        <Price>
+          <Total>700</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>1200</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Price>
+          <Total>700</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+      </Service>
+    </ServiceList>
+  </DataLists>
+  <Metadata>
+    <Other>
+      <OtherMetadata>
+        <CurrencyMetadatas>
+          <CurrencyMetadata MetadataKey="EURO">
+            <Decimals>2</Decimals>
+          </CurrencyMetadata>
+        </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://kronos.jrtechnologies.com/ServiceImage/kronos-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
+      </OtherMetadata>
+    </Other>
+  </Metadata>
+</ServicePriceRS>

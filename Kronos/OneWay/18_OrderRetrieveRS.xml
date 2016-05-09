@@ -1,0 +1,292 @@
+<OrderViewRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderViewRS.xsd">
+  <Document>
+    <Name>C9</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>ndc@usdtravel.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <PseudoCity>A4A</PseudoCity>
+        <IATA_Number>98417900</IATA_Number>
+        <AgencyID Owner="C9">C9</AgencyID>
+        <AgentUser>
+          <Name>ksmith</Name>
+          <AgentUserID>ramesh@jrt.com</AgentUserID>
+          <UserRole>ADMIN</UserRole>
+        </AgentUser>
+      </TravelAgencySender>
+    </Sender>
+    <Participants xsi:nil="true" />
+    <Recipient xsi:nil="true" />
+  </Party>
+  <Success />
+  <Response>
+    <OrderViewProcessing />
+    <Passengers>
+      <Passenger ObjectKey="PAX1">
+        <PTC Quantity="1">ADT</PTC>
+        <ResidenceCode>US</ResidenceCode>
+        <Age>
+          <BirthDate>1985-09-04</BirthDate>
+        </Age>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Ramesh</Given>
+          <Middle>N</Middle>
+        </Name>
+        <ProfileID>102660091995001</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>22 Main Street</Street>
+              <PostalCode>14202</PostalCode>
+              <CountryCode>DE</CountryCode>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>ramesh@jrtechnologies.com</Address>
+            </EmailContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Application>Emergency</Application>
+              <Number>9869159259</Number>
+            </PhoneContact>
+          </Contact>
+        </Contacts>
+      </Passenger>
+      <Passenger ObjectKey="PAX2">
+        <PTC Quantity="1">CHD</PTC>
+        <Name>
+          <Surname>Patel</Surname>
+          <Given>Rudra</Given>
+        </Name>
+        <ProfileID>1099788055071001</ProfileID>
+        <Gender>Male</Gender>
+      </Passenger>
+    </Passengers>
+    <Order>
+      <OrderID Owner="C9">L9A8W0</OrderID>
+      <BookingReferences>
+        <BookingReference>
+          <ID>dc593f</ID>
+          <AirlineID>C9</AirlineID>
+        </BookingReference>
+      </BookingReferences>
+      <TotalOrderPrice>
+        <DetailCurrencyPrice>
+          <Total Code="EUR">87450</Total>
+          <Taxes>
+            <Total>50544</Total>
+          </Taxes>
+        </DetailCurrencyPrice>
+      </TotalOrderPrice>
+      <OrderItems>
+        <OrderItem>
+          <OrderItemID Owner="JRT">1#M#109974565#309974565</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight refs="SEG5">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2016-05-26</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>CDG</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <Name>Kronos Air</Name>
+                  <FlightNumber>1030</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>C9</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+              <Flight refs="SEG6">
+                <Departure>
+                  <AirportCode>CDG</AirportCode>
+                  <Date>2016-05-26</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>TXL</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <Name>Kronos Air</Name>
+                  <FlightNumber>1030</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>C9</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX1</PassengerReferences>
+            </Passengers>
+          </Associations>
+        </OrderItem>
+        <OrderItem>
+          <OrderItemID Owner="JRT">2#M#109974565#309974565</OrderItemID>
+          <FlightItem>
+            <OriginDestination>
+              <Flight refs="SEG5">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2016-05-26</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>CDG</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <Name>Kronos Air</Name>
+                  <FlightNumber>1030</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>C9</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+              <Flight refs="SEG6">
+                <Departure>
+                  <AirportCode>CDG</AirportCode>
+                  <Date>2016-05-26</Date>
+                </Departure>
+                <Arrival>
+                  <AirportCode>TXL</AirportCode>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <Name>Kronos Air</Name>
+                  <FlightNumber>1030</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>C9</AirlineID>
+                </OperatingCarrier>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>PAX2</PassengerReferences>
+            </Passengers>
+          </Associations>
+        </OrderItem>
+      </OrderItems>
+    </Order>
+    <DataList>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG5">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>09:35</Time>
+            <AirportName>Frankfurt International</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>CDG</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>10:45</Time>
+            <AirportName>Charles de Gaulle</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>320</AircraftCode>
+            <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H10M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG6">
+          <Departure>
+            <AirportCode>CDG</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>14:45</Time>
+            <AirportName>Charles de Gaulle</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>TXL</AirportCode>
+            <Date>2016-05-26</Date>
+            <Time>16:25</Time>
+            <AirportName>Berlin Tegel Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <Name>Kronos Air</Name>
+            <FlightNumber>1030</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>320</AircraftCode>
+            <Name>320 - AIRBUS INDUSTRIE A320-100/200 JET</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>PT1H40M</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL1">
+          <SegmentReferences>SEG5 SEG6</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>FRA</DepartureCode>
+          <ArrivalCode>TXL</ArrivalCode>
+          <FlightReferences>FL1</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+    </DataList>
+    <Metadata>
+      <Other>
+        <OtherMetadata>
+          <CurrencyMetadatas>
+            <CurrencyMetadata MetadataKey="EUR">
+              <Decimals>2</Decimals>
+            </CurrencyMetadata>
+          </CurrencyMetadatas>
+        </OtherMetadata>
+        <OtherMetadata>
+          <DescriptionMetadatas>
+            <DescriptionMetadata MetadataKey="ID1">
+              <AugmentationPoint>
+                <AugPoint>
+                  <a:Logo xmlns:a="http://www.iata.org">http://uat.jrtechnologies.in/ServiceImage/kronos-50x90.png</a:Logo>
+                </AugPoint>
+              </AugmentationPoint>
+            </DescriptionMetadata>
+          </DescriptionMetadatas>
+        </OtherMetadata>
+      </Other>
+    </Metadata>
+  </Response>
+</OrderViewRS>

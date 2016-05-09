@@ -1,0 +1,60 @@
+<OrderListRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderListRS.xsd">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <Response>
+    <OrderListProcessing />
+    <Orders>
+      <Order>
+        <Agency>
+          <AgencyID>C9</AgencyID>
+          <Name>Kronos</Name>
+          <IATA_Number>98417900</IATA_Number>
+        </Agency>
+        <CreationDate>2016-04-20</CreationDate>
+        <Departure>
+          <AirportCode>CDG</AirportCode>
+          <Date>2016-04-22</Date>
+        </Departure>
+        <Passengers>
+          <FullName>JACK LAM</FullName>
+        </Passengers>
+        <OrderID xsi:type="xsd:string">L9A6E0</OrderID>
+      </Order>
+      <Order>
+        <Agency>
+          <AgencyID>C9</AgencyID>
+          <Name>Kronos</Name>
+          <IATA_Number>98417900</IATA_Number>
+        </Agency>
+        <CreationDate>2016-04-20</CreationDate>
+        <Departure>
+          <AirportCode>RIX</AirportCode>
+          <Date>2016-04-22</Date>
+        </Departure>
+        <Passengers>
+          <FullName>HENRY LEUNG</FullName>
+        </Passengers>
+        <OrderID xsi:type="xsd:string">L9A6D0</OrderID>
+      </Order>
+      <Order>
+        <Agency>
+          <AgencyID>C9</AgencyID>
+          <Name>Kronos</Name>
+          <IATA_Number>98417900</IATA_Number>
+        </Agency>
+        <CreationDate>2016-04-20</CreationDate>
+        <Departure>
+          <AirportCode>LHR</AirportCode>
+          <Date>2016-04-28</Date>
+        </Departure>
+        <Passengers>
+          <FullName>APPLE JUICE</FullName>
+        </Passengers>
+        <OrderID xsi:type="xsd:string">L9A6C0</OrderID>
+      </Order>
+    </Orders>
+  </Response>
+</OrderListRS>
